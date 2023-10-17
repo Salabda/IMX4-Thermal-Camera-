@@ -1,0 +1,252 @@
+﻿#pragma once
+#include <map>
+#include "MeasureCoreNet.h"
+
+enum DEVICE_FUNCTION_SUPPORT
+{
+	DFS_Y8,
+	DFS_Y16,
+	DFS_Y8_AND_Y16,
+	DFS_SHUTTER,
+	DFS_SHUTTER_CLOSE,
+	DFS_SHUTTER_OPEN,
+	DFS_SNAP,
+	DFS_SNAP_NO_CB,
+	DFS_SNAP_WITHOUT_TEMP_NO_CB,
+	DFS_SNAP_WITHOUT_IMG_NO_CB,
+	DFS_SNAP_UNIFORM,
+	DFS_AVI_RECORD,
+	DFS_Y16_RECORD,
+	DFS_SET_PALETTE,
+	DFS_GET_PALETTE_DATA_SIZE,
+	DFS_GET_PALETTE_DATA,
+	DFS_SET_FRAME_RATE,
+
+	DFS_NEAR_FOCUS,
+	DFS_FAR_FOCUS,
+	DFS_AUTO_FOCUS,
+	DFS_NEAR_FOCUS_FINE,
+	DFS_FAR_FOCUS_FINE,
+	DFS_GET_MOTOR_POS,
+	DFS_SET_MOTOR_POS,
+
+	DFS_SET_UART_CHECK_ADDRESS,
+	DFS_SET_UART_RATE,
+
+	DFS_DISABLE_AUTO_SHUTTER,
+	DFS_ENABLE_AUTO_SHUTTER,
+	DFS_SET_AUTO_SHUTTER_TIME,
+
+	DFS_ADD_RECT_ANALYSER,
+	DFS_DELETE_RECT_ANALYSER,
+	DFS_MAX_MIN_AVG_TYPE,
+	DFS_ENABLE_DIGITAL_TEMP_WITH_CURSOR,
+
+	DFS_ADD_STRING,
+	DFS_ENABLE_ADD_STRING,
+	DFS_DISABLE_ADD_STRING,
+
+	DFS_GET_DEVICE_SERIAL_NUMBER,
+	DFS_GET_ARM_VERSION,
+	DFS_GET_FPGA_VERSION,
+	DFS_GET_SDK_VERSION,
+
+	DFS_CHANGE_IP,
+	DFS_CHANGE_IP_NO_CONNECT,
+
+	DFS_GET_EMISS,
+	DFS_SET_EMISS,
+	DFS_GET_DISTANCE,
+	DFS_SET_DISTANCE,
+	DFS_GET_HUMIDITY,
+	DFS_SET_HUMIDITY,
+	DFS_GET_BACKGROUND_TEMP,
+	DFS_SET_BACKGROUND_TEMP,
+	DFS_BACKGROUND_TEMP_SWITCH_OPEN,
+	DFS_BACKGROUND_TEMP_SWITCH_CLOSED,
+	DFS_GET_B2,
+	DFS_SET_B2,
+	DFS_GET_KF,
+	DFS_SET_KF,
+	DFS_SET_VSK_GEAR,
+	DFS_GET_VSK_GEAR,
+	DFS_SAVE_ALL_PARM,
+
+	DFS_GET_BRIGHTNESS,
+	DFS_SET_BRIGHTNESS,
+	DFS_GET_CONTRAST,
+	DFS_SET_CONTRAST,
+
+	DFS_GET_Y16_POINT_TEMP,
+	DFS_GET_Y16_MATRIX_TEMP,
+	DFS_GET_Y16_MAX_TEMP,
+	DFS_GET_Y16_MIN_TEMP,
+	DFS_GET_Y16_AVG_TEMP,
+	DFS_GET_Y16_RECT_MAX_TEMP,
+	DFS_GET_Y16_RECT_MIN_TEMP,
+	DFS_GET_Y16_RECT_AVG_TEMP,
+
+	DFS_GET_PIC_POINT_TEMP,
+	DFS_GET_PIC_MATRIX_TEMP,
+	DFS_GET_PIC_MAX_MIN_AVG_TEMP,
+
+	DFS_GET_DEVICE_ALARM_STATE,
+	DFS_SET_DEVICE_ALARM_STATE,
+	DFS_GET_DEVICE_ALARM_MAX_TEMP,
+	DFS_SET_DEVICE_ALARM_MAX_TEMP,
+	DFS_GET_DEVICE_ALARM_MIN_TEMP,
+	DFS_SET_DEVICE_ALARM_MIN_TEMP,
+
+	DFS_GET_RECT_ANALYSER_INFO,
+	DFS_GET_ADD_STRING_INFO,
+
+	DFS_SET_EX_LEVEL,
+	DFS_PLP_ANALYZE,
+
+	DFS_GET_DEVICE_STATE,
+
+	DFS_DHCP
+};
+
+class DfsItem
+{
+public:
+	DfsItem(bool b1, bool b2, bool b3)
+		// 			: bY8(b1),
+		// 			bY16(b2),
+		// 			bY8AndY16(b3)
+	{
+		bFlag[0] = b1;
+		bFlag[1] = b2;
+		bFlag[2] = b3;
+
+	}
+
+	DfsItem()
+	{
+
+	}
+
+	bool bFlag[3];
+
+	// 		bool bY8 = false;
+	// 		bool bY16 = false;
+	// 		bool bY8AndY16 = false;
+};
+
+class DeviceFunctionSupport
+{
+public:
+	DeviceFunctionSupport();
+	~DeviceFunctionSupport();
+
+	void addItem(bool bY8, bool bY16, bool bY8AndY16, DEVICE_FUNCTION_SUPPORT nDfsType);
+
+	bool support(DEVICE_FUNCTION_SUPPORT nDfsType, PULL_DATA_TYPE nPullDataType);
+
+protected:
+	std::map<DEVICE_FUNCTION_SUPPORT, DfsItem> m_map;
+};
+
+class DFS_OR : public DeviceFunctionSupport
+{
+public:
+	DFS_OR();
+};
+
+class DFS_OR2 : public DeviceFunctionSupport
+{
+public:
+	DFS_OR2();
+};
+
+class DFS_NET640x480 : public DeviceFunctionSupport
+{
+public:
+	DFS_NET640x480();
+};
+
+class DFS_NET640x480HS : public DeviceFunctionSupport
+{
+public:
+	DFS_NET640x480HS();
+};
+
+class DFS_ZS02B640x480HS : public DeviceFunctionSupport
+{
+public:
+	DFS_ZS02B640x480HS();
+};
+
+class DFS_NET384x288 : public DeviceFunctionSupport
+{
+public:
+	DFS_NET384x288();
+};
+
+class DFS_NET384x288NOCLIP : public DeviceFunctionSupport
+{
+public:
+	DFS_NET384x288NOCLIP();
+};
+
+class DFS_NET384x288NOCLIPHS : public DeviceFunctionSupport
+{
+public:
+	DFS_NET384x288NOCLIPHS();
+};
+
+class DFS_ZU02C384x288HS : public DeviceFunctionSupport
+{
+public:
+	DFS_ZU02C384x288HS();
+};
+
+class DFS_NET384x288NOCLIPFIXFOCUS : public DeviceFunctionSupport
+{
+public:
+	DFS_NET384x288NOCLIPFIXFOCUS();
+};
+
+class DFS_NET800x600 : public DeviceFunctionSupport
+{
+public:
+	DFS_NET800x600();
+};
+
+class DFS_NET800x600HS : public DeviceFunctionSupport
+{
+public:
+	DFS_NET800x600HS();
+};
+
+class DFS_ZU02B384x288 : public DeviceFunctionSupport
+{
+public:
+	DFS_ZU02B384x288();
+};
+
+class DFS_ORHS : public DeviceFunctionSupport
+{
+public:
+	DFS_ORHS();
+};
+
+class DFS_ZU07A384x288 : public DeviceFunctionSupport
+{
+public:
+	DFS_ZU07A384x288();
+};
+
+class DFS_NET384x288BAOBOHS : public DeviceFunctionSupport
+{
+public:
+	DFS_NET384x288BAOBOHS();
+};
+
+class DFS_NET640x480BAOBOHS : public DeviceFunctionSupport
+{
+public:
+	DFS_NET640x480BAOBOHS();
+};
+

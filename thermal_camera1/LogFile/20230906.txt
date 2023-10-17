@@ -1,0 +1,79 @@
+[10:00:43 005]:   SDK version:1.0.0.121
+[10:00:43 005]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:00:43 006]:   Thread start. id=18892
+[10:00:43 012]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[10:00:43 012]:   address.index=f81d7870179c
+[10:04:42 597]:   SDK version:1.0.0.121
+[10:04:42 597]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:04:42 598]:   Thread start. id=15684
+[10:06:28 000]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[10:06:28 000]:   address.index=f81d7870179c
+[10:10:27 021]:   SDK version:1.0.0.121
+[10:10:27 021]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:10:27 021]:   Thread start. id=17468
+[10:10:27 028]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[10:10:27 028]:   address.index=f81d7870179c
+[10:11:42 192]:   SDK version:1.0.0.121
+[10:11:42 193]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:11:42 193]:   Thread start. id=22292
+[10:13:36 670]:   SDK version:1.0.0.121
+[10:13:36 670]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:13:36 670]:   SDK version:1.0.0.121
+[10:13:36 670]:   Thread start. id=20044
+[10:13:36 670]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:13:36 671]:   Before MsgObjThread::stop()
+[10:13:36 671]:   Before MsgObj::stop()
+[10:13:36 671]:   Before m_pMqThread->join();
+[10:13:36 671]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=1891483904
+[10:13:36 672]:   Thread exit. id=20044
+[10:13:36 672]:   After m_pThread->join(); in ThreadMq::join
+[10:13:36 672]:   After m_pMqThread->join();
+[10:13:36 672]:   After MsgObj::stop()
+[10:13:36 672]:   After MsgObjThread::stop()
+[10:13:36 672]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:13:36 672]:   After this->quit() in ThreadMq::~ThreadMq
+[10:13:36 672]:   Before this->join() in ThreadMq::~ThreadMq
+[10:13:36 672]:   After this->join() in ThreadMq::~ThreadMq
+[10:13:36 672]:   Thread start. id=17636
+[10:19:38 887]:   SDK version:1.0.0.121
+[10:19:38 887]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:19:38 887]:   Thread start. id=22700
+[10:19:38 894]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[10:19:38 894]:   address.index=f81d7870179c
+[10:21:26 254]:   SDK version:1.0.0.121
+[10:21:26 254]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:21:26 254]:   Thread start. id=21960
+[10:21:26 259]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[10:21:26 259]:   address.index=f81d7870179c
+[10:23:47 075]:   SDK version:1.0.0.121
+[10:23:47 075]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:23:47 076]:   Thread start. id=6788
+[10:23:47 083]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[10:23:47 083]:   address.index=f81d7870179c
+[10:32:03 236]:   SDK version:1.0.0.121
+[10:32:03 236]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:32:03 236]:   Thread start. id=18544
+[10:32:31 237]:   SDK version:1.0.0.121
+[10:32:31 237]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:32:31 238]:   Thread start. id=9352
+[10:34:19 810]:   SDK version:1.0.0.121
+[10:34:19 810]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:34:19 811]:   Thread start. id=21928
+[10:35:22 680]:   SDK version:1.0.0.121
+[10:35:22 680]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:35:22 681]:   Thread start. id=13896
+[10:45:02 325]:   SDK version:1.0.0.121
+[10:45:02 325]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:45:02 326]:   Thread start. id=22736
+[10:45:02 334]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[10:45:02 334]:   address.index=f81d7870179c
+[10:47:22 604]:   SDK version:1.0.0.121
+[10:47:22 604]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[10:47:22 604]:   Thread start. id=15536
+[10:47:22 610]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[10:47:22 610]:   address.index=f81d7870179c
+[13:30:17 647]:   SDK version:1.0.0.121
+[13:30:17 647]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[13:30:17 648]:   Thread start. id=21884
+[13:30:17 653]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[13:30:17 653]:   address.index=f81d7870179c

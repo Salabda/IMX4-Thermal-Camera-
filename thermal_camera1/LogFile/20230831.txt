@@ -1,0 +1,9 @@
+[20:23:57 830]:   SDK version:1.0.0.121
+[20:23:57 831]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[20:23:57 838]:   Thread start. id=11932
+[20:24:39 551]:   SDK version:1.0.0.121
+[20:24:39 551]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[20:24:39 553]:   Thread start. id=16224
+[20:51:33 042]:   SDK version:1.0.0.121
+[20:51:33 042]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[20:51:33 042]:   Thread start. id=13112

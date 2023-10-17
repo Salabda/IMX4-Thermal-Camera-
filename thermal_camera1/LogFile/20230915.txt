@@ -1,0 +1,210 @@
+[15:03:48 589]:   SDK version:1.0.0.121
+[15:03:48 589]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:03:48 590]:   Thread start. id=19256
+[15:03:48 590]:   GD_MTC_SDK_Login
+[15:03:48 590]:   Into msgToThisServiceCoreAndWaitForResult
+[15:03:48 590]:   msg to ServiceCore msgId=0, pMsg=0
+[15:03:48 590]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:03:48 602]:   ServiceCore::login
+[15:03:48 602]:   SDK version:1.0.0.121
+[15:03:48 602]:   nDeviceType=11
+[15:03:48 602]:   Create Device: NET384x288NOCLIPHS
+[15:03:48 602]:   nFpgaPort=4954, nY16Port=4955
+[15:03:48 602]:   Thread start. id=8260
+[15:03:48 602]:   Thread start. id=17740
+[15:03:48 602]:   Thread start. id=19300
+[15:03:48 602]:   Base64Name=YWRtaW46OTk5OQ==
+[15:03:48 740]:   Recv armversion is "HTTP/1.1 405 Method Not Allowed
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1363
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Fault xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsdd="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:xmime="http://tempuri.org/xmime.xsd" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tdn="http://www.onvif.org/ver10/network/wsdl" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl"><faultcode>SOAP-ENV:Client</faultcode><faultstring>HTTP GET method not implemented</faultstring></SOAP-ENV:Fault>"
+[15:03:48 740]:  ERROR! Has not find softwareversion when req arm version
+[15:03:48 802]:   Now try GetArmVersionHS
+[15:03:48 802]:   Base64Name=YWRtaW46OTk5OQ==
+[15:03:48 971]:   Recv armversion is "ZU02A V2.18"
+[15:03:49 033]:   cArmVersion=zu02a
+[15:03:49 033]:   GD_MTC_SDK_OpenStream
+[15:03:49 033]:   nPullDataType=1
+[15:03:49 033]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:03:49 049]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:03:49 049]:   Base64Name=YWRtaW46OTk5OQ==
+[15:03:49 064]:   armSendAndRecv send data get_curse_info
+[15:03:49 219]:   get_curse_info=[gear=1&measurerange=0&mintemp=-100&maxtemp=1600$gear=2&measurerange=0&mintemp=-200&maxtemp=1600$gear=3&measurerange=0&mintemp=-100&maxtemp=1800$gear=1&measurerange=1&mintemp=-100&maxtemp=3600$gear=2&measurerange=1&mintemp=-200&maxtemp=3600$gear=3&measurerange=1&mintemp=-100&maxtemp=3600$gear=1&measurerange=2&mintemp=-100&maxtemp=6600$gear=2&measurerange=2&mintemp=-200&maxtemp=6700$gear=3&measurerange=2&mintemp=-100&maxtemp=6600]
+[15:03:49 219]:   After remove same range info
+[15:03:49 219]:   v.nRangeIndex=0, v.fMinTemp=-10.000000, v.fMaxTemp=160.000000
+[15:03:49 219]:   v.nRangeIndex=1, v.fMinTemp=-10.000000, v.fMaxTemp=360.000000
+[15:03:49 219]:   v.nRangeIndex=2, v.fMinTemp=-10.000000, v.fMaxTemp=660.000000
+[15:03:49 235]:   Update m_pDataCfg->strVskGearDesc, [old=-20¡æ~150¡æ&-20¡æ~350¡æ&100¡æ~650¡æ, new=-10¡æ~160¡æ&-10¡æ~360¡æ&-10¡æ~660¡æ]
+[15:03:49 235]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_OPEN_STREAM
+[15:03:49 235]:   wait msg result in time. [nMsgType=1003]
+[15:03:49 235]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:03:49 235]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:03:49 326]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[15:03:49 326]:   info->recvEmiss=98
+[15:03:49 326]:   info->recvDistance=250
+[15:03:49 390]:   Send change palette
+[15:03:49 404]:   wait msg result in time. [nMsgType=1021]
+[15:03:49 404]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:03:49 404]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:03:49 404]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[15:03:49 449]:   pCurvesStruct->curve_count=9, pCurvesStruct->curve_length=32768
+[15:03:49 450]:   curve[index, range, gear, len]=[0, 0, 1, 0]
+[15:03:49 450]:   curve[index, range, gear, len]=[1, 0, 2, 0]
+[15:03:49 450]:   curve[index, range, gear, len]=[2, 0, 3, 0]
+[15:03:49 450]:   curve[index, range, gear, len]=[3, 1, 1, 0]
+[15:03:49 450]:   curve[index, range, gear, len]=[4, 1, 2, 0]
+[15:03:49 450]:   curve[index, range, gear, len]=[5, 1, 3, 0]
+[15:03:49 450]:   curve[index, range, gear, len]=[6, 2, 1, 0]
+[15:03:49 450]:   curve[index, range, gear, len]=[7, 2, 2, 0]
+[15:03:49 450]:   curve[index, range, gear, len]=[8, 2, 3, 0]
+[15:03:49 450]:  ERROR! Curve[5], element[5861] format error
+
+[15:03:49 450]:  ERROR! Curve[8], element[4814] format error
+
+[15:03:50 476]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_Y16_FRAME_RATE
+[15:03:50 476]:   wait msg result in time. [nMsgType=1026]
+[15:03:50 476]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:05:12 906]:   SDK version:1.0.0.121
+[15:05:12 906]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:05:12 906]:   GD_MTC_SDK_Login
+[15:05:12 907]:   Thread start. id=9816
+[15:05:12 907]:   Into msgToThisServiceCoreAndWaitForResult
+[15:05:12 907]:   msg to ServiceCore msgId=0, pMsg=0
+[15:05:12 907]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:05:12 916]:   ServiceCore::login
+[15:05:12 916]:   SDK version:1.0.0.121
+[15:05:12 916]:   nDeviceType=11
+[15:05:12 916]:   Create Device: NET384x288NOCLIPHS
+[15:05:12 916]:   nFpgaPort=4954, nY16Port=4955
+[15:05:12 916]:   Thread start. id=12380
+[15:05:12 917]:   Thread start. id=14532
+[15:05:12 917]:   Thread start. id=20456
+[15:05:12 917]:   Base64Name=YWRtaW46OTk5OQ==
+[15:05:13 071]:   Recv armversion is "HTTP/1.1 405 Method Not Allowed
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1363
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Fault xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsdd="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:xmime="http://tempuri.org/xmime.xsd" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tdn="http://www.onvif.org/ver10/network/wsdl" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl"><faultcode>SOAP-ENV:Client</faultcode><faultstring>HTTP GET method not implemented</faultstring></SOAP-ENV:Fault>"
+[15:05:13 071]:  ERROR! Has not find softwareversion when req arm version
+[15:05:13 132]:   Now try GetArmVersionHS
+[15:05:13 133]:   Base64Name=YWRtaW46OTk5OQ==
+[15:05:13 317]:   Recv armversion is "ZU02A V2.18"
+[15:05:13 380]:   cArmVersion=zu02a
+[15:05:13 380]:   GD_MTC_SDK_OpenStream
+[15:05:13 380]:   nPullDataType=1
+[15:05:13 380]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:05:13 411]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:05:13 411]:   Base64Name=YWRtaW46OTk5OQ==
+[15:05:13 426]:   armSendAndRecv send data get_curse_info
+[15:05:13 534]:   get_curse_info=[gear=1&measurerange=0&mintemp=-100&maxtemp=1600$gear=2&measurerange=0&mintemp=-200&maxtemp=1600$gear=3&measurerange=0&mintemp=-100&maxtemp=1800$gear=1&measurerange=1&mintemp=-100&maxtemp=3600$gear=2&measurerange=1&mintemp=-200&maxtemp=3600$gear=3&measurerange=1&mintemp=-100&maxtemp=3600$gear=1&measurerange=2&mintemp=-100&maxtemp=6600$gear=2&measurerange=2&mintemp=-200&maxtemp=6700$gear=3&measurerange=2&mintemp=-100&maxtemp=6600]
+[15:05:13 535]:   After remove same range info
+[15:05:13 535]:   v.nRangeIndex=0, v.fMinTemp=-10.000000, v.fMaxTemp=160.000000
+[15:05:13 535]:   v.nRangeIndex=1, v.fMinTemp=-10.000000, v.fMaxTemp=360.000000
+[15:05:13 535]:   v.nRangeIndex=2, v.fMinTemp=-10.000000, v.fMaxTemp=660.000000
+[15:05:13 549]:   Update m_pDataCfg->strVskGearDesc, [old=-20¡æ~150¡æ&-20¡æ~350¡æ&100¡æ~650¡æ, new=-10¡æ~160¡æ&-10¡æ~360¡æ&-10¡æ~660¡æ]
+[15:05:13 549]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_OPEN_STREAM
+[15:05:13 549]:   wait msg result in time. [nMsgType=1003]
+[15:05:13 549]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:05:13 549]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:05:13 595]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[15:05:13 595]:   info->recvEmiss=98
+[15:05:13 595]:   info->recvDistance=250
+[15:05:13 659]:   Send change palette
+[15:05:13 673]:   wait msg result in time. [nMsgType=1021]
+[15:05:13 673]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[15:05:13 673]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:05:13 673]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:05:13 718]:   pCurvesStruct->curve_count=9, pCurvesStruct->curve_length=32768
+[15:05:13 719]:   curve[index, range, gear, len]=[0, 0, 1, 0]
+[15:05:13 719]:   curve[index, range, gear, len]=[1, 0, 2, 0]
+[15:05:13 719]:   curve[index, range, gear, len]=[2, 0, 3, 0]
+[15:05:13 719]:   curve[index, range, gear, len]=[3, 1, 1, 0]
+[15:05:13 719]:   curve[index, range, gear, len]=[4, 1, 2, 0]
+[15:05:13 719]:   curve[index, range, gear, len]=[5, 1, 3, 0]
+[15:05:13 719]:   curve[index, range, gear, len]=[6, 2, 1, 0]
+[15:05:13 719]:   curve[index, range, gear, len]=[7, 2, 2, 0]
+[15:05:13 719]:   curve[index, range, gear, len]=[8, 2, 3, 0]
+[15:05:13 719]:  ERROR! Curve[5], element[5861] format error
+
+[15:05:13 719]:  ERROR! Curve[8], element[4814] format error
+
+[15:05:14 745]:   wait msg result in time. [nMsgType=1026]
+[15:05:14 746]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:05:14 746]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_Y16_FRAME_RATE
+[15:07:50 491]:   SDK version:1.0.0.121
+[15:07:50 491]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:07:50 492]:   GD_MTC_SDK_Login
+[15:07:50 492]:   Thread start. id=16056
+[15:07:50 492]:   Into msgToThisServiceCoreAndWaitForResult
+[15:07:50 492]:   msg to ServiceCore msgId=0, pMsg=0
+[15:07:50 492]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:07:50 498]:   ServiceCore::login
+[15:07:50 498]:   SDK version:1.0.0.121
+[15:07:50 498]:   nDeviceType=11
+[15:07:50 498]:   Create Device: NET384x288NOCLIPHS
+[15:07:50 498]:   nFpgaPort=4954, nY16Port=4955
+[15:07:50 499]:   Thread start. id=10948
+[15:07:50 499]:   Thread start. id=13576
+[15:07:50 499]:   Thread start. id=15356
+[15:07:50 500]:   Base64Name=YWRtaW46OTk5OQ==
+[15:07:50 637]:   Recv armversion is "HTTP/1.1 405 Method Not Allowed
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1363
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Fault xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsdd="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:xmime="http://tempuri.org/xmime.xsd" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tdn="http://www.onvif.org/ver10/network/wsdl" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl"><faultcode>SOAP-ENV:Client</faultcode><faultstring>HTTP GET method not implemented</faultstring></SOAP-ENV:Fault>"
+[15:07:50 637]:  ERROR! Has not find softwareversion when req arm version
+[15:07:50 698]:   Now try GetArmVersionHS
+[15:07:50 698]:   Base64Name=YWRtaW46OTk5OQ==
+[15:07:50 852]:   Recv armversion is "ZU02A V2.18"
+[15:07:50 914]:   cArmVersion=zu02a
+[15:07:50 914]:   GD_MTC_SDK_OpenStream
+[15:07:50 914]:   nPullDataType=1
+[15:07:50 914]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:07:50 914]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:07:50 914]:   Base64Name=YWRtaW46OTk5OQ==
+[15:07:50 915]:   armSendAndRecv send data get_curse_info
+[15:07:51 021]:   get_curse_info=[gear=1&measurerange=0&mintemp=-100&maxtemp=1600$gear=2&measurerange=0&mintemp=-200&maxtemp=1600$gear=3&measurerange=0&mintemp=-100&maxtemp=1800$gear=1&measurerange=1&mintemp=-100&maxtemp=3600$gear=2&measurerange=1&mintemp=-200&maxtemp=3600$gear=3&measurerange=1&mintemp=-100&maxtemp=3600$gear=1&measurerange=2&mintemp=-100&maxtemp=6600$gear=2&measurerange=2&mintemp=-200&maxtemp=6700$gear=3&measurerange=2&mintemp=-100&maxtemp=6600]
+[15:07:51 021]:   After remove same range info
+[15:07:51 021]:   v.nRangeIndex=0, v.fMinTemp=-10.000000, v.fMaxTemp=160.000000
+[15:07:51 021]:   v.nRangeIndex=1, v.fMinTemp=-10.000000, v.fMaxTemp=360.000000
+[15:07:51 021]:   v.nRangeIndex=2, v.fMinTemp=-10.000000, v.fMaxTemp=660.000000
+[15:07:51 037]:   Update m_pDataCfg->strVskGearDesc, [old=-20¡æ~150¡æ&-20¡æ~350¡æ&100¡æ~650¡æ, new=-10¡æ~160¡æ&-10¡æ~360¡æ&-10¡æ~660¡æ]
+[15:07:51 037]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_OPEN_STREAM
+[15:07:51 038]:   wait msg result in time. [nMsgType=1003]
+[15:07:51 038]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:07:51 038]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:07:51 082]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[15:07:51 082]:   info->recvEmiss=98
+[15:07:51 082]:   info->recvDistance=250
+[15:07:51 145]:   Send change palette
+[15:07:51 159]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[15:07:51 159]:   wait msg result in time. [nMsgType=1021]
+[15:07:51 159]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:07:51 159]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:07:51 204]:   pCurvesStruct->curve_count=9, pCurvesStruct->curve_length=32768
+[15:07:51 205]:   curve[index, range, gear, len]=[0, 0, 1, 0]
+[15:07:51 205]:   curve[index, range, gear, len]=[1, 0, 2, 0]
+[15:07:51 205]:   curve[index, range, gear, len]=[2, 0, 3, 0]
+[15:07:51 205]:   curve[index, range, gear, len]=[3, 1, 1, 0]
+[15:07:51 205]:   curve[index, range, gear, len]=[4, 1, 2, 0]
+[15:07:51 205]:   curve[index, range, gear, len]=[5, 1, 3, 0]
+[15:07:51 205]:   curve[index, range, gear, len]=[6, 2, 1, 0]
+[15:07:51 205]:   curve[index, range, gear, len]=[7, 2, 2, 0]
+[15:07:51 205]:   curve[index, range, gear, len]=[8, 2, 3, 0]
+[15:07:51 205]:  ERROR! Curve[5], element[5861] format error
+
+[15:07:51 205]:  ERROR! Curve[8], element[4814] format error
+
+[15:07:52 244]:   wait msg result in time. [nMsgType=1026]
+[15:07:52 244]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:07:52 244]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_Y16_FRAME_RATE

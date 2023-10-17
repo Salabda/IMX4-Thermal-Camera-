@@ -1,0 +1,1332 @@
+[12:54:38 169]:   SDK version:1.0.0.121
+[12:54:38 169]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[12:54:38 169]:   Thread start. id=8664
+[12:54:38 170]:   GD_MTC_SDK_Login
+[12:54:38 170]:   Into msgToThisServiceCoreAndWaitForResult
+[12:54:38 170]:   msg to ServiceCore msgId=0, pMsg=0
+[12:54:38 170]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[12:54:38 174]:   ServiceCore::login
+[12:54:38 174]:   SDK version:1.0.0.121
+[12:54:38 175]:   nDeviceType=5
+[12:54:38 175]:   Create Device: NET384x288
+[12:54:38 175]:   Thread start. id=16444
+[12:54:38 175]:   Thread start. id=20460
+[12:54:38 176]:   Thread start. id=17668
+[13:04:43 745]:   SDK version:1.0.0.121
+[13:04:43 746]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[13:04:43 746]:   Thread start. id=4036
+[13:04:43 747]:   GD_MTC_SDK_Login
+[13:04:43 747]:   Into msgToThisServiceCoreAndWaitForResult
+[13:04:43 747]:   msg to ServiceCore msgId=0, pMsg=0
+[13:04:43 747]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[13:04:43 762]:   ServiceCore::login
+[13:04:43 762]:   SDK version:1.0.0.121
+[13:04:43 762]:   nDeviceType=5
+[13:04:43 762]:   Create Device: NET384x288
+[13:04:43 762]:   Thread start. id=15824
+[13:04:43 763]:   Thread start. id=8304
+[13:04:43 763]:   Thread start. id=7988
+[13:08:36 788]:   SDK version:1.0.0.121
+[13:08:36 789]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[13:08:36 789]:   Thread start. id=7192
+[13:08:36 790]:   GD_MTC_SDK_Login
+[13:08:36 790]:   Into msgToThisServiceCoreAndWaitForResult
+[13:08:36 790]:   msg to ServiceCore msgId=0, pMsg=0
+[13:08:36 790]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[13:08:36 805]:   ServiceCore::login
+[13:08:36 805]:   SDK version:1.0.0.121
+[13:08:36 805]:   nDeviceType=5
+[13:08:36 805]:   Create Device: NET384x288
+[13:08:36 805]:   Thread start. id=21052
+[13:08:36 805]:   Thread start. id=20068
+[13:08:36 806]:   Thread start. id=4312
+[13:08:36 806]:   Call GD_MTC_SDK_Logout, iLoginID=1000001
+[13:08:36 822]:   Into msgToThisServiceCoreAndWaitForResult
+[13:08:36 822]:   msg to ServiceCore msgId=6, pMsg=6
+[13:08:36 822]:   msg to ServiceCore msgId=6, pMsg=6. Done
+[13:08:36 835]:   Before delete DataCore
+[13:08:36 835]:   Before MsgObjThread::stop()
+[13:08:36 835]:   Before MsgObj::stop()
+[13:08:36 835]:   Before m_pMqThread->join();
+[13:08:36 835]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-223394880
+[13:08:36 835]:   Thread exit. id=4312
+[13:08:36 836]:   After m_pThread->join(); in ThreadMq::join
+[13:08:36 836]:   After m_pMqThread->join();
+[13:08:36 836]:   After MsgObj::stop()
+[13:08:36 836]:   After MsgObjThread::stop()
+[13:08:36 836]:   Before delete m_pDataCfg
+[13:08:36 836]:   After delete m_pDataCfg
+[13:08:36 836]:   Before MsgObjThread::stop()
+[13:08:36 836]:   Before MsgObj::stop()
+[13:08:36 836]:   Before m_pMqThread->join();
+[13:08:36 836]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-223534560
+[13:08:36 851]:   Thread exit. id=210524
+[13:08:36 851]:   After m_pThread->join(); in ThreadMq::join
+[13:08:36 851]:   After m_pMqThread->join();
+[13:08:36 851]:   After MsgObj::stop()
+[13:08:36 851]:   After MsgObjThread::stop()
+[13:08:36 851]:   Before delete m_pDataPull
+[13:08:36 851]:   Before MsgObjThread::stop()
+[13:08:36 851]:   Before MsgObj::stop()
+[13:08:36 851]:   Before m_pMqThread->join();
+[13:08:36 851]:   After m_pMqThread->join();
+[13:08:36 851]:   After MsgObj::stop()
+[13:08:36 851]:   After MsgObjThread::stop()
+[13:08:36 851]:   Before this->quit() in ThreadMq::~ThreadMq
+[13:08:36 851]:   After this->quit() in ThreadMq::~ThreadMq
+[13:08:36 851]:   Before this->join() in ThreadMq::~ThreadMq
+[13:08:36 851]:   After this->join() in ThreadMq::~ThreadMq
+[13:08:36 851]:   After delete m_pDataPull
+[13:08:36 851]:   Before MsgObjThread::stop()
+[13:08:36 851]:   Before MsgObj::stop()
+[13:08:36 851]:   Before m_pMqThread->join();
+[13:08:36 851]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-223396128
+[13:08:36 866]:   Thread exit. id=20068
+[13:08:36 866]:   After m_pThread->join(); in ThreadMq::join
+[13:08:36 867]:   After m_pMqThread->join();
+[13:08:36 867]:   After MsgObj::stop()
+[13:08:36 867]:   After MsgObjThread::stop()
+[13:08:36 867]:   Before delete m_pDataDeal
+[13:08:36 867]:   Before ~d5h264f1::DataDeal
+[13:08:36 867]:   Before MsgObjThread::stop()
+[13:08:36 867]:   Before MsgObj::stop()
+[13:08:36 867]:   Before m_pMqThread->join();
+[13:08:36 867]:   After m_pMqThread->join();
+[13:08:36 867]:   After MsgObj::stop()
+[13:08:36 867]:   After MsgObjThread::stop()
+[13:08:36 867]:   After ~d5h264f1::DataDeal
+[13:08:36 867]:   Before ~DataDealTpBase
+[13:08:36 903]:   After ~DataDealTpBase
+[13:08:36 903]:   Before this->quit() in ThreadMq::~ThreadMq
+[13:08:36 903]:   After this->quit() in ThreadMq::~ThreadMq
+[13:08:36 903]:   Before this->join() in ThreadMq::~ThreadMq
+[13:08:36 903]:   After this->join() in ThreadMq::~ThreadMq
+[13:08:36 903]:   After delete m_pDataDeal
+[13:08:36 903]:   Before this->quit() in ThreadMq::~ThreadMq
+[13:08:36 903]:   After this->quit() in ThreadMq::~ThreadMq
+[13:08:36 903]:   Before this->join() in ThreadMq::~ThreadMq
+[13:08:36 903]:   After this->join() in ThreadMq::~ThreadMq
+[13:08:36 903]:   After delete DataCore
+[14:08:37 070]:   SDK version:1.0.0.121
+[14:08:37 070]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:08:37 071]:   Thread start. id=11088
+[14:08:37 071]:   GD_MTC_SDK_Login
+[14:08:37 071]:   Into msgToThisServiceCoreAndWaitForResult
+[14:08:37 072]:   msg to ServiceCore msgId=0, pMsg=0
+[14:08:37 072]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:08:37 072]:   ServiceCore::login
+[14:08:37 072]:   SDK version:1.0.0.121
+[14:08:37 072]:   nDeviceType=5
+[14:08:37 072]:   Create Device: NET384x288
+[14:08:37 073]:   Thread start. id=16772
+[14:08:37 073]:   Thread start. id=11200
+[14:08:37 073]:   Thread start. id=15292
+[14:08:37 073]:   Call GD_MTC_SDK_Logout, iLoginID=1000001
+[14:08:37 073]:   Into msgToThisServiceCoreAndWaitForResult
+[14:08:37 073]:   msg to ServiceCore msgId=6, pMsg=6
+[14:08:37 073]:   msg to ServiceCore msgId=6, pMsg=6. Done
+[14:08:37 087]:   Before delete DataCore
+[14:08:37 087]:   Before MsgObjThread::stop()
+[14:08:37 087]:   Before MsgObj::stop()
+[14:08:37 087]:   Before m_pMqThread->join();
+[14:08:37 087]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=512251536
+[14:08:37 103]:   Thread exit. id=15292
+[14:08:37 103]:   After m_pThread->join(); in ThreadMq::join
+[14:08:37 103]:   After m_pMqThread->join();
+[14:08:37 103]:   After MsgObj::stop()
+[14:08:37 103]:   After MsgObjThread::stop()
+[14:08:37 103]:   Before delete m_pDataCfg
+[14:08:37 103]:   After delete m_pDataCfg
+[14:08:37 103]:   Before MsgObjThread::stop()
+[14:08:37 103]:   Before MsgObj::stop()
+[14:08:37 103]:   Before m_pMqThread->join();
+[14:08:37 103]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=512250448
+[14:08:37 118]:   Thread exit. id=167724
+[14:08:37 118]:   After m_pThread->join(); in ThreadMq::join
+[14:08:37 118]:   After m_pMqThread->join();
+[14:08:37 118]:   After MsgObj::stop()
+[14:08:37 118]:   After MsgObjThread::stop()
+[14:08:37 118]:   Before delete m_pDataPull
+[14:08:37 118]:   Before MsgObjThread::stop()
+[14:08:37 118]:   Before MsgObj::stop()
+[14:08:37 118]:   Before m_pMqThread->join();
+[14:08:37 118]:   After m_pMqThread->join();
+[14:08:37 118]:   After MsgObj::stop()
+[14:08:37 118]:   After MsgObjThread::stop()
+[14:08:37 118]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:08:37 118]:   After this->quit() in ThreadMq::~ThreadMq
+[14:08:37 118]:   Before this->join() in ThreadMq::~ThreadMq
+[14:08:37 118]:   After this->join() in ThreadMq::~ThreadMq
+[14:08:37 118]:   After delete m_pDataPull
+[14:08:37 118]:   Before MsgObjThread::stop()
+[14:08:37 118]:   Before MsgObj::stop()
+[14:08:37 118]:   Before m_pMqThread->join();
+[14:08:37 118]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=512250896
+[14:08:37 133]:   Thread exit. id=11200
+[14:08:37 133]:   After m_pThread->join(); in ThreadMq::join
+[14:08:37 133]:   After m_pMqThread->join();
+[14:08:37 133]:   After MsgObj::stop()
+[14:08:37 133]:   After MsgObjThread::stop()
+[14:08:37 133]:   Before delete m_pDataDeal
+[14:08:37 133]:   Before ~d5h264f1::DataDeal
+[14:08:37 133]:   Before MsgObjThread::stop()
+[14:08:37 133]:   Before MsgObj::stop()
+[14:08:37 133]:   Before m_pMqThread->join();
+[14:08:37 133]:   After m_pMqThread->join();
+[14:08:37 133]:   After MsgObj::stop()
+[14:08:37 133]:   After MsgObjThread::stop()
+[14:08:37 133]:   After ~d5h264f1::DataDeal
+[14:08:37 133]:   Before ~DataDealTpBase
+[14:08:37 133]:   After ~DataDealTpBase
+[14:08:37 133]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:08:37 133]:   After this->quit() in ThreadMq::~ThreadMq
+[14:08:37 133]:   Before this->join() in ThreadMq::~ThreadMq
+[14:08:37 133]:   After this->join() in ThreadMq::~ThreadMq
+[14:08:37 133]:   After delete m_pDataDeal
+[14:08:37 133]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:08:37 133]:   After this->quit() in ThreadMq::~ThreadMq
+[14:08:37 133]:   Before this->join() in ThreadMq::~ThreadMq
+[14:08:37 133]:   After this->join() in ThreadMq::~ThreadMq
+[14:08:37 133]:   After delete DataCore
+[14:12:43 037]:   SDK version:1.0.0.121
+[14:12:43 037]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:12:43 037]:   Thread start. id=21372
+[14:12:43 038]:   GD_MTC_SDK_Login
+[14:12:43 038]:   Into msgToThisServiceCoreAndWaitForResult
+[14:12:43 038]:   msg to ServiceCore msgId=0, pMsg=0
+[14:12:43 038]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:12:43 041]:   ServiceCore::login
+[14:12:43 041]:   SDK version:1.0.0.121
+[14:12:43 041]:   nDeviceType=5
+[14:12:43 041]:   Create Device: NET384x288
+[14:12:43 041]:   Thread start. id=8464
+[14:12:43 042]:   Thread start. id=8044
+[14:12:43 042]:   Thread start. id=20848
+[14:12:43 042]:   Call GD_MTC_SDK_Logout, iLoginID=1000001
+[14:12:43 042]:   Into msgToThisServiceCoreAndWaitForResult
+[14:12:43 042]:   msg to ServiceCore msgId=6, pMsg=6
+[14:12:43 042]:   msg to ServiceCore msgId=6, pMsg=6. Done
+[14:12:43 056]:   Before delete DataCore
+[14:12:43 056]:   Before MsgObjThread::stop()
+[14:12:43 056]:   Before MsgObj::stop()
+[14:12:43 056]:   Before m_pMqThread->join();
+[14:12:43 056]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-2030331776
+[14:12:43 072]:   Thread exit. id=208484
+[14:12:43 072]:   After m_pThread->join(); in ThreadMq::join
+[14:12:43 072]:   After m_pMqThread->join();
+[14:12:43 072]:   After MsgObj::stop()
+[14:12:43 072]:   After MsgObjThread::stop()
+[14:12:43 072]:   Before delete m_pDataCfg
+[14:12:43 072]:   After delete m_pDataCfg
+[14:12:43 072]:   Before MsgObjThread::stop()
+[14:12:43 072]:   Before MsgObj::stop()
+[14:12:43 072]:   Before m_pMqThread->join();
+[14:12:43 072]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-2030426416
+[14:12:43 087]:   Thread exit. id=8464
+[14:12:43 087]:   After m_pThread->join(); in ThreadMq::join
+[14:12:43 087]:   After m_pMqThread->join();
+[14:12:43 087]:   After MsgObj::stop()
+[14:12:43 087]:   After MsgObjThread::stop()
+[14:12:43 087]:   Before delete m_pDataPull
+[14:12:43 087]:   Before MsgObjThread::stop()
+[14:12:43 087]:   Before MsgObj::stop()
+[14:12:43 088]:   Before m_pMqThread->join();
+[14:12:43 088]:   After m_pMqThread->join();
+[14:12:43 088]:   After MsgObj::stop()
+[14:12:43 088]:   After MsgObjThread::stop()
+[14:12:43 088]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:12:43 088]:   After this->quit() in ThreadMq::~ThreadMq
+[14:12:43 088]:   Before this->join() in ThreadMq::~ThreadMq
+[14:12:43 088]:   After this->join() in ThreadMq::~ThreadMq
+[14:12:43 088]:   After delete m_pDataPull
+[14:12:43 088]:   Before MsgObjThread::stop()
+[14:12:43 088]:   Before MsgObj::stop()
+[14:12:43 088]:   Before m_pMqThread->join();
+[14:12:43 088]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-2030332256
+[14:12:43 103]:   Thread exit. id=8044
+[14:12:43 104]:   After m_pThread->join(); in ThreadMq::join
+[14:12:43 104]:   After m_pMqThread->join();
+[14:12:43 104]:   After MsgObj::stop()
+[14:12:43 104]:   After MsgObjThread::stop()
+[14:12:43 104]:   Before delete m_pDataDeal
+[14:12:43 104]:   Before ~d5h264f1::DataDeal
+[14:12:43 104]:   Before MsgObjThread::stop()
+[14:12:43 104]:   Before MsgObj::stop()
+[14:12:43 104]:   Before m_pMqThread->join();
+[14:12:43 104]:   After m_pMqThread->join();
+[14:12:43 104]:   After MsgObj::stop()
+[14:12:43 104]:   After MsgObjThread::stop()
+[14:12:43 104]:   After ~d5h264f1::DataDeal
+[14:12:43 104]:   Before ~DataDealTpBase
+[14:12:43 104]:   After ~DataDealTpBase
+[14:12:43 104]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:12:43 104]:   After this->quit() in ThreadMq::~ThreadMq
+[14:12:43 104]:   Before this->join() in ThreadMq::~ThreadMq
+[14:12:43 104]:   After this->join() in ThreadMq::~ThreadMq
+[14:12:43 104]:   After delete m_pDataDeal
+[14:12:43 104]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:12:43 104]:   After this->quit() in ThreadMq::~ThreadMq
+[14:12:43 104]:   Before this->join() in ThreadMq::~ThreadMq
+[14:12:43 104]:   After this->join() in ThreadMq::~ThreadMq
+[14:12:43 104]:   After delete DataCore
+[14:26:00 161]:   SDK version:1.0.0.121
+[14:26:00 161]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:26:00 162]:   Thread start. id=17004
+[14:26:00 162]:   GD_MTC_SDK_Login
+[14:26:00 162]:   Into msgToThisServiceCoreAndWaitForResult
+[14:26:00 162]:   msg to ServiceCore msgId=0, pMsg=0
+[14:26:00 162]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:26:00 170]:   ServiceCore::login
+[14:26:00 170]:   SDK version:1.0.0.121
+[14:26:00 170]:   nDeviceType=5
+[14:26:00 170]:   Create Device: NET384x288
+[14:26:00 170]:   Thread start. id=20592
+[14:26:00 206]:   Thread start. id=19132
+[14:26:00 206]:   Thread start. id=19516
+[14:26:00 207]:   Call GD_MTC_SDK_Logout, iLoginID=1000001
+[14:26:00 207]:   Into msgToThisServiceCoreAndWaitForResult
+[14:26:00 207]:   msg to ServiceCore msgId=2, pMsg=2
+[14:26:00 207]:   msg to ServiceCore msgId=2, pMsg=2. Done
+[14:26:00 217]:   Before delete DataCore
+[14:26:00 217]:   Before MsgObjThread::stop()
+[14:26:00 217]:   Before MsgObj::stop()
+[14:26:00 217]:   Before m_pMqThread->join();
+[14:26:00 217]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=522626832
+[14:26:00 217]:   Thread exit. id=195164
+[14:26:00 217]:   After m_pThread->join(); in ThreadMq::join
+[14:26:00 217]:   After m_pMqThread->join();
+[14:26:00 217]:   After MsgObj::stop()
+[14:26:00 217]:   After MsgObjThread::stop()
+[14:26:00 217]:   Before delete m_pDataCfg
+[14:26:00 217]:   After delete m_pDataCfg
+[14:26:00 217]:   Before MsgObjThread::stop()
+[14:26:00 217]:   Before MsgObj::stop()
+[14:26:00 217]:   Before m_pMqThread->join();
+[14:26:00 217]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=522627632
+[14:26:00 232]:   Thread exit. id=20592
+[14:26:00 232]:   After m_pThread->join(); in ThreadMq::join
+[14:26:00 232]:   After m_pMqThread->join();
+[14:26:00 232]:   After MsgObj::stop()
+[14:26:00 232]:   After MsgObjThread::stop()
+[14:26:00 232]:   Before delete m_pDataPull
+[14:26:00 232]:   Before MsgObjThread::stop()
+[14:26:00 232]:   Before MsgObj::stop()
+[14:26:00 232]:   Before m_pMqThread->join();
+[14:26:00 232]:   After m_pMqThread->join();
+[14:26:00 232]:   After MsgObj::stop()
+[14:26:00 232]:   After MsgObjThread::stop()
+[14:26:00 232]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:26:00 232]:   After this->quit() in ThreadMq::~ThreadMq
+[14:26:00 232]:   Before this->join() in ThreadMq::~ThreadMq
+[14:26:00 232]:   After this->join() in ThreadMq::~ThreadMq
+[14:26:00 232]:   After delete m_pDataPull
+[14:26:00 232]:   Before MsgObjThread::stop()
+[14:26:00 232]:   Before MsgObj::stop()
+[14:26:00 232]:   Before m_pMqThread->join();
+[14:26:00 232]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=522626992
+[14:26:00 247]:   Thread exit. id=19132
+[14:26:00 247]:   After m_pThread->join(); in ThreadMq::join
+[14:26:00 247]:   After m_pMqThread->join();
+[14:26:00 247]:   After MsgObj::stop()
+[14:26:00 247]:   After MsgObjThread::stop()
+[14:26:00 247]:   Before delete m_pDataDeal
+[14:26:00 247]:   Before ~d5h264f1::DataDeal
+[14:26:00 247]:   Before MsgObjThread::stop()
+[14:26:00 247]:   Before MsgObj::stop()
+[14:26:00 247]:   Before m_pMqThread->join();
+[14:26:00 247]:   After m_pMqThread->join();
+[14:26:00 247]:   After MsgObj::stop()
+[14:26:00 247]:   After MsgObjThread::stop()
+[14:26:00 247]:   After ~d5h264f1::DataDeal
+[14:26:00 247]:   Before ~DataDealTpBase
+[14:26:00 247]:   After ~DataDealTpBase
+[14:26:00 247]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:26:00 247]:   After this->quit() in ThreadMq::~ThreadMq
+[14:26:00 247]:   Before this->join() in ThreadMq::~ThreadMq
+[14:26:00 247]:   After this->join() in ThreadMq::~ThreadMq
+[14:26:00 247]:   After delete m_pDataDeal
+[14:26:00 247]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:26:00 247]:   After this->quit() in ThreadMq::~ThreadMq
+[14:26:00 248]:   Before this->join() in ThreadMq::~ThreadMq
+[14:26:00 248]:   After this->join() in ThreadMq::~ThreadMq
+[14:26:00 248]:   After delete DataCore
+[14:32:08 219]:   SDK version:1.0.0.121
+[14:32:08 219]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:32:08 220]:   Thread start. id=10912
+[14:32:08 220]:   GD_MTC_SDK_Login
+[14:32:08 220]:   Into msgToThisServiceCoreAndWaitForResult
+[14:32:08 220]:   msg to ServiceCore msgId=0, pMsg=0
+[14:32:08 220]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:32:08 224]:   ServiceCore::login
+[14:32:08 224]:   SDK version:1.0.0.121
+[14:32:08 224]:   nDeviceType=5
+[14:32:08 224]:   Create Device: NET384x288
+[14:32:08 224]:   Thread start. id=10156
+[14:32:08 224]:   Thread start. id=1912
+[14:32:08 225]:   Thread start. id=7344
+[14:32:08 225]:   Call GD_MTC_SDK_Logout, iLoginID=1000001
+[14:32:08 225]:   Into msgToThisServiceCoreAndWaitForResult
+[14:32:08 225]:   msg to ServiceCore msgId=6, pMsg=6
+[14:32:08 225]:   msg to ServiceCore msgId=6, pMsg=6. Done
+[14:32:08 239]:   Before delete DataCore
+[14:32:08 239]:   Before MsgObjThread::stop()
+[14:32:08 239]:   Before MsgObj::stop()
+[14:32:08 239]:   Before m_pMqThread->join();
+[14:32:08 239]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1062964224
+[14:32:08 255]:   Thread exit. id=7344
+[14:32:08 255]:   After m_pThread->join(); in ThreadMq::join
+[14:32:08 255]:   After m_pMqThread->join();
+[14:32:08 255]:   After MsgObj::stop()
+[14:32:08 255]:   After MsgObjThread::stop()
+[14:32:08 255]:   Before delete m_pDataCfg
+[14:32:08 255]:   After delete m_pDataCfg
+[14:32:08 255]:   Before MsgObjThread::stop()
+[14:32:08 255]:   Before MsgObj::stop()
+[14:32:08 255]:   Before m_pMqThread->join();
+[14:32:08 255]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1062963648
+[14:32:08 271]:   Thread exit. id=10156
+[14:32:08 271]:   After m_pThread->join(); in ThreadMq::join
+[14:32:08 271]:   After m_pMqThread->join();
+[14:32:08 271]:   After MsgObj::stop()
+[14:32:08 271]:   After MsgObjThread::stop()
+[14:32:08 271]:   Before delete m_pDataPull
+[14:32:08 271]:   Before MsgObjThread::stop()
+[14:32:08 271]:   Before MsgObj::stop()
+[14:32:08 271]:   Before m_pMqThread->join();
+[14:32:08 271]:   After m_pMqThread->join();
+[14:32:08 271]:   After MsgObj::stop()
+[14:32:08 271]:   After MsgObjThread::stop()
+[14:32:08 271]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:32:08 271]:   After this->quit() in ThreadMq::~ThreadMq
+[14:32:08 271]:   Before this->join() in ThreadMq::~ThreadMq
+[14:32:08 271]:   After this->join() in ThreadMq::~ThreadMq
+[14:32:08 271]:   After delete m_pDataPull
+[14:32:08 271]:   Before MsgObjThread::stop()
+[14:32:08 271]:   Before MsgObj::stop()
+[14:32:08 271]:   Before m_pMqThread->join();
+[14:32:08 271]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1062964320
+[14:32:08 286]:   Thread exit. id=1912
+[14:32:08 286]:   After m_pThread->join(); in ThreadMq::join
+[14:32:08 286]:   After m_pMqThread->join();
+[14:32:08 286]:   After MsgObj::stop()
+[14:32:08 286]:   After MsgObjThread::stop()
+[14:32:08 286]:   Before delete m_pDataDeal
+[14:32:08 287]:   Before ~d5h264f1::DataDeal
+[14:32:08 287]:   Before MsgObjThread::stop()
+[14:32:08 287]:   Before MsgObj::stop()
+[14:32:08 287]:   Before m_pMqThread->join();
+[14:32:08 287]:   After m_pMqThread->join();
+[14:32:08 287]:   After MsgObj::stop()
+[14:32:08 287]:   After MsgObjThread::stop()
+[14:32:08 287]:   After ~d5h264f1::DataDeal
+[14:32:08 287]:   Before ~DataDealTpBase
+[14:32:08 287]:   After ~DataDealTpBase
+[14:32:08 287]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:32:08 287]:   After this->quit() in ThreadMq::~ThreadMq
+[14:32:08 287]:   Before this->join() in ThreadMq::~ThreadMq
+[14:32:08 287]:   After this->join() in ThreadMq::~ThreadMq
+[14:32:08 287]:   After delete m_pDataDeal
+[14:32:08 287]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:32:08 287]:   After this->quit() in ThreadMq::~ThreadMq
+[14:32:08 287]:   Before this->join() in ThreadMq::~ThreadMq
+[14:32:08 287]:   After this->join() in ThreadMq::~ThreadMq
+[14:32:08 287]:   After delete DataCore
+[14:38:50 773]:   SDK version:1.0.0.121
+[14:38:50 773]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:38:50 774]:   Thread start. id=6216
+[14:38:50 774]:   GD_MTC_SDK_Login
+[14:38:50 774]:   Into msgToThisServiceCoreAndWaitForResult
+[14:38:50 774]:   msg to ServiceCore msgId=0, pMsg=0
+[14:38:50 774]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:38:50 775]:   ServiceCore::login
+[14:38:50 775]:   SDK version:1.0.0.121
+[14:38:50 775]:   nDeviceType=5
+[14:38:50 775]:   Create Device: NET384x288
+[14:38:50 775]:   Thread start. id=13464
+[14:38:50 776]:   Thread start. id=20408
+[14:38:50 776]:   Thread start. id=5832
+[14:38:50 776]:   Call GD_MTC_SDK_Logout, iLoginID=1000001
+[14:38:50 776]:   Into msgToThisServiceCoreAndWaitForResult
+[14:38:50 776]:   msg to ServiceCore msgId=2, pMsg=2
+[14:38:50 776]:   msg to ServiceCore msgId=2, pMsg=2. Done
+[14:38:50 791]:   Before delete DataCore
+[14:38:50 791]:   Before MsgObjThread::stop()
+[14:38:50 791]:   Before MsgObj::stop()
+[14:38:50 791]:   Before m_pMqThread->join();
+[14:38:50 791]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-781909120
+[14:38:50 791]:   Thread exit. id=5832
+[14:38:50 791]:   After m_pThread->join(); in ThreadMq::join
+[14:38:50 791]:   After m_pMqThread->join();
+[14:38:50 791]:   After MsgObj::stop()
+[14:38:50 791]:   After MsgObjThread::stop()
+[14:38:50 791]:   Before delete m_pDataCfg
+[14:38:50 791]:   After delete m_pDataCfg
+[14:38:50 791]:   Before MsgObjThread::stop()
+[14:38:50 791]:   Before MsgObj::stop()
+[14:38:50 791]:   Before m_pMqThread->join();
+[14:38:50 791]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-782032240
+[14:38:50 806]:   Thread exit. id=13464
+[14:38:50 806]:   After m_pThread->join(); in ThreadMq::join
+[14:38:50 806]:   After m_pMqThread->join();
+[14:38:50 806]:   After MsgObj::stop()
+[14:38:50 806]:   After MsgObjThread::stop()
+[14:38:50 806]:   Before delete m_pDataPull
+[14:38:50 806]:   Before MsgObjThread::stop()
+[14:38:50 806]:   Before MsgObj::stop()
+[14:38:50 806]:   Before m_pMqThread->join();
+[14:38:50 806]:   After m_pMqThread->join();
+[14:38:50 806]:   After MsgObj::stop()
+[14:38:50 806]:   After MsgObjThread::stop()
+[14:38:50 806]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:38:50 806]:   After this->quit() in ThreadMq::~ThreadMq
+[14:38:50 806]:   Before this->join() in ThreadMq::~ThreadMq
+[14:38:50 806]:   After this->join() in ThreadMq::~ThreadMq
+[14:38:50 806]:   After delete m_pDataPull
+[14:38:50 806]:   Before MsgObjThread::stop()
+[14:38:50 806]:   Before MsgObj::stop()
+[14:38:50 806]:   Before m_pMqThread->join();
+[14:38:50 806]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-781908096
+[14:38:50 822]:   Thread exit. id=20408
+[14:38:50 822]:   After m_pThread->join(); in ThreadMq::join
+[14:38:50 822]:   After m_pMqThread->join();
+[14:38:50 822]:   After MsgObj::stop()
+[14:38:50 822]:   After MsgObjThread::stop()
+[14:38:50 822]:   Before delete m_pDataDeal
+[14:38:50 822]:   Before ~d5h264f1::DataDeal
+[14:38:50 822]:   Before MsgObjThread::stop()
+[14:38:50 822]:   Before MsgObj::stop()
+[14:38:50 822]:   Before m_pMqThread->join();
+[14:38:50 822]:   After m_pMqThread->join();
+[14:38:50 822]:   After MsgObj::stop()
+[14:38:50 822]:   After MsgObjThread::stop()
+[14:38:50 822]:   After ~d5h264f1::DataDeal
+[14:38:50 822]:   Before ~DataDealTpBase
+[14:38:50 822]:   After ~DataDealTpBase
+[14:38:50 822]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:38:50 822]:   After this->quit() in ThreadMq::~ThreadMq
+[14:38:50 822]:   Before this->join() in ThreadMq::~ThreadMq
+[14:38:50 822]:   After this->join() in ThreadMq::~ThreadMq
+[14:38:50 822]:   After delete m_pDataDeal
+[14:38:50 822]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:38:50 822]:   After this->quit() in ThreadMq::~ThreadMq
+[14:38:50 822]:   Before this->join() in ThreadMq::~ThreadMq
+[14:38:50 822]:   After this->join() in ThreadMq::~ThreadMq
+[14:38:50 822]:   After delete DataCore
+[14:40:21 029]:   SDK version:1.0.0.121
+[14:40:21 029]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:40:21 030]:   Thread start. id=12576
+[14:40:21 030]:   GD_MTC_SDK_Login
+[14:40:21 030]:   Into msgToThisServiceCoreAndWaitForResult
+[14:40:21 030]:   msg to ServiceCore msgId=0, pMsg=0
+[14:40:21 031]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:40:21 043]:   ServiceCore::login
+[14:40:21 043]:   SDK version:1.0.0.121
+[14:40:21 043]:   nDeviceType=5
+[14:40:21 043]:   Create Device: NET384x288
+[14:40:21 043]:   Thread start. id=9132
+[14:40:21 043]:   Thread start. id=20508
+[14:40:21 043]:   Thread start. id=3040
+[14:40:21 044]:   Call GD_MTC_SDK_Logout, iLoginID=1000001
+[14:40:21 044]:   Into msgToThisServiceCoreAndWaitForResult
+[14:40:21 044]:   msg to ServiceCore msgId=2, pMsg=2
+[14:40:21 044]:   msg to ServiceCore msgId=2, pMsg=2. Done
+[14:40:21 058]:   Before delete DataCore
+[14:40:21 058]:   Before MsgObjThread::stop()
+[14:40:21 058]:   Before MsgObj::stop()
+[14:40:21 058]:   Before m_pMqThread->join();
+[14:40:21 058]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1649421824
+[14:40:21 059]:   Thread exit. id=3040
+[14:40:21 059]:   After m_pThread->join(); in ThreadMq::join
+[14:40:21 059]:   After m_pMqThread->join();
+[14:40:21 059]:   After MsgObj::stop()
+[14:40:21 059]:   After MsgObjThread::stop()
+[14:40:21 059]:   Before delete m_pDataCfg
+[14:40:21 059]:   After delete m_pDataCfg
+[14:40:21 059]:   Before MsgObjThread::stop()
+[14:40:21 059]:   Before MsgObj::stop()
+[14:40:21 059]:   Before m_pMqThread->join();
+[14:40:21 059]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1649422272
+[14:40:21 059]:   Thread exit. id=913264
+[14:40:21 059]:   After m_pThread->join(); in ThreadMq::join
+[14:40:21 059]:   After m_pMqThread->join();
+[14:40:21 059]:   After MsgObj::stop()
+[14:40:21 059]:   After MsgObjThread::stop()
+[14:40:21 059]:   Before delete m_pDataPull
+[14:40:21 059]:   Before MsgObjThread::stop()
+[14:40:21 059]:   Before MsgObj::stop()
+[14:40:21 059]:   Before m_pMqThread->join();
+[14:40:21 059]:   After m_pMqThread->join();
+[14:40:21 059]:   After MsgObj::stop()
+[14:40:21 059]:   After MsgObjThread::stop()
+[14:40:21 059]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:40:21 059]:   After this->quit() in ThreadMq::~ThreadMq
+[14:40:21 059]:   Before this->join() in ThreadMq::~ThreadMq
+[14:40:21 059]:   After this->join() in ThreadMq::~ThreadMq
+[14:40:21 059]:   After delete m_pDataPull
+[14:40:21 059]:   Before MsgObjThread::stop()
+[14:40:21 059]:   Before MsgObj::stop()
+[14:40:21 059]:   Before m_pMqThread->join();
+[14:40:21 059]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1649422592
+[14:40:21 073]:   Thread exit. id=20508
+[14:40:21 074]:   After m_pThread->join(); in ThreadMq::join
+[14:40:21 074]:   After m_pMqThread->join();
+[14:40:21 074]:   After MsgObj::stop()
+[14:40:21 074]:   After MsgObjThread::stop()
+[14:40:21 074]:   Before delete m_pDataDeal
+[14:40:21 074]:   Before ~d5h264f1::DataDeal
+[14:40:21 074]:   Before MsgObjThread::stop()
+[14:40:21 074]:   Before MsgObj::stop()
+[14:40:21 074]:   Before m_pMqThread->join();
+[14:40:21 074]:   After m_pMqThread->join();
+[14:40:21 074]:   After MsgObj::stop()
+[14:40:21 074]:   After MsgObjThread::stop()
+[14:40:21 074]:   After ~d5h264f1::DataDeal
+[14:40:21 074]:   Before ~DataDealTpBase
+[14:40:21 074]:   After ~DataDealTpBase
+[14:40:21 074]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:40:21 074]:   After this->quit() in ThreadMq::~ThreadMq
+[14:40:21 074]:   Before this->join() in ThreadMq::~ThreadMq
+[14:40:21 074]:   After this->join() in ThreadMq::~ThreadMq
+[14:40:21 074]:   After delete m_pDataDeal
+[14:40:21 074]:   Before this->quit() in ThreadMq::~ThreadMq
+[14:40:21 074]:   After this->quit() in ThreadMq::~ThreadMq
+[14:40:21 074]:   Before this->join() in ThreadMq::~ThreadMq
+[14:40:21 074]:   After this->join() in ThreadMq::~ThreadMq
+[14:40:21 074]:   After delete DataCore
+[14:51:33 884]:   SDK version:1.0.0.121
+[14:51:33 884]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:51:33 884]:   Thread start. id=17252
+[14:51:33 885]:   GD_MTC_SDK_Login
+[14:51:33 885]:   Into msgToThisServiceCoreAndWaitForResult
+[14:51:33 885]:   msg to ServiceCore msgId=0, pMsg=0
+[14:51:33 885]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:51:33 887]:   ServiceCore::login
+[14:51:33 887]:   SDK version:1.0.0.121
+[14:51:33 887]:   nDeviceType=5
+[14:51:33 887]:   Create Device: NET384x288
+[14:51:33 888]:   Thread start. id=18268
+[14:51:33 888]:   Thread start. id=19424
+[14:51:33 888]:   Thread start. id=20288
+[14:51:33 889]:   GD_MTC_SDK_OpenStream
+[14:51:33 902]:   nPullDataType=0
+[14:51:33 902]:   Before DataCore::msgToDataCoreAndWaitForResult
+[14:51:33 904]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[14:51:33 908]:   Base64Name=YWRtaW46OTk5OQ==
+[14:51:33 924]:   H264Pull::openStream
+[14:51:33 924]:   avcodec_register_all
+[14:51:34 006]:   av_register_all
+[14:51:34 016]:   avformat_network_init
+[14:51:34 030]:   avformat_alloc_context
+[14:51:34 037]:   avformat_open_input
+[14:55:58 890]:   SDK version:1.0.0.121
+[14:55:58 890]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:55:58 890]:   Thread start. id=7544
+[14:55:58 891]:   GD_MTC_SDK_Login
+[14:55:58 891]:   Into msgToThisServiceCoreAndWaitForResult
+[14:55:58 891]:   msg to ServiceCore msgId=0, pMsg=0
+[14:55:58 891]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:55:58 893]:   ServiceCore::login
+[14:55:58 893]:   SDK version:1.0.0.121
+[14:55:58 893]:   nDeviceType=5
+[14:55:58 893]:   Create Device: NET384x288
+[14:55:58 893]:   Thread start. id=3800
+[14:55:58 894]:   Thread start. id=14008
+[14:55:58 894]:   Thread start. id=16780
+[14:55:58 895]:   GD_MTC_SDK_OpenStream
+[14:55:58 895]:   nPullDataType=0
+[14:55:58 895]:   Before DataCore::msgToDataCoreAndWaitForResult
+[14:55:58 909]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[14:55:58 909]:   Base64Name=YWRtaW46OTk5OQ==
+[14:55:58 909]:   H264Pull::openStream
+[14:55:58 909]:   avcodec_register_all
+[14:55:58 913]:   av_register_all
+[14:55:58 913]:   avformat_network_init
+[14:55:58 913]:   avformat_alloc_context
+[14:55:58 913]:   avformat_open_input
+[14:56:43 610]:   SDK version:1.0.0.121
+[14:56:43 610]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:56:43 611]:   Thread start. id=21192
+[14:56:43 611]:   GD_MTC_SDK_Login
+[14:56:43 611]:   Into msgToThisServiceCoreAndWaitForResult
+[14:56:43 611]:   msg to ServiceCore msgId=0, pMsg=0
+[14:56:43 611]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:56:43 617]:   ServiceCore::login
+[14:56:43 617]:   SDK version:1.0.0.121
+[14:56:43 617]:   nDeviceType=5
+[14:56:43 617]:   Create Device: NET384x288
+[14:56:43 617]:   Thread start. id=20956
+[14:56:43 617]:   Thread start. id=18660
+[14:56:43 618]:   Thread start. id=17436
+[14:56:43 618]:   GD_MTC_SDK_OpenStream
+[14:56:43 618]:   nPullDataType=0
+[14:56:43 618]:   Before DataCore::msgToDataCoreAndWaitForResult
+[14:56:43 648]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[14:56:43 648]:   Base64Name=YWRtaW46OTk5OQ==
+[14:56:43 648]:   H264Pull::openStream
+[14:56:43 648]:   avcodec_register_all
+[14:56:43 651]:   av_register_all
+[14:56:43 651]:   avformat_network_init
+[14:56:43 652]:   avformat_alloc_context
+[14:56:43 652]:   avformat_open_input
+[14:57:51 357]:   SDK version:1.0.0.121
+[14:57:51 357]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:57:51 357]:   Thread start. id=13728
+[14:57:51 358]:   GD_MTC_SDK_Login
+[14:57:51 358]:   Into msgToThisServiceCoreAndWaitForResult
+[14:57:51 358]:   msg to ServiceCore msgId=0, pMsg=0
+[14:57:51 358]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:57:51 362]:   ServiceCore::login
+[14:57:51 362]:   SDK version:1.0.0.121
+[14:57:51 362]:   nDeviceType=5
+[14:57:51 362]:   Create Device: NET384x288
+[14:57:51 362]:   Thread start. id=19340
+[14:57:51 363]:   Thread start. id=10352
+[14:57:51 363]:   Thread start. id=19476
+[14:57:51 364]:   GD_MTC_SDK_OpenStream
+[14:57:51 364]:   nPullDataType=0
+[14:57:51 364]:   Before DataCore::msgToDataCoreAndWaitForResult
+[14:57:51 377]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[14:57:51 377]:   Base64Name=YWRtaW46OTk5OQ==
+[14:57:51 377]:   H264Pull::openStream
+[14:57:51 377]:   avcodec_register_all
+[14:57:51 380]:   av_register_all
+[14:57:51 381]:   avformat_network_init
+[14:57:51 381]:   avformat_alloc_context
+[14:57:51 381]:   avformat_open_input
+[14:58:48 812]:   SDK version:1.0.0.121
+[14:58:48 812]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:58:48 812]:   Thread start. id=17984
+[14:58:48 813]:   GD_MTC_SDK_Login
+[14:58:48 813]:   Into msgToThisServiceCoreAndWaitForResult
+[14:58:48 813]:   msg to ServiceCore msgId=0, pMsg=0
+[14:58:48 813]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:58:48 827]:   ServiceCore::login
+[14:58:48 827]:   SDK version:1.0.0.121
+[14:58:48 827]:   nDeviceType=5
+[14:58:48 827]:   Create Device: NET384x288
+[14:58:48 828]:   Thread start. id=15068
+[14:58:48 828]:   Thread start. id=19704
+[14:58:48 828]:   Thread start. id=2056
+[14:58:48 829]:   GD_MTC_SDK_OpenStream
+[14:58:48 829]:   nPullDataType=0
+[14:58:48 829]:   Before DataCore::msgToDataCoreAndWaitForResult
+[14:58:48 858]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[14:58:48 858]:   Base64Name=YWRtaW46OTk5OQ==
+[14:58:48 858]:   H264Pull::openStream
+[14:58:48 858]:   avcodec_register_all
+[14:58:48 862]:   av_register_all
+[14:58:48 862]:   avformat_network_init
+[14:58:48 862]:   avformat_alloc_context
+[14:58:48 862]:   avformat_open_input
+[14:59:51 289]:   SDK version:1.0.0.121
+[14:59:51 289]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:59:51 289]:   Thread start. id=11372
+[14:59:51 290]:   GD_MTC_SDK_Login
+[14:59:51 290]:   Into msgToThisServiceCoreAndWaitForResult
+[14:59:51 290]:   msg to ServiceCore msgId=0, pMsg=0
+[14:59:51 290]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:59:51 300]:   ServiceCore::login
+[14:59:51 300]:   SDK version:1.0.0.121
+[14:59:51 300]:   nDeviceType=5
+[14:59:51 300]:   Create Device: NET384x288
+[14:59:51 300]:   Thread start. id=19432
+[14:59:51 301]:   Thread start. id=19916
+[14:59:51 301]:   Thread start. id=19404
+[14:59:51 302]:   GD_MTC_SDK_OpenStream
+[14:59:51 302]:   nPullDataType=0
+[14:59:51 302]:   Before DataCore::msgToDataCoreAndWaitForResult
+[14:59:51 330]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[14:59:51 330]:   Base64Name=YWRtaW46OTk5OQ==
+[14:59:51 330]:   H264Pull::openStream
+[14:59:51 330]:   avcodec_register_all
+[14:59:51 334]:   av_register_all
+[14:59:51 334]:   avformat_network_init
+[14:59:51 334]:   avformat_alloc_context
+[14:59:51 334]:   avformat_open_input
+[15:00:44 287]:   SDK version:1.0.0.121
+[15:00:44 287]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:00:44 287]:   Thread start. id=19632
+[15:00:44 288]:   GD_MTC_SDK_Login
+[15:00:44 288]:   Into msgToThisServiceCoreAndWaitForResult
+[15:00:44 288]:   msg to ServiceCore msgId=0, pMsg=0
+[15:00:44 288]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:00:44 295]:   ServiceCore::login
+[15:00:44 295]:   SDK version:1.0.0.121
+[15:00:44 295]:   nDeviceType=5
+[15:00:44 295]:   Create Device: NET384x288
+[15:00:44 296]:   Thread start. id=11544
+[15:00:44 296]:   Thread start. id=2080
+[15:00:44 296]:   Thread start. id=18396
+[15:00:44 297]:   GD_MTC_SDK_OpenStream
+[15:00:44 297]:   nPullDataType=0
+[15:00:44 297]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:00:44 326]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:00:44 326]:   Base64Name=YWRtaW46OTk5OQ==
+[15:00:44 327]:   H264Pull::openStream
+[15:00:44 327]:   avcodec_register_all
+[15:00:44 330]:   av_register_all
+[15:00:44 330]:   avformat_network_init
+[15:00:44 330]:   avformat_alloc_context
+[15:00:44 330]:   avformat_open_input
+[15:01:23 840]:   SDK version:1.0.0.121
+[15:01:23 840]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:01:23 841]:   Thread start. id=19892
+[15:01:23 841]:   GD_MTC_SDK_Login
+[15:01:23 841]:   Into msgToThisServiceCoreAndWaitForResult
+[15:01:23 841]:   msg to ServiceCore msgId=0, pMsg=0
+[15:01:23 841]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:01:23 843]:   ServiceCore::login
+[15:01:23 843]:   SDK version:1.0.0.121
+[15:01:23 843]:   nDeviceType=5
+[15:01:23 843]:   Create Device: NET384x288
+[15:01:23 843]:   Thread start. id=13764
+[15:01:23 843]:   Thread start. id=10156
+[15:01:23 844]:   Thread start. id=9412
+[15:01:23 844]:   GD_MTC_SDK_OpenStream
+[15:01:23 844]:   nPullDataType=0
+[15:01:23 844]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:01:23 859]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:01:23 859]:   Base64Name=YWRtaW46OTk5OQ==
+[15:01:23 859]:   H264Pull::openStream
+[15:01:23 859]:   avcodec_register_all
+[15:01:23 863]:   av_register_all
+[15:01:23 863]:   avformat_network_init
+[15:01:23 863]:   avformat_alloc_context
+[15:01:23 863]:   avformat_open_input
+[15:07:31 944]:   SDK version:1.0.0.121
+[15:07:31 944]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:07:31 945]:   Thread start. id=21220
+[15:07:31 945]:   GD_MTC_SDK_Login
+[15:07:31 945]:   Into msgToThisServiceCoreAndWaitForResult
+[15:07:31 945]:   msg to ServiceCore msgId=0, pMsg=0
+[15:07:31 945]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:07:31 949]:   ServiceCore::login
+[15:07:31 949]:   SDK version:1.0.0.121
+[15:07:31 949]:   nDeviceType=5
+[15:07:31 949]:   Create Device: NET384x288
+[15:07:31 949]:   Thread start. id=14008
+[15:07:31 950]:   Thread start. id=16712
+[15:07:31 950]:   Thread start. id=840
+[15:07:31 950]:   GD_MTC_SDK_OpenStream
+[15:07:31 950]:   nPullDataType=0
+[15:07:31 950]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:07:31 965]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:07:31 965]:   Base64Name=YWRtaW46OTk5OQ==
+[15:07:31 965]:   H264Pull::openStream
+[15:07:31 965]:   avcodec_register_all
+[15:07:31 969]:   av_register_all
+[15:07:31 969]:   avformat_network_init
+[15:07:31 969]:   avformat_alloc_context
+[15:07:31 969]:   avformat_open_input
+[15:08:19 950]:   SDK version:1.0.0.121
+[15:08:19 950]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:08:19 951]:   Thread start. id=12988
+[15:08:19 951]:   GD_MTC_SDK_Login
+[15:08:19 951]:   Into msgToThisServiceCoreAndWaitForResult
+[15:08:19 951]:   msg to ServiceCore msgId=0, pMsg=0
+[15:08:19 951]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:08:19 955]:   ServiceCore::login
+[15:08:19 955]:   SDK version:1.0.0.121
+[15:08:19 955]:   nDeviceType=5
+[15:08:19 955]:   Create Device: NET384x288
+[15:08:19 956]:   Thread start. id=15000
+[15:08:19 956]:   Thread start. id=20472
+[15:08:19 956]:   Thread start. id=13564
+[15:08:19 956]:   GD_MTC_SDK_OpenStream
+[15:08:19 956]:   nPullDataType=0
+[15:08:19 956]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:08:19 987]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:08:19 987]:   Base64Name=YWRtaW46OTk5OQ==
+[15:08:19 987]:   H264Pull::openStream
+[15:08:19 987]:   avcodec_register_all
+[15:08:19 991]:   av_register_all
+[15:08:19 991]:   avformat_network_init
+[15:08:19 991]:   avformat_alloc_context
+[15:08:19 991]:   avformat_open_input
+[15:09:52 654]:   SDK version:1.0.0.121
+[15:09:52 654]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:09:52 655]:   Thread start. id=9676
+[15:09:52 655]:   GD_MTC_SDK_Login
+[15:09:52 656]:   Into msgToThisServiceCoreAndWaitForResult
+[15:09:52 656]:   msg to ServiceCore msgId=0, pMsg=0
+[15:09:52 656]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:09:52 662]:   ServiceCore::login
+[15:09:52 662]:   SDK version:1.0.0.121
+[15:09:52 662]:   nDeviceType=5
+[15:09:52 662]:   Create Device: NET384x288
+[15:09:52 662]:   Thread start. id=8464
+[15:09:52 662]:   Thread start. id=16388
+[15:09:52 662]:   Thread start. id=20536
+[15:09:52 662]:   GD_MTC_SDK_OpenStream
+[15:09:52 662]:   nPullDataType=0
+[15:09:52 662]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:09:52 677]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:09:52 677]:   Base64Name=YWRtaW46OTk5OQ==
+[15:09:52 677]:   H264Pull::openStream
+[15:09:52 677]:   avcodec_register_all
+[15:09:52 681]:   av_register_all
+[15:09:52 681]:   avformat_network_init
+[15:09:52 681]:   avformat_alloc_context
+[15:09:52 681]:   avformat_open_input
+[15:13:47 457]:   SDK version:1.0.0.121
+[15:13:47 457]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:13:47 458]:   Thread start. id=15656
+[15:13:47 458]:   GD_MTC_SDK_Login
+[15:13:47 458]:   Into msgToThisServiceCoreAndWaitForResult
+[15:13:47 458]:   msg to ServiceCore msgId=0, pMsg=0
+[15:13:47 458]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:13:47 461]:   ServiceCore::login
+[15:13:47 461]:   SDK version:1.0.0.121
+[15:13:47 461]:   nDeviceType=5
+[15:13:47 461]:   Create Device: NET384x288
+[15:13:47 461]:   Thread start. id=12516
+[15:13:47 461]:   Thread start. id=9412
+[15:13:47 461]:   Thread start. id=18340
+[15:13:47 461]:   GD_MTC_SDK_OpenStream
+[15:13:47 461]:   nPullDataType=0
+[15:13:47 461]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:13:47 491]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:13:47 491]:   Base64Name=YWRtaW46OTk5OQ==
+[15:13:47 492]:   H264Pull::openStream
+[15:13:47 492]:   avcodec_register_all
+[15:13:47 495]:   av_register_all
+[15:13:47 495]:   avformat_network_init
+[15:13:47 495]:   avformat_alloc_context
+[15:13:47 495]:   avformat_open_input
+[15:14:08 231]:   SDK version:1.0.0.121
+[15:14:08 231]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:14:08 232]:   Thread start. id=18048
+[15:14:08 232]:   GD_MTC_SDK_Login
+[15:14:08 232]:   Into msgToThisServiceCoreAndWaitForResult
+[15:14:08 232]:   msg to ServiceCore msgId=0, pMsg=0
+[15:14:08 232]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:14:08 247]:   ServiceCore::login
+[15:14:08 247]:   SDK version:1.0.0.121
+[15:14:08 247]:   nDeviceType=5
+[15:14:08 247]:   Create Device: NET384x288
+[15:14:08 247]:   Thread start. id=9852
+[15:14:08 248]:   Thread start. id=17808
+[15:14:08 248]:   Thread start. id=20568
+[15:14:08 248]:   GD_MTC_SDK_OpenStream
+[15:14:08 248]:   nPullDataType=0
+[15:14:08 248]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:14:08 263]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:14:08 263]:   Base64Name=YWRtaW46OTk5OQ==
+[15:14:08 263]:   H264Pull::openStream
+[15:14:08 263]:   avcodec_register_all
+[15:14:08 267]:   av_register_all
+[15:14:08 267]:   avformat_network_init
+[15:14:08 267]:   avformat_alloc_context
+[15:14:08 267]:   avformat_open_input
+[15:14:19 402]:   SDK version:1.0.0.121
+[15:14:19 402]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:14:19 402]:   Thread start. id=16848
+[15:14:19 403]:   GD_MTC_SDK_Login
+[15:14:19 403]:   Into msgToThisServiceCoreAndWaitForResult
+[15:14:19 403]:   msg to ServiceCore msgId=0, pMsg=0
+[15:14:19 403]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:14:19 415]:   ServiceCore::login
+[15:14:19 415]:   SDK version:1.0.0.121
+[15:14:19 415]:   nDeviceType=5
+[15:14:19 415]:   Create Device: NET384x288
+[15:14:19 415]:   Thread start. id=13696
+[15:14:19 416]:   Thread start. id=21112
+[15:14:19 416]:   Thread start. id=9368
+[15:14:19 416]:   GD_MTC_SDK_OpenStream
+[15:14:19 416]:   nPullDataType=0
+[15:14:19 416]:   Before DataCore::msgToDataCoreAndWaitForResult
+[15:14:19 430]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[15:14:19 430]:   Base64Name=YWRtaW46OTk5OQ==
+[15:14:19 431]:   H264Pull::openStream
+[15:14:19 431]:   avcodec_register_all
+[15:14:19 434]:   av_register_all
+[15:14:19 434]:   avformat_network_init
+[15:14:19 434]:   avformat_alloc_context
+[15:14:19 434]:   avformat_open_input
+[15:14:39 422]:   wait msg result time out. [nMsgType=1003]
+[15:14:39 422]:   After DataCore::msgToDataCoreAndWaitForResult
+[15:14:39 423]:   Call GD_MTC_SDK_Logout, iLoginID=1000001
+[15:14:39 423]:   Into msgToThisServiceCoreAndWaitForResult
+[15:14:39 423]:   msg to ServiceCore msgId=11, pMsg=11
+[15:14:39 423]:   msg to ServiceCore msgId=11, pMsg=11. Done
+[15:14:39 437]:   Before delete DataCore
+[15:14:39 437]:   Before MsgObjThread::stop()
+[15:14:39 437]:   Before MsgObj::stop()
+[15:14:39 437]:   Before m_pMqThread->join();
+[15:14:39 437]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1490521280
+[15:14:39 452]:   Thread exit. id=936816
+[15:14:39 453]:   After m_pThread->join(); in ThreadMq::join
+[15:14:39 453]:   After m_pMqThread->join();
+[15:14:39 453]:   After MsgObj::stop()
+[15:14:39 453]:   After MsgObjThread::stop()
+[15:14:39 453]:   Before delete m_pDataCfg
+[15:14:39 453]:   After delete m_pDataCfg
+[15:14:39 453]:   Before MsgObjThread::stop()
+[15:14:39 453]:   Before MsgObj::stop()
+[15:14:39 453]:   Before m_pMqThread->join();
+[15:14:39 453]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1490520864
+[15:19:05 928]:   SDK version:1.0.0.121
+[15:19:05 928]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:19:05 928]:   Thread start. id=20492
+[15:19:05 929]:   GD_MTC_SDK_Login
+[15:19:05 929]:   Into msgToThisServiceCoreAndWaitForResult
+[15:19:05 929]:   msg to ServiceCore msgId=0, pMsg=0
+[15:19:05 929]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:19:05 938]:   ServiceCore::login
+[15:19:05 938]:   SDK version:1.0.0.121
+[15:19:05 938]:   nDeviceType=5
+[15:19:05 938]:   Create Device: NET384x288
+[15:19:05 938]:   Thread start. id=3800
+[15:19:05 939]:   Thread start. id=18148
+[15:19:05 939]:   Thread start. id=1900
+[15:19:05 954]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:19:05 954]:   address.index=f81d7870179c
+[15:19:28 835]:   SDK version:1.0.0.121
+[15:19:28 836]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:19:28 836]:   Thread start. id=16944
+[15:19:28 837]:   GD_MTC_SDK_Login
+[15:19:28 837]:   Into msgToThisServiceCoreAndWaitForResult
+[15:19:28 837]:   msg to ServiceCore msgId=0, pMsg=0
+[15:19:28 837]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:19:28 840]:   ServiceCore::login
+[15:19:28 840]:   SDK version:1.0.0.121
+[15:19:28 840]:   nDeviceType=5
+[15:19:28 840]:   Create Device: NET384x288
+[15:19:28 840]:   Thread start. id=20420
+[15:19:28 841]:   Thread start. id=12708
+[15:19:28 841]:   Thread start. id=18976
+[15:19:28 847]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:19:28 847]:   address.index=f81d7870179c
+[15:21:51 634]:   SDK version:1.0.0.121
+[15:21:51 634]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:21:51 635]:   Thread start. id=17096
+[15:21:51 635]:   GD_MTC_SDK_Login
+[15:21:51 635]:   Into msgToThisServiceCoreAndWaitForResult
+[15:21:51 635]:   msg to ServiceCore msgId=0, pMsg=0
+[15:21:51 635]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:21:51 640]:   ServiceCore::login
+[15:21:51 640]:   SDK version:1.0.0.121
+[15:21:51 640]:   nDeviceType=5
+[15:21:51 640]:   Create Device: NET384x288
+[15:21:51 641]:   Thread start. id=18748
+[15:21:51 641]:   Thread start. id=20068
+[15:21:51 641]:   Thread start. id=12808
+[15:21:51 647]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:21:51 648]:   address.index=f81d7870179c
+[15:22:43 751]:   SDK version:1.0.0.121
+[15:22:43 752]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:22:43 753]:   Thread start. id=10916
+[15:24:47 351]:   GD_MTC_SDK_Login
+[15:24:47 351]:   Into msgToThisServiceCoreAndWaitForResult
+[15:24:47 351]:   msg to ServiceCore msgId=0, pMsg=0
+[15:24:47 351]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:24:47 363]:   ServiceCore::login
+[15:24:47 363]:   SDK version:1.0.0.121
+[15:24:47 363]:   nDeviceType=5
+[15:24:47 363]:   Create Device: NET384x288
+[15:24:47 363]:   Thread start. id=14840
+[15:24:47 363]:   Thread start. id=12244
+[15:24:47 363]:   Thread start. id=12644
+[15:24:47 369]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:24:47 369]:   address.index=f81d7870179c
+[15:27:26 778]:   SDK version:1.0.0.121
+[15:27:26 778]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:27:26 779]:   GD_MTC_SDK_Login
+[15:27:26 779]:   Thread start. id=10532
+[15:27:26 779]:   Into msgToThisServiceCoreAndWaitForResult
+[15:27:26 779]:   msg to ServiceCore msgId=0, pMsg=0
+[15:27:26 779]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:27:26 780]:   ServiceCore::login
+[15:27:26 780]:   SDK version:1.0.0.121
+[15:27:26 780]:   nDeviceType=5
+[15:27:26 780]:   Create Device: NET384x288
+[15:27:26 780]:   Thread start. id=14388
+[15:27:26 781]:   Thread start. id=20188
+[15:27:26 781]:   Thread start. id=14596
+[15:27:26 788]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:27:26 788]:   address.index=f81d7870179c
+[15:29:48 248]:   SDK version:1.0.0.121
+[15:29:48 248]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:29:48 249]:   Thread start. id=15056
+[15:29:48 249]:   GD_MTC_SDK_Login
+[15:29:48 249]:   Into msgToThisServiceCoreAndWaitForResult
+[15:29:48 249]:   msg to ServiceCore msgId=0, pMsg=0
+[15:29:48 249]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:29:48 265]:   ServiceCore::login
+[15:29:48 265]:   SDK version:1.0.0.121
+[15:29:48 265]:   nDeviceType=5
+[15:29:48 265]:   Create Device: NET384x288
+[15:29:48 265]:   Thread start. id=17492
+[15:29:48 266]:   Thread start. id=6764
+[15:29:48 266]:   Thread start. id=18408
+[15:29:57 623]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:29:57 623]:   address.index=f81d7870179c
+[15:31:03 418]:   SDK version:1.0.0.121
+[15:31:03 418]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:31:03 418]:   GD_MTC_SDK_Login
+[15:31:03 418]:   Thread start. id=15628
+[15:31:03 418]:   Into msgToThisServiceCoreAndWaitForResult
+[15:31:03 418]:   msg to ServiceCore msgId=0, pMsg=0
+[15:31:03 418]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:31:03 423]:   ServiceCore::login
+[15:31:03 423]:   SDK version:1.0.0.121
+[15:31:03 423]:   nDeviceType=5
+[15:31:03 423]:   Create Device: NET384x288
+[15:31:03 423]:   Thread start. id=13120
+[15:31:03 424]:   Thread start. id=21160
+[15:31:03 424]:   Thread start. id=1428
+[15:31:03 430]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:31:03 430]:   address.index=f81d7870179c
+[15:31:29 962]:   SDK version:1.0.0.121
+[15:31:29 962]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:31:29 962]:   Thread start. id=18916
+[15:31:49 570]:   SDK version:1.0.0.121
+[15:31:49 570]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:31:49 571]:   Thread start. id=13364
+[15:31:49 571]:   GD_MTC_SDK_Login
+[15:31:49 571]:   Into msgToThisServiceCoreAndWaitForResult
+[15:31:49 571]:   msg to ServiceCore msgId=0, pMsg=0
+[15:31:49 571]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:31:49 581]:   ServiceCore::login
+[15:31:49 581]:   SDK version:1.0.0.121
+[15:31:49 581]:   nDeviceType=5
+[15:31:49 581]:   Create Device: NET384x288
+[15:31:49 581]:   Thread start. id=20128
+[15:31:49 581]:   Thread start. id=11984
+[15:31:49 582]:   Thread start. id=18888
+[15:32:08 955]:   SDK version:1.0.0.121
+[15:32:08 955]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:32:08 955]:   GD_MTC_SDK_Login
+[15:32:08 955]:   Thread start. id=14572
+[15:32:08 955]:   Into msgToThisServiceCoreAndWaitForResult
+[15:32:08 955]:   msg to ServiceCore msgId=0, pMsg=0
+[15:32:08 955]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:32:08 963]:   ServiceCore::login
+[15:32:08 963]:   SDK version:1.0.0.121
+[15:32:08 963]:   nDeviceType=5
+[15:32:08 963]:   Create Device: NET384x288
+[15:32:08 963]:   Thread start. id=14596
+[15:32:08 963]:   Thread start. id=18544
+[15:32:08 963]:   Thread start. id=9504
+[15:32:08 969]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:32:08 969]:   address.index=f81d7870179c
+[15:32:40 228]:   SDK version:1.0.0.121
+[15:32:40 228]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:32:40 229]:   Thread start. id=10724
+[15:32:40 229]:   GD_MTC_SDK_Login
+[15:32:40 229]:   Into msgToThisServiceCoreAndWaitForResult
+[15:32:40 229]:   msg to ServiceCore msgId=0, pMsg=0
+[15:32:40 229]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:32:40 234]:   ServiceCore::login
+[15:32:40 234]:   SDK version:1.0.0.121
+[15:32:40 234]:   nDeviceType=5
+[15:32:40 234]:   Create Device: NET384x288
+[15:32:40 234]:   Thread start. id=5760
+[15:32:40 235]:   Thread start. id=4308
+[15:32:40 235]:   Thread start. id=21276
+[15:32:40 240]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:32:40 240]:   address.index=f81d7870179c
+[15:33:57 698]:   SDK version:1.0.0.121
+[15:33:57 698]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:33:57 699]:   GD_MTC_SDK_Login
+[15:33:57 699]:   Thread start. id=20532
+[15:33:57 699]:   Into msgToThisServiceCoreAndWaitForResult
+[15:33:57 699]:   msg to ServiceCore msgId=0, pMsg=0
+[15:33:57 699]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:33:57 707]:   ServiceCore::login
+[15:33:57 707]:   SDK version:1.0.0.121
+[15:33:57 707]:   nDeviceType=5
+[15:33:57 707]:   Create Device: NET384x288
+[15:33:57 707]:   Thread start. id=19424
+[15:33:57 707]:   Thread start. id=10060
+[15:33:57 707]:   Thread start. id=12988
+[15:33:57 713]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:33:57 713]:   address.index=f81d7870179c
+[15:36:23 505]:   SDK version:1.0.0.121
+[15:36:23 505]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:36:23 506]:   GD_MTC_SDK_Login
+[15:36:23 506]:   Into msgToThisServiceCoreAndWaitForResult
+[15:36:23 506]:   msg to ServiceCore msgId=0, pMsg=0
+[15:36:23 506]:   Thread start. id=12944
+[15:36:23 506]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:36:23 506]:   ServiceCore::login
+[15:36:23 506]:   SDK version:1.0.0.121
+[15:36:23 506]:   nDeviceType=5
+[15:36:23 506]:   Create Device: NET384x288
+[15:36:23 506]:   Thread start. id=14936
+[15:36:23 506]:   Thread start. id=20060
+[15:36:23 506]:   Thread start. id=20980
+[15:36:23 513]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:36:23 513]:   address.index=f81d7870179c
+[15:36:46 509]:   SDK version:1.0.0.121
+[15:36:46 509]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:36:46 510]:   Thread start. id=20932
+[15:36:46 510]:   GD_MTC_SDK_Login
+[15:36:46 510]:   Into msgToThisServiceCoreAndWaitForResult
+[15:36:46 510]:   msg to ServiceCore msgId=0, pMsg=0
+[15:36:46 510]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:36:46 524]:   ServiceCore::login
+[15:36:46 524]:   SDK version:1.0.0.121
+[15:36:46 524]:   nDeviceType=5
+[15:36:46 524]:   Create Device: NET384x288
+[15:36:46 524]:   Thread start. id=19192
+[15:36:46 524]:   Thread start. id=13352
+[15:36:46 525]:   Thread start. id=5760
+[15:36:46 530]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:36:46 530]:   address.index=f81d7870179c
+[15:48:24 541]:   SDK version:1.0.0.121
+[15:48:24 541]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:48:24 541]:   Thread start. id=20632
+[15:48:24 541]:   GD_MTC_SDK_Login
+[15:48:24 541]:   Into msgToThisServiceCoreAndWaitForResult
+[15:48:24 541]:   msg to ServiceCore msgId=0, pMsg=0
+[15:48:24 541]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:48:24 556]:   ServiceCore::login
+[15:48:24 556]:   SDK version:1.0.0.121
+[15:48:24 556]:   nDeviceType=5
+[15:48:24 556]:   Create Device: NET384x288
+[15:48:24 556]:   Thread start. id=1928
+[15:48:24 557]:   Thread start. id=3580
+[15:48:24 557]:   Thread start. id=14572
+[15:48:24 563]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:48:24 563]:   address.index=f81d7870179c
+[15:48:52 731]:   SDK version:1.0.0.121
+[15:48:52 731]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:48:52 731]:   Thread start. id=21948
+[15:48:52 731]:   GD_MTC_SDK_Login
+[15:48:52 731]:   Into msgToThisServiceCoreAndWaitForResult
+[15:48:52 731]:   msg to ServiceCore msgId=0, pMsg=0
+[15:48:52 731]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:48:52 734]:   ServiceCore::login
+[15:48:52 734]:   SDK version:1.0.0.121
+[15:48:52 734]:   nDeviceType=5
+[15:48:52 734]:   Create Device: NET384x288
+[15:48:52 734]:   Thread start. id=21952
+[15:48:52 734]:   Thread start. id=21956
+[15:48:52 734]:   Thread start. id=21960
+[15:49:01 077]:   SDK version:1.0.0.121
+[15:49:01 077]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:49:01 078]:   Thread start. id=21944
+[15:49:01 078]:   GD_MTC_SDK_Login
+[15:49:01 078]:   Into msgToThisServiceCoreAndWaitForResult
+[15:49:01 078]:   msg to ServiceCore msgId=0, pMsg=0
+[15:49:01 078]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:49:01 083]:   ServiceCore::login
+[15:49:01 083]:   SDK version:1.0.0.121
+[15:49:01 083]:   nDeviceType=5
+[15:49:01 083]:   Create Device: NET384x288
+[15:49:01 083]:   Thread start. id=21940
+[15:49:01 084]:   Thread start. id=21936
+[15:49:01 084]:   Thread start. id=21948
+[15:49:16 214]:   SDK version:1.0.0.121
+[15:49:16 214]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:49:16 215]:   GD_MTC_SDK_Login
+[15:49:16 215]:   Thread start. id=16212
+[15:49:16 215]:   Into msgToThisServiceCoreAndWaitForResult
+[15:49:16 215]:   msg to ServiceCore msgId=0, pMsg=0
+[15:49:16 215]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:49:16 221]:   ServiceCore::login
+[15:49:16 221]:   SDK version:1.0.0.121
+[15:49:16 221]:   nDeviceType=5
+[15:49:16 221]:   Create Device: NET384x288
+[15:49:16 221]:   Thread start. id=17948
+[15:49:16 222]:   Thread start. id=15148
+[15:49:16 222]:   Thread start. id=17636
+[15:49:16 228]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:49:16 228]:   address.index=f81d7870179c
+[15:49:41 929]:   SDK version:1.0.0.121
+[15:49:41 929]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:49:41 929]:   Thread start. id=16872
+[15:49:41 930]:   GD_MTC_SDK_Login
+[15:49:41 930]:   Into msgToThisServiceCoreAndWaitForResult
+[15:49:41 930]:   msg to ServiceCore msgId=0, pMsg=0
+[15:49:41 930]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:49:41 938]:   ServiceCore::login
+[15:49:41 939]:   SDK version:1.0.0.121
+[15:49:41 939]:   nDeviceType=5
+[15:49:41 939]:   Create Device: NET384x288
+[15:49:41 939]:   Thread start. id=21456
+[15:49:41 940]:   Thread start. id=22068
+[15:49:41 940]:   Thread start. id=21412
+[15:49:41 946]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:49:41 946]:   address.index=f81d7870179c
+[15:49:50 515]:   SDK version:1.0.0.121
+[15:49:50 515]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:49:50 515]:   Thread start. id=15408
+[15:49:50 515]:   GD_MTC_SDK_Login
+[15:49:50 515]:   Into msgToThisServiceCoreAndWaitForResult
+[15:49:50 515]:   msg to ServiceCore msgId=0, pMsg=0
+[15:49:50 515]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:49:50 525]:   ServiceCore::login
+[15:49:50 525]:   SDK version:1.0.0.121
+[15:49:50 525]:   nDeviceType=5
+[15:49:50 525]:   Create Device: NET384x288
+[15:49:50 526]:   Thread start. id=22092
+[15:49:50 526]:   Thread start. id=2944
+[15:49:50 526]:   Thread start. id=14576
+[15:49:50 532]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:49:50 532]:   address.index=f81d7870179c
+[15:56:07 848]:   SDK version:1.0.0.121
+[15:56:07 849]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:56:07 849]:   Thread start. id=13000
+[15:56:07 849]:   GD_MTC_SDK_Login
+[15:56:07 849]:   Into msgToThisServiceCoreAndWaitForResult
+[15:56:07 849]:   msg to ServiceCore msgId=0, pMsg=0
+[15:56:07 849]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:56:07 865]:   ServiceCore::login
+[15:56:07 865]:   SDK version:1.0.0.121
+[15:56:07 865]:   nDeviceType=5
+[15:56:07 865]:   Create Device: NET384x288
+[15:56:07 865]:   Thread start. id=17796
+[15:56:07 866]:   Thread start. id=20512
+[15:56:07 866]:   Thread start. id=22348
+[15:56:07 872]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:56:07 872]:   address.index=f81d7870179c
+[15:56:35 858]:   SDK version:1.0.0.121
+[15:56:35 858]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[15:56:35 858]:   GD_MTC_SDK_Login
+[15:56:35 858]:   Thread start. id=15652
+[15:56:35 858]:   Into msgToThisServiceCoreAndWaitForResult
+[15:56:35 858]:   msg to ServiceCore msgId=0, pMsg=0
+[15:56:35 858]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[15:56:35 874]:   ServiceCore::login
+[15:56:35 874]:   SDK version:1.0.0.121
+[15:56:35 874]:   nDeviceType=5
+[15:56:35 874]:   Create Device: NET384x288
+[15:56:35 874]:   Thread start. id=21792
+[15:56:35 875]:   Thread start. id=22468
+[15:56:35 875]:   Thread start. id=5256
+[15:56:35 881]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[15:56:35 881]:   address.index=f81d7870179c
+[16:00:25 653]:   SDK version:1.0.0.121
+[16:00:25 653]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[16:00:25 654]:   Thread start. id=21664
+[16:00:25 654]:   GD_MTC_SDK_Login
+[16:00:25 654]:   Into msgToThisServiceCoreAndWaitForResult
+[16:00:25 654]:   msg to ServiceCore msgId=0, pMsg=0
+[16:00:25 654]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[16:00:25 670]:   ServiceCore::login
+[16:00:25 670]:   SDK version:1.0.0.121
+[16:00:25 670]:   nDeviceType=5
+[16:00:25 670]:   Create Device: NET384x288
+[16:00:25 670]:   Thread start. id=2028
+[16:00:25 670]:   Thread start. id=21076
+[16:00:25 670]:   Thread start. id=13704
+[16:00:25 676]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[16:00:25 676]:   address.index=f81d7870179c
+[16:01:07 691]:   SDK version:1.0.0.121
+[16:01:07 692]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[16:01:07 693]:   Thread start. id=428
+[16:01:07 693]:   GD_MTC_SDK_Login
+[16:01:07 693]:   Into msgToThisServiceCoreAndWaitForResult
+[16:01:07 693]:   msg to ServiceCore msgId=0, pMsg=0
+[16:01:07 693]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[16:01:07 703]:   ServiceCore::login
+[16:01:07 703]:   SDK version:1.0.0.121
+[16:01:07 703]:   nDeviceType=5
+[16:01:07 703]:   Create Device: NET384x288
+[16:01:07 704]:   Thread start. id=20848
+[16:01:07 705]:   Thread start. id=21628
+[16:01:07 705]:   Thread start. id=21428
+[16:01:07 811]:   IRDeviceSearch:  address_str=[index:f81d7870179c  ip:192.168.1.168 ip_netmask:255.255.255.0 ip_gateway:192.168.1.1 ip_dnsip:192.168.1.1]
+[16:01:07 811]:   address.index=f81d7870179c
