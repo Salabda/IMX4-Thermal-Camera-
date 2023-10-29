@@ -141,15 +141,15 @@ int CALLBACK rgbCallbackFunc(const GD_MTC_CALLBACK_RGBInfo* RGBInfo, void* pUser
 	int w = RGBInfo->ImgWidth;
 	int h = RGBInfo->ImgHeight;
 	if (h == 0 || w == 0) {
-		cout << " -----------------------rgbCallbackFunc EMPTY IMAGE	w=	" << RGBInfo->ImgWidth << endl;
+		//cout << " -----------------------rgbCallbackFunc EMPTY IMAGE	w=	" << RGBInfo->ImgWidth << endl;
 		return 1; }
 	cv::Mat combinedImage(RGBInfo->ImgHeight, RGBInfo->ImgWidth, CV_8UC3, RGBInfo->RGBData);
 	if(combinedImage.empty())
 	{
-		cout << " -----------------------rgbCallbackFunc EMPTY IMAGE	w=	" << RGBInfo->ImgWidth << endl;
+		//cout << " -----------------------rgbCallbackFunc EMPTY IMAGE	w=	" << RGBInfo->ImgWidth << endl;
 	}
 	else {
-		cout << " --------------------------rgbCallbackFunc	w= " << RGBInfo->ImgWidth << endl;
+		//cout << " --------------------------rgbCallbackFunc	w= " << RGBInfo->ImgWidth << endl;
 		cv::imshow("Camera Feed", combinedImage);
 		cv::waitKey(1);
 	}
@@ -186,6 +186,7 @@ int CALLBACK y16CallbackFunc(const GD_MTC_CALLBACK_Y16Info* pY16Info, void* pUse
 
 	if (h == 0 || w == 0) { 
 		cout << " -----------------------y16CallbackFunc EMPTY Matrix	w=	" << pY16Info->ImgWidth << endl;
+
 		delete[] pTempMatrix; // Clean up dynamically allocated memory
 		return 1; }
 
@@ -193,7 +194,8 @@ int CALLBACK y16CallbackFunc(const GD_MTC_CALLBACK_Y16Info* pY16Info, void* pUse
 	if (0 == GD_MTC_SDK_GetTempMatrix(pY16Info->pOpque, pTempMatrix)) { 
 
 		if (pTempMatrix) {
-			cout << " -----------------y16CallbackFunc TEMP MATRIX	pTempMatrix=[" << pTempMatrix[0] << "]" << endl;
+			//cout << " -----------------y16CallbackFunc TEMP MATRIX	pTempMatrix=[" << pTempMatrix[0] << "]" << endl;
+			
 			logFloatsToMatrixFile(pTempMatrix);
 
 			logFloatsToMatrixBin(pTempMatrix, w*h);
