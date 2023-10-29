@@ -1,0 +1,1744 @@
+Fri Oct 27 18:07:39 2023
+    Temperature Matrix  000002180AA21620
+Fri Oct 27 18:07:39 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:39 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:40 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:40 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:41 2023
+    Temperature Matrix  0000021809625040
+Fri Oct 27 18:07:41 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:41 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:42 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:42 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:42 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:43 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:43 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:43 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:44 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:44 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:45 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:45 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:45 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:46 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:46 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:46 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:47 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:47 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:47 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:48 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:48 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:48 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:49 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:49 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:50 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:50 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:50 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:51 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:51 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:51 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:52 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:52 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:52 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:53 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:53 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:54 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:54 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:54 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:55 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:55 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:55 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:56 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:07:56 2023
+    Temperature Matrix  00000218096E2310
+Fri Oct 27 18:08:03 2023
+    Temperature Matrix  0000021816FD4E80
+Fri Oct 27 18:08:03 2023
+    Temperature Matrix  0000021816FD4E80
+Fri Oct 27 18:08:03 2023
+    Temperature Matrix  0000021816FD4E80
+Fri Oct 27 18:08:04 2023
+    Temperature Matrix  0000021816FD4E80
+Fri Oct 27 18:08:04 2023
+    Temperature Matrix  0000021816FD4E80
+Fri Oct 27 18:08:04 2023
+    Temperature Matrix  00000218153568A0
+Fri Oct 27 18:08:10 2023
+    Temperature Matrix  0000021818559AB0
+Fri Oct 27 18:08:11 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:11 2023
+    Temperature Matrix  00000218165CD120
+Fri Oct 27 18:08:11 2023
+    Temperature Matrix  0000021816D95040
+Fri Oct 27 18:08:12 2023
+    Temperature Matrix  00000218156FFBB0
+Fri Oct 27 18:08:12 2023
+    Temperature Matrix  00000218156FFBB0
+Fri Oct 27 18:08:12 2023
+    Temperature Matrix  00000218156FFBB0
+Fri Oct 27 18:08:13 2023
+    Temperature Matrix  00000218156FFBB0
+Fri Oct 27 18:08:13 2023
+    Temperature Matrix  0000021815666A50
+Fri Oct 27 18:08:13 2023
+    Temperature Matrix  00000218151BF030
+Fri Oct 27 18:08:14 2023
+    Temperature Matrix  0000021815A987A0
+Fri Oct 27 18:08:14 2023
+    Temperature Matrix  0000021816D95040
+Fri Oct 27 18:08:14 2023
+    Temperature Matrix  0000021816D95040
+Fri Oct 27 18:08:15 2023
+    Temperature Matrix  0000021816D95040
+Fri Oct 27 18:08:15 2023
+    Temperature Matrix  0000021816D95040
+Fri Oct 27 18:08:15 2023
+    Temperature Matrix  0000021816D95040
+Fri Oct 27 18:08:16 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:16 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:16 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:17 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:17 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:18 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:18 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:18 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:19 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:19 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:19 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:20 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:20 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:20 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:21 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:21 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:22 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:22 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:22 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:23 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:23 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:23 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:24 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:24 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:24 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:25 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:25 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:25 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:26 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:26 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:26 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:27 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:27 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:28 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:28 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:29 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:29 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:29 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:30 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:30 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:31 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:31 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:31 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:32 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:32 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:32 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:33 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:33 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:33 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:34 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:34 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:34 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:35 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:35 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:36 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:36 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:36 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:37 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:37 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:37 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:38 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:38 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:39 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:39 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:39 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:40 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:40 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:40 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:41 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:41 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:42 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:42 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:42 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:43 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:43 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:43 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:44 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:44 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:44 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:45 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:45 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:46 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:46 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:46 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:47 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:47 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:47 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:48 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:48 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:48 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:49 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:49 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:50 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:50 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:50 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:51 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:51 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:51 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:52 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:52 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:53 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:53 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:53 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:54 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:54 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:54 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:55 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:55 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:55 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:56 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:56 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:57 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:57 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:57 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:58 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:58 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:58 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:59 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:59 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:08:59 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:09:00 2023
+    Temperature Matrix  00000218163C00B0
+Fri Oct 27 18:09:01 2023
+    Temperature Matrix  00000218163C00B0
+Sun Oct 29 18:45:10 2023
+    Temperature Matrix  00000151EE1A9C90
+Sun Oct 29 18:45:11 2023
+    Temperature Matrix  00000151EB355E30
+Sun Oct 29 18:45:11 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:11 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:12 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:12 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:12 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:13 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:13 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:13 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:14 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:14 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:15 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:15 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:15 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:16 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:16 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:16 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:17 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:17 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:18 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:18 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:18 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:19 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:19 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:19 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:20 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:20 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:20 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:21 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:21 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:21 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:22 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:22 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:23 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:23 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:23 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:24 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:24 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:24 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:25 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:25 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:25 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:26 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:26 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:27 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:27 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:27 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:28 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:28 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:28 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:29 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:29 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:29 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:30 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:30 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:31 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:31 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:31 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:32 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:32 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:32 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:33 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:33 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:33 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:34 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:34 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:34 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:35 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:35 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:36 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:36 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:36 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:37 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:37 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:37 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:38 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:38 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:39 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:39 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:39 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:40 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:40 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:40 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:41 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:41 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:41 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:42 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:42 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:42 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:43 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:43 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:44 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:44 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:44 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:45 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:45 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:45 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:46 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:46 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:46 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:47 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:47 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:48 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:48 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:48 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:49 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:49 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:49 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:50 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:50 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:50 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:51 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:51 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:52 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:52 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:52 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:53 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:53 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:53 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:54 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:54 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:55 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:55 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:55 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:56 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:56 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:56 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:57 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:57 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:58 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:58 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:58 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:59 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:59 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:45:59 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:00 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:00 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:00 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:01 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:01 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:02 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:02 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:02 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:03 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:03 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:03 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:04 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:04 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:04 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:05 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:05 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:06 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:06 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:06 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:07 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:07 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:07 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:08 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:08 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:08 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:09 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:09 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:09 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:10 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:10 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:11 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:11 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:11 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:12 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:12 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:12 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:13 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:13 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:13 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:14 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:14 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:15 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:15 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:15 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:16 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:16 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:16 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:17 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:17 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:18 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:18 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:18 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:19 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:19 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:19 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:20 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:20 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:21 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:21 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:21 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:22 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:22 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:23 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:23 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:23 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:24 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:24 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:24 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:25 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:25 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:25 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:26 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:26 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:27 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:46:27 2023
+    Temperature Matrix  00000151EDD2D450
+Sun Oct 29 18:54:24 2023
+    Temperature Matrix  000001719AF80B00
+Sun Oct 29 18:54:24 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:24 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:25 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:25 2023
+    Temperature Matrix  000001719CFA00B0
+Sun Oct 29 18:54:25 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:26 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:26 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:26 2023
+    Temperature Matrix  000001719CFA00B0
+Sun Oct 29 18:54:27 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:27 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:28 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:28 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:28 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:29 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:29 2023
+    Temperature Matrix  000001719AEF94E0
+Sun Oct 29 18:54:32 2023
+    Temperature Matrix  000001719DB422F0
+Sun Oct 29 18:54:32 2023
+    Temperature Matrix  000001719B0B4080
+Sun Oct 29 18:54:33 2023
+    Temperature Matrix  000001719B0B4080
+Sun Oct 29 18:54:33 2023
+    Temperature Matrix  000001719ACC4220
+Sun Oct 29 18:57:29 2023
+    Temperature Matrix  000002610AEDD520
+Sun Oct 29 18:57:30 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:30 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:30 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:31 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:31 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:32 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:32 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:32 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:33 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:33 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:33 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:34 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:34 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:34 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:35 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:35 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:36 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:36 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:36 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:37 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:37 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:37 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:38 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:38 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:38 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 18:57:39 2023
+    Temperature Matrix  000002610ADFBB10
+Sun Oct 29 19:01:59 2023
+    Temperature Matrix  000001D849C96EA0
+Sun Oct 29 19:02:00 2023
+    Temperature Matrix  000001D849C60E90
+Sun Oct 29 19:02:00 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:01 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:01 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:01 2023
+    Temperature Matrix  000001D849C60E90
+Sun Oct 29 19:02:02 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:02 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:02 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:03 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:03 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:03 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:04 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:04 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:05 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:05 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:05 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:06 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:06 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:06 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:07 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:07 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:07 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:08 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:08 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:09 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:09 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:09 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:10 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:10 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:10 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:11 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:11 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:11 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:12 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:12 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:13 2023
+    Temperature Matrix  000001D849C60E90
+Sun Oct 29 19:02:13 2023
+    Temperature Matrix  000001D849C60E90
+Sun Oct 29 19:02:13 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:14 2023
+    Temperature Matrix  000001D84A080040
+Sun Oct 29 19:02:14 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:14 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:15 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:15 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:15 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:16 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:16 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:16 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:17 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:17 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:18 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:18 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:18 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:19 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:19 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:19 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:20 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:20 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:20 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:21 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:21 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:21 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:22 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:22 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:23 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:23 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:23 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:24 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:24 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:24 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:25 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:25 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:02:25 2023
+    Temperature Matrix  000001D849C0FE80
+Sun Oct 29 19:03:10 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:11 2023
+    Temperature Matrix  0000028352A48050
+Sun Oct 29 19:03:11 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:11 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:12 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:12 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:12 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:13 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:13 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:13 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:14 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:14 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:15 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:15 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:15 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:16 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:16 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:16 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:17 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:17 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:17 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:18 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:18 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:19 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:19 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:19 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:20 2023
+    Temperature Matrix  0000028352922F30
+Sun Oct 29 19:03:20 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:20 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:21 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:21 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:21 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:22 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:22 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:22 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:23 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:23 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:24 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:24 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:24 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:25 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:25 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:25 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:26 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:26 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:26 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:27 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:27 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:28 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:28 2023
+    Temperature Matrix  0000028352974BA0
+Sun Oct 29 19:03:28 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:29 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:29 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:29 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:30 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:30 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:30 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:31 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:31 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:32 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:32 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:32 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:33 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:33 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:33 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:34 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:34 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:34 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:35 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:35 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:35 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:36 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:36 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:37 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:37 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:37 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:38 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:38 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:38 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:39 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:39 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:40 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:40 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:40 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:41 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:41 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:41 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:42 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:42 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:42 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:43 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:43 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:44 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:44 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:44 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:45 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:45 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:45 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:46 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:46 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:47 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:47 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:47 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:48 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:48 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:48 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:49 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:49 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:49 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:50 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:50 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:51 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:51 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:51 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:52 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:52 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:52 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:53 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:53 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:53 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:54 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:54 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:54 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:55 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:55 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:56 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:03:56 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:56 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:03:57 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:57 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:57 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:58 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:58 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:59 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:59 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:03:59 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:00 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:00 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:00 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:01 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:01 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:02 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:02 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:02 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:03 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:03 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:03 2023
+    Temperature Matrix  0000028352974BA0
+Sun Oct 29 19:04:04 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:04 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:04 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:05 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:05 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:06 2023
+    Temperature Matrix  0000028352974BA0
+Sun Oct 29 19:04:06 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:06 2023
+    Temperature Matrix  0000028352974BA0
+Sun Oct 29 19:04:07 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:07 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:07 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:08 2023
+    Temperature Matrix  0000028352974BA0
+Sun Oct 29 19:04:08 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:08 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:09 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:09 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:09 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:10 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:10 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:11 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:11 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:11 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:12 2023
+    Temperature Matrix  0000028352974BA0
+Sun Oct 29 19:04:12 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:12 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:13 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:13 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:13 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:14 2023
+    Temperature Matrix  0000028352974BA0
+Sun Oct 29 19:04:14 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:14 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:15 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:15 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:16 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:16 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:16 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:17 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:17 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:17 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:18 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:18 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:19 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:19 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:19 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:20 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:20 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:20 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:21 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:21 2023
+    Temperature Matrix  00000283528D1F20
+Sun Oct 29 19:04:21 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:22 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:22 2023
+    Temperature Matrix  0000028352ADB050
+Sun Oct 29 19:04:23 2023
+    Temperature Matrix  0000028352AC0050
+Sun Oct 29 19:04:23 2023
+    Temperature Matrix  0000028352C420D0
+Sun Oct 29 19:04:24 2023
+    Temperature Matrix  000002835293EB90
+Sun Oct 29 19:04:37 2023
+    Temperature Matrix  0000027EF7CD7AC0
+Sun Oct 29 19:04:37 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:37 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:38 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:38 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:38 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:39 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:39 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:40 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:40 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:40 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:41 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:04:41 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:41 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:42 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:42 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:42 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:43 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:43 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:44 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:44 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:44 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:45 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:45 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:45 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:46 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:46 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:46 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:47 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:47 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:47 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:48 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:04:48 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:49 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:49 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:49 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:50 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:50 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:50 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:51 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:51 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:52 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:52 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:52 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:53 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:53 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:53 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:54 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:54 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:54 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:55 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:55 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:56 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:56 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:56 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:57 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:57 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:57 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:58 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:58 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:58 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:59 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:04:59 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:00 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:00 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:00 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:01 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:01 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:01 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:02 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:02 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:02 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:03 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:03 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:03 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:04 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:04 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:05 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:05 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:05 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:06 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:06 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:06 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:07 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:07 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:08 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:08 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:08 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:09 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:09 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:09 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:10 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:10 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:10 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:11 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:11 2023
+    Temperature Matrix  0000027EF7D44B40
+Sun Oct 29 19:05:11 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:12 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:12 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:13 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:13 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:13 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:14 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:14 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:14 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:15 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:15 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:15 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:16 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:16 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:17 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:17 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:17 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:18 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:18 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:18 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:19 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:19 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:19 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:20 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:20 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:21 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:21 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:21 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:22 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:22 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:22 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:23 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:23 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:23 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:24 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:24 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:25 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:25 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:25 2023
+    Temperature Matrix  0000027EF8F900B0
+Sun Oct 29 19:05:26 2023
+    Temperature Matrix  0000027EF7D44B40
+Sun Oct 29 19:05:26 2023
+    Temperature Matrix  0000027EF8F900B0
+Sun Oct 29 19:05:26 2023
+    Temperature Matrix  0000027EF8147AD0
+Sun Oct 29 19:05:27 2023
+    Temperature Matrix  0000027EF7D44B40
+Sun Oct 29 19:05:27 2023
+    Temperature Matrix  0000027EF7CD74C0
+Sun Oct 29 19:05:27 2023
+    Temperature Matrix  0000027EF7D44B40
+Sun Oct 29 19:05:28 2023
+    Temperature Matrix  0000027EF7D44B40
+Sun Oct 29 19:05:28 2023
+    Temperature Matrix  0000027EF8F900B0
+Sun Oct 29 19:05:28 2023
+    Temperature Matrix  0000027EF7D44F50
+Sun Oct 29 19:05:29 2023
+    Temperature Matrix  0000027EF8F900B0
+Sun Oct 29 19:05:29 2023
+    Temperature Matrix  0000027EF8F900B0

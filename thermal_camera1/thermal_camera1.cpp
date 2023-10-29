@@ -73,8 +73,6 @@ void logFloatsToMatrixFile(float* TempMatrix) {
 }
 
 
-
-
 void logFloatsToMatrixBin(float* pTempMatrix, int dataSize) {
 	auto currentTimeMatrix = std::chrono::system_clock::now();
 	auto timeDiffMatrix = std::chrono::duration_cast<std::chrono::milliseconds>(currentTimeMatrix - lastLogTimeMatrix);
@@ -100,8 +98,6 @@ void logFloatsToMatrixBin(float* pTempMatrix, int dataSize) {
 }
 
 
-
-
 void logFloatsToMaxTempFile(GD_MTC_TempPointInfo PointMax) {
 	auto currentTime = std::chrono::system_clock::now();
 
@@ -109,31 +105,35 @@ void logFloatsToMaxTempFile(GD_MTC_TempPointInfo PointMax) {
 
 	const int minTimeIntervalMs = 332;
 	if (timeDiff.count() >= minTimeIntervalMs) {
-		// Open the output file
-		std::ofstream MaxTempFile("Output/MarioLogs/MaxTempFile.txt", std::ios::app);
+		std::tm timeInfo;
+		std::time_t timestamp = std::chrono::system_clock::to_time_t(currentTime);
+
+		if (localtime_s(&timeInfo, &timestamp) != 0) {
+			std::cerr << "Failed to get local time." << std::endl;
+			return;
+		}
+
+		char filename[50];
+		// Create a CSV file with the date as the name (e.g., "2023-10-29.csv")
+		std::strftime(filename, sizeof(filename), "Output/MarioLogs/%Y-%m-%d.csv", &timeInfo);
+
+		// Open the output CSV file
+		std::ofstream MaxTempFile(filename, std::ios::app);
 
 		if (!MaxTempFile.is_open()) {
 			std::cerr << "Failed to open the output file." << std::endl;
 			return;
 		}
 
-		std::time_t timestamp = std::chrono::system_clock::to_time_t(currentTime);
-		char timestampStr[26];
-		if (ctime_s(timestampStr, sizeof(timestampStr), &timestamp) != 0) {
-			std::cerr << "Failed to format timestamp." << std::endl;
-			MaxTempFile.close();
-			return;
-		}
+		char timestampStr[14]; // Format for time without year, month, and date
+		std::strftime(timestampStr, sizeof(timestampStr), "%H:%M:%S", &timeInfo);
 
-		MaxTempFile << timestampStr << "    Max Temp   X = " << PointMax.PointX << "    Y = " << PointMax.PointY << "    temp = " << PointMax.PointTemp << std::endl;
+		MaxTempFile << timestampStr << ","<< "temp = " << PointMax.PointTemp <<"," << "X = " << PointMax.PointX << "," << "Y = " << PointMax.PointY << std::endl;
 		MaxTempFile.close();
 
 		lastLogTime = currentTime;
 	}
 }
-
-
-
 
 
 int CALLBACK rgbCallbackFunc(const GD_MTC_CALLBACK_RGBInfo* RGBInfo, void* pUser) {
@@ -174,7 +174,6 @@ int RGBvideofeed() {
 	}
 	return 1;
 }
-
 
 
 int CALLBACK y16CallbackFunc(const GD_MTC_CALLBACK_Y16Info* pY16Info, void* pUser)

@@ -1,0 +1,808 @@
+Fri Oct 27 18:07:39 2023
+    Max Temp   X = 308    Y = 5    temp = 25.4866
+Fri Oct 27 18:07:39 2023
+    Max Temp   X = 370    Y = 5    temp = 25.4866
+Fri Oct 27 18:07:39 2023
+    Max Temp   X = 332    Y = 5    temp = 25.4866
+Fri Oct 27 18:07:40 2023
+    Max Temp   X = 369    Y = 3    temp = 25.4866
+Fri Oct 27 18:07:40 2023
+    Max Temp   X = 370    Y = 8    temp = 25.4866
+Fri Oct 27 18:07:41 2023
+    Max Temp   X = 309    Y = 1    temp = 25.2556
+Fri Oct 27 18:07:41 2023
+    Max Temp   X = 305    Y = 1    temp = 25.4866
+Fri Oct 27 18:07:41 2023
+    Max Temp   X = 381    Y = 8    temp = 25.8331
+Fri Oct 27 18:07:42 2023
+    Max Temp   X = 349    Y = 12    temp = 25.8331
+Fri Oct 27 18:07:42 2023
+    Max Temp   X = 332    Y = 5    temp = 25.8331
+Fri Oct 27 18:07:42 2023
+    Max Temp   X = 379    Y = 9    temp = 25.8331
+Fri Oct 27 18:07:43 2023
+    Max Temp   X = 310    Y = 1    temp = 25.8331
+Fri Oct 27 18:07:43 2023
+    Max Temp   X = 328    Y = 3    temp = 25.8331
+Fri Oct 27 18:07:43 2023
+    Max Temp   X = 309    Y = 5    temp = 26.0642
+Fri Oct 27 18:07:44 2023
+    Max Temp   X = 332    Y = 3    temp = 26.0642
+Fri Oct 27 18:07:44 2023
+    Max Temp   X = 309    Y = 1    temp = 26.0642
+Fri Oct 27 18:07:45 2023
+    Max Temp   X = 332    Y = 5    temp = 26.0642
+Fri Oct 27 18:07:45 2023
+    Max Temp   X = 332    Y = 5    temp = 26.0642
+Fri Oct 27 18:07:45 2023
+    Max Temp   X = 308    Y = 2    temp = 25.8331
+Fri Oct 27 18:07:46 2023
+    Max Temp   X = 87    Y = 127    temp = 36.9146
+Fri Oct 27 18:07:46 2023
+    Max Temp   X = 15    Y = 98    temp = 46.4833
+Fri Oct 27 18:07:46 2023
+    Max Temp   X = 15    Y = 98    temp = 46.7137
+Fri Oct 27 18:07:47 2023
+    Max Temp   X = 23    Y = 1    temp = 37.9526
+Fri Oct 27 18:07:47 2023
+    Max Temp   X = 1    Y = 8    temp = 38.6447
+Fri Oct 27 18:07:47 2023
+    Max Temp   X = 369    Y = 5    temp = 38.414
+Fri Oct 27 18:07:48 2023
+    Max Temp   X = 304    Y = 1    temp = 38.1833
+Fri Oct 27 18:07:48 2023
+    Max Temp   X = 331    Y = 1    temp = 37.9526
+Fri Oct 27 18:07:48 2023
+    Max Temp   X = 259    Y = 40    temp = 37.9526
+Fri Oct 27 18:07:49 2023
+    Max Temp   X = 255    Y = 41    temp = 37.9526
+Fri Oct 27 18:07:49 2023
+    Max Temp   X = 328    Y = 2    temp = 38.8753
+Fri Oct 27 18:07:50 2023
+    Max Temp   X = 282    Y = 9    temp = 38.414
+Fri Oct 27 18:07:50 2023
+    Max Temp   X = 221    Y = 14    temp = 38.414
+Fri Oct 27 18:07:50 2023
+    Max Temp   X = 144    Y = 1    temp = 38.6447
+Fri Oct 27 18:07:51 2023
+    Max Temp   X = 109    Y = 1    temp = 38.414
+Fri Oct 27 18:07:51 2023
+    Max Temp   X = 59    Y = 48    temp = 38.1833
+Fri Oct 27 18:07:51 2023
+    Max Temp   X = 109    Y = 1    temp = 38.414
+Fri Oct 27 18:07:52 2023
+    Max Temp   X = 98    Y = 1    temp = 38.414
+Fri Oct 27 18:07:52 2023
+    Max Temp   X = 95    Y = 1    temp = 38.414
+Fri Oct 27 18:07:52 2023
+    Max Temp   X = 94    Y = 1    temp = 38.6447
+Fri Oct 27 18:07:53 2023
+    Max Temp   X = 95    Y = 1    temp = 38.414
+Fri Oct 27 18:07:53 2023
+    Max Temp   X = 95    Y = 1    temp = 38.414
+Fri Oct 27 18:07:54 2023
+    Max Temp   X = 104    Y = 8    temp = 37.722
+Fri Oct 27 18:07:54 2023
+    Max Temp   X = 112    Y = 3    temp = 37.9526
+Fri Oct 27 18:07:54 2023
+    Max Temp   X = 60    Y = 31    temp = 37.3759
+Fri Oct 27 18:07:55 2023
+    Max Temp   X = 123    Y = 5    temp = 38.6447
+Fri Oct 27 18:07:55 2023
+    Max Temp   X = 122    Y = 6    temp = 38.8753
+Fri Oct 27 18:07:55 2023
+    Max Temp   X = 134    Y = 1    temp = 38.8753
+Fri Oct 27 18:07:56 2023
+    Max Temp   X = 133    Y = 7    temp = 38.6447
+Fri Oct 27 18:07:56 2023
+    Max Temp   X = 133    Y = 7    temp = 38.6447
+Fri Oct 27 18:08:03 2023
+    Max Temp   X = 131    Y = 7    temp = 38.6447
+Fri Oct 27 18:08:03 2023
+    Max Temp   X = 131    Y = 7    temp = 38.8753
+Fri Oct 27 18:08:03 2023
+    Max Temp   X = 130    Y = 5    temp = 37.722
+Fri Oct 27 18:08:04 2023
+    Max Temp   X = 126    Y = 1    temp = 37.722
+Fri Oct 27 18:08:04 2023
+    Max Temp   X = 124    Y = 9    temp = 37.722
+Fri Oct 27 18:08:04 2023
+    Max Temp   X = 127    Y = 7    temp = 37.722
+Fri Oct 27 18:08:10 2023
+    Max Temp   X = 127    Y = 7    temp = 37.722
+Fri Oct 27 18:08:11 2023
+    Max Temp   X = 125    Y = 10    temp = 37.722
+Fri Oct 27 18:08:11 2023
+    Max Temp   X = 125    Y = 10    temp = 37.722
+Fri Oct 27 18:08:11 2023
+    Max Temp   X = 125    Y = 9    temp = 37.3759
+Fri Oct 27 18:08:12 2023
+    Max Temp   X = 127    Y = 12    temp = 37.3759
+Fri Oct 27 18:08:12 2023
+    Max Temp   X = 127    Y = 10    temp = 37.722
+Fri Oct 27 18:08:12 2023
+    Max Temp   X = 128    Y = 11    temp = 37.9526
+Fri Oct 27 18:08:13 2023
+    Max Temp   X = 126    Y = 10    temp = 37.722
+Fri Oct 27 18:08:13 2023
+    Max Temp   X = 126    Y = 11    temp = 37.722
+Fri Oct 27 18:08:13 2023
+    Max Temp   X = 127    Y = 10    temp = 37.722
+Fri Oct 27 18:08:14 2023
+    Max Temp   X = 130    Y = 8    temp = 37.722
+Fri Oct 27 18:08:14 2023
+    Max Temp   X = 127    Y = 9    temp = 37.3759
+Fri Oct 27 18:08:14 2023
+    Max Temp   X = 129    Y = 12    temp = 37.722
+Fri Oct 27 18:08:15 2023
+    Max Temp   X = 128    Y = 11    temp = 37.722
+Fri Oct 27 18:08:15 2023
+    Max Temp   X = 133    Y = 11    temp = 37.3759
+Fri Oct 27 18:08:15 2023
+    Max Temp   X = 134    Y = 11    temp = 37.3759
+Fri Oct 27 18:08:16 2023
+    Max Temp   X = 137    Y = 11    temp = 37.722
+Fri Oct 27 18:08:16 2023
+    Max Temp   X = 134    Y = 19    temp = 37.3759
+Fri Oct 27 18:08:16 2023
+    Max Temp   X = 137    Y = 19    temp = 37.722
+Fri Oct 27 18:08:17 2023
+    Max Temp   X = 134    Y = 16    temp = 37.3759
+Fri Oct 27 18:08:17 2023
+    Max Temp   X = 135    Y = 14    temp = 37.722
+Fri Oct 27 18:08:18 2023
+    Max Temp   X = 133    Y = 11    temp = 37.722
+Fri Oct 27 18:08:18 2023
+    Max Temp   X = 134    Y = 11    temp = 37.722
+Fri Oct 27 18:08:18 2023
+    Max Temp   X = 133    Y = 16    temp = 37.722
+Fri Oct 27 18:08:19 2023
+    Max Temp   X = 132    Y = 13    temp = 37.722
+Fri Oct 27 18:08:19 2023
+    Max Temp   X = 132    Y = 13    temp = 37.722
+Fri Oct 27 18:08:19 2023
+    Max Temp   X = 134    Y = 11    temp = 37.722
+Fri Oct 27 18:08:20 2023
+    Max Temp   X = 134    Y = 11    temp = 37.722
+Fri Oct 27 18:08:20 2023
+    Max Temp   X = 130    Y = 14    temp = 37.3759
+Fri Oct 27 18:08:20 2023
+    Max Temp   X = 137    Y = 19    temp = 37.722
+Fri Oct 27 18:08:21 2023
+    Max Temp   X = 133    Y = 11    temp = 37.722
+Fri Oct 27 18:08:21 2023
+    Max Temp   X = 133    Y = 16    temp = 37.722
+Fri Oct 27 18:08:22 2023
+    Max Temp   X = 133    Y = 17    temp = 37.722
+Fri Oct 27 18:08:22 2023
+    Max Temp   X = 132    Y = 17    temp = 37.722
+Fri Oct 27 18:08:22 2023
+    Max Temp   X = 132    Y = 17    temp = 37.9526
+Fri Oct 27 18:08:23 2023
+    Max Temp   X = 132    Y = 13    temp = 37.9526
+Fri Oct 27 18:08:23 2023
+    Max Temp   X = 135    Y = 14    temp = 37.9526
+Fri Oct 27 18:08:23 2023
+    Max Temp   X = 132    Y = 13    temp = 37.9526
+Fri Oct 27 18:08:24 2023
+    Max Temp   X = 130    Y = 14    temp = 37.9526
+Fri Oct 27 18:08:24 2023
+    Max Temp   X = 131    Y = 20    temp = 37.9526
+Fri Oct 27 18:08:24 2023
+    Max Temp   X = 134    Y = 19    temp = 38.1833
+Fri Oct 27 18:08:25 2023
+    Max Temp   X = 137    Y = 19    temp = 38.1833
+Fri Oct 27 18:08:25 2023
+    Max Temp   X = 134    Y = 19    temp = 37.9526
+Fri Oct 27 18:08:25 2023
+    Max Temp   X = 136    Y = 22    temp = 38.1833
+Fri Oct 27 18:08:26 2023
+    Max Temp   X = 132    Y = 20    temp = 38.1833
+Fri Oct 27 18:08:26 2023
+    Max Temp   X = 137    Y = 21    temp = 38.1833
+Fri Oct 27 18:08:26 2023
+    Max Temp   X = 136    Y = 20    temp = 38.1833
+Fri Oct 27 18:08:27 2023
+    Max Temp   X = 137    Y = 19    temp = 38.1833
+Fri Oct 27 18:08:27 2023
+    Max Temp   X = 137    Y = 19    temp = 38.1833
+Fri Oct 27 18:08:28 2023
+    Max Temp   X = 137    Y = 19    temp = 38.1833
+Fri Oct 27 18:08:28 2023
+    Max Temp   X = 137    Y = 19    temp = 38.1833
+Fri Oct 27 18:08:29 2023
+    Max Temp   X = 139    Y = 16    temp = 37.1453
+Fri Oct 27 18:08:29 2023
+    Max Temp   X = 134    Y = 18    temp = 36.9146
+Fri Oct 27 18:08:29 2023
+    Max Temp   X = 135    Y = 15    temp = 37.1453
+Fri Oct 27 18:08:30 2023
+    Max Temp   X = 139    Y = 16    temp = 37.1453
+Fri Oct 27 18:08:30 2023
+    Max Temp   X = 134    Y = 15    temp = 36.9146
+Fri Oct 27 18:08:31 2023
+    Max Temp   X = 136    Y = 15    temp = 37.1453
+Fri Oct 27 18:08:31 2023
+    Max Temp   X = 133    Y = 15    temp = 36.9146
+Fri Oct 27 18:08:31 2023
+    Max Temp   X = 133    Y = 18    temp = 37.1453
+Fri Oct 27 18:08:32 2023
+    Max Temp   X = 139    Y = 16    temp = 37.1453
+Fri Oct 27 18:08:32 2023
+    Max Temp   X = 139    Y = 16    temp = 37.1453
+Fri Oct 27 18:08:32 2023
+    Max Temp   X = 140    Y = 16    temp = 37.1453
+Fri Oct 27 18:08:33 2023
+    Max Temp   X = 137    Y = 18    temp = 36.9146
+Fri Oct 27 18:08:33 2023
+    Max Temp   X = 138    Y = 18    temp = 36.9146
+Fri Oct 27 18:08:33 2023
+    Max Temp   X = 143    Y = 16    temp = 37.1453
+Fri Oct 27 18:08:34 2023
+    Max Temp   X = 135    Y = 24    temp = 36.9146
+Fri Oct 27 18:08:34 2023
+    Max Temp   X = 136    Y = 24    temp = 36.9146
+Fri Oct 27 18:08:34 2023
+    Max Temp   X = 135    Y = 21    temp = 36.9146
+Fri Oct 27 18:08:35 2023
+    Max Temp   X = 136    Y = 18    temp = 36.9146
+Fri Oct 27 18:08:35 2023
+    Max Temp   X = 142    Y = 18    temp = 37.1453
+Fri Oct 27 18:08:36 2023
+    Max Temp   X = 138    Y = 18    temp = 36.9146
+Fri Oct 27 18:08:36 2023
+    Max Temp   X = 135    Y = 21    temp = 36.9146
+Fri Oct 27 18:08:36 2023
+    Max Temp   X = 134    Y = 23    temp = 36.9146
+Fri Oct 27 18:08:37 2023
+    Max Temp   X = 135    Y = 21    temp = 36.9146
+Fri Oct 27 18:08:37 2023
+    Max Temp   X = 139    Y = 16    temp = 37.1453
+Fri Oct 27 18:08:37 2023
+    Max Temp   X = 135    Y = 24    temp = 36.9146
+Fri Oct 27 18:08:38 2023
+    Max Temp   X = 141    Y = 17    temp = 37.1453
+Fri Oct 27 18:08:38 2023
+    Max Temp   X = 134    Y = 18    temp = 36.9146
+Fri Oct 27 18:08:39 2023
+    Max Temp   X = 135    Y = 21    temp = 37.1453
+Fri Oct 27 18:08:39 2023
+    Max Temp   X = 133    Y = 24    temp = 37.1453
+Fri Oct 27 18:08:39 2023
+    Max Temp   X = 135    Y = 21    temp = 37.1453
+Fri Oct 27 18:08:40 2023
+    Max Temp   X = 137    Y = 18    temp = 37.1453
+Fri Oct 27 18:08:40 2023
+    Max Temp   X = 136    Y = 24    temp = 37.1453
+Fri Oct 27 18:08:40 2023
+    Max Temp   X = 135    Y = 21    temp = 37.1453
+Fri Oct 27 18:08:41 2023
+    Max Temp   X = 136    Y = 23    temp = 37.1453
+Fri Oct 27 18:08:41 2023
+    Max Temp   X = 138    Y = 23    temp = 37.1453
+Fri Oct 27 18:08:42 2023
+    Max Temp   X = 138    Y = 18    temp = 37.1453
+Fri Oct 27 18:08:42 2023
+    Max Temp   X = 137    Y = 23    temp = 37.3759
+Fri Oct 27 18:08:42 2023
+    Max Temp   X = 136    Y = 24    temp = 37.3759
+Fri Oct 27 18:08:43 2023
+    Max Temp   X = 138    Y = 22    temp = 37.3759
+Fri Oct 27 18:08:43 2023
+    Max Temp   X = 136    Y = 14    temp = 37.3759
+Fri Oct 27 18:08:43 2023
+    Max Temp   X = 146    Y = 19    temp = 37.3759
+Fri Oct 27 18:08:44 2023
+    Max Temp   X = 148    Y = 16    temp = 37.722
+Fri Oct 27 18:08:44 2023
+    Max Temp   X = 143    Y = 5    temp = 37.722
+Fri Oct 27 18:08:44 2023
+    Max Temp   X = 147    Y = 15    temp = 37.722
+Fri Oct 27 18:08:45 2023
+    Max Temp   X = 167    Y = 28    temp = 37.722
+Fri Oct 27 18:08:45 2023
+    Max Temp   X = 157    Y = 19    temp = 37.1453
+Fri Oct 27 18:08:46 2023
+    Max Temp   X = 161    Y = 22    temp = 37.3759
+Fri Oct 27 18:08:46 2023
+    Max Temp   X = 155    Y = 22    temp = 37.1453
+Fri Oct 27 18:08:46 2023
+    Max Temp   X = 158    Y = 19    temp = 37.3759
+Fri Oct 27 18:08:47 2023
+    Max Temp   X = 156    Y = 21    temp = 37.1453
+Fri Oct 27 18:08:47 2023
+    Max Temp   X = 161    Y = 22    temp = 37.3759
+Fri Oct 27 18:08:47 2023
+    Max Temp   X = 157    Y = 23    temp = 37.3759
+Fri Oct 27 18:08:48 2023
+    Max Temp   X = 155    Y = 22    temp = 37.3759
+Fri Oct 27 18:08:48 2023
+    Max Temp   X = 158    Y = 22    temp = 37.722
+Fri Oct 27 18:08:48 2023
+    Max Temp   X = 156    Y = 21    temp = 37.3759
+Fri Oct 27 18:08:49 2023
+    Max Temp   X = 158    Y = 22    temp = 37.722
+Fri Oct 27 18:08:49 2023
+    Max Temp   X = 155    Y = 22    temp = 37.722
+Fri Oct 27 18:08:50 2023
+    Max Temp   X = 155    Y = 19    temp = 37.722
+Fri Oct 27 18:08:50 2023
+    Max Temp   X = 155    Y = 19    temp = 37.722
+Fri Oct 27 18:08:50 2023
+    Max Temp   X = 157    Y = 19    temp = 37.722
+Fri Oct 27 18:08:51 2023
+    Max Temp   X = 154    Y = 20    temp = 37.3759
+Fri Oct 27 18:08:51 2023
+    Max Temp   X = 155    Y = 22    temp = 37.722
+Fri Oct 27 18:08:51 2023
+    Max Temp   X = 156    Y = 21    temp = 37.722
+Fri Oct 27 18:08:52 2023
+    Max Temp   X = 154    Y = 22    temp = 37.3759
+Fri Oct 27 18:08:52 2023
+    Max Temp   X = 195    Y = 30    temp = 37.722
+Fri Oct 27 18:08:53 2023
+    Max Temp   X = 319    Y = 15    temp = 37.9526
+Fri Oct 27 18:08:53 2023
+    Max Temp   X = 328    Y = 25    temp = 37.3759
+Fri Oct 27 18:08:53 2023
+    Max Temp   X = 2    Y = 223    temp = 33.4532
+Fri Oct 27 18:08:54 2023
+    Max Temp   X = 65    Y = 239    temp = 33.4532
+Fri Oct 27 18:08:54 2023
+    Max Temp   X = 80    Y = 233    temp = 33.4532
+Fri Oct 27 18:08:54 2023
+    Max Temp   X = 84    Y = 232    temp = 33.4532
+Fri Oct 27 18:08:55 2023
+    Max Temp   X = 68    Y = 253    temp = 33.2224
+Fri Oct 27 18:08:55 2023
+    Max Temp   X = 48    Y = 228    temp = 33.4532
+Fri Oct 27 18:08:55 2023
+    Max Temp   X = 52    Y = 230    temp = 33.4532
+Fri Oct 27 18:08:56 2023
+    Max Temp   X = 51    Y = 229    temp = 33.4532
+Fri Oct 27 18:08:56 2023
+    Max Temp   X = 82    Y = 257    temp = 33.684
+Fri Oct 27 18:08:57 2023
+    Max Temp   X = 54    Y = 229    temp = 33.4532
+Fri Oct 27 18:08:57 2023
+    Max Temp   X = 81    Y = 260    temp = 33.684
+Fri Oct 27 18:08:57 2023
+    Max Temp   X = 81    Y = 260    temp = 33.684
+Fri Oct 27 18:08:58 2023
+    Max Temp   X = 81    Y = 260    temp = 33.684
+Fri Oct 27 18:08:58 2023
+    Max Temp   X = 78    Y = 260    temp = 32.6454
+Fri Oct 27 18:08:58 2023
+    Max Temp   X = 74    Y = 264    temp = 32.6454
+Fri Oct 27 18:08:59 2023
+    Max Temp   X = 82    Y = 258    temp = 32.6454
+Fri Oct 27 18:08:59 2023
+    Max Temp   X = 74    Y = 264    temp = 32.6454
+Fri Oct 27 18:08:59 2023
+    Max Temp   X = 74    Y = 264    temp = 32.6454
+Fri Oct 27 18:09:00 2023
+    Max Temp   X = 75    Y = 264    temp = 32.6454
+Fri Oct 27 18:09:01 2023
+    Max Temp   X = 74    Y = 269    temp = 32.6454
+Sun Oct 29 18:45:10 2023
+    Max Temp   X = 281    Y = 14    temp = 37.1453
+Sun Oct 29 18:45:11 2023
+    Max Temp   X = 283    Y = 14    temp = 37.1453
+Sun Oct 29 18:45:11 2023
+    Max Temp   X = 282    Y = 13    temp = 36.9146
+Sun Oct 29 18:45:11 2023
+    Max Temp   X = 282    Y = 16    temp = 36.9146
+Sun Oct 29 18:45:12 2023
+    Max Temp   X = 285    Y = 18    temp = 36.9146
+Sun Oct 29 18:45:12 2023
+    Max Temp   X = 287    Y = 17    temp = 36.9146
+Sun Oct 29 18:45:12 2023
+    Max Temp   X = 284    Y = 15    temp = 36.9146
+Sun Oct 29 18:45:13 2023
+    Max Temp   X = 282    Y = 14    temp = 37.1453
+Sun Oct 29 18:45:13 2023
+    Max Temp   X = 279    Y = 16    temp = 37.3759
+Sun Oct 29 18:45:13 2023
+    Max Temp   X = 272    Y = 13    temp = 37.1453
+Sun Oct 29 18:45:14 2023
+    Max Temp   X = 279    Y = 16    temp = 37.3759
+Sun Oct 29 18:45:14 2023
+    Max Temp   X = 282    Y = 14    temp = 37.3759
+Sun Oct 29 18:45:15 2023
+    Max Temp   X = 279    Y = 14    temp = 37.3759
+Sun Oct 29 18:45:15 2023
+    Max Temp   X = 272    Y = 13    temp = 37.1453
+Sun Oct 29 18:45:15 2023
+    Max Temp   X = 279    Y = 16    temp = 37.1453
+Sun Oct 29 18:45:16 2023
+    Max Temp   X = 272    Y = 13    temp = 37.1453
+Sun Oct 29 18:45:16 2023
+    Max Temp   X = 279    Y = 15    temp = 37.1453
+Sun Oct 29 18:45:16 2023
+    Max Temp   X = 282    Y = 14    temp = 37.3759
+Sun Oct 29 18:45:17 2023
+    Max Temp   X = 272    Y = 86    temp = 37.1453
+Sun Oct 29 18:45:17 2023
+    Max Temp   X = 189    Y = 48    temp = 35.8763
+Sun Oct 29 18:45:18 2023
+    Max Temp   X = 234    Y = 46    temp = 36.6838
+Sun Oct 29 18:45:18 2023
+    Max Temp   X = 359    Y = 1    temp = 35.6456
+Sun Oct 29 18:45:18 2023
+    Max Temp   X = 367    Y = 33    temp = 37.1453
+Sun Oct 29 18:45:19 2023
+    Max Temp   X = 381    Y = 27    temp = 37.3759
+Sun Oct 29 18:45:19 2023
+    Max Temp   X = 298    Y = 38    temp = 36.9146
+Sun Oct 29 18:45:19 2023
+    Max Temp   X = 373    Y = 125    temp = 37.1453
+Sun Oct 29 18:45:20 2023
+    Max Temp   X = 298    Y = 36    temp = 37.1453
+Sun Oct 29 18:45:20 2023
+    Max Temp   X = 302    Y = 23    temp = 37.1453
+Sun Oct 29 18:45:20 2023
+    Max Temp   X = 295    Y = 25    temp = 37.1453
+Sun Oct 29 18:45:21 2023
+    Max Temp   X = 298    Y = 22    temp = 37.1453
+Sun Oct 29 18:45:21 2023
+    Max Temp   X = 294    Y = 25    temp = 37.1453
+Sun Oct 29 18:45:21 2023
+    Max Temp   X = 299    Y = 20    temp = 37.1453
+Sun Oct 29 18:45:22 2023
+    Max Temp   X = 289    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:22 2023
+    Max Temp   X = 294    Y = 23    temp = 37.1453
+Sun Oct 29 18:45:23 2023
+    Max Temp   X = 292    Y = 37    temp = 37.1453
+Sun Oct 29 18:45:23 2023
+    Max Temp   X = 295    Y = 25    temp = 37.3759
+Sun Oct 29 18:45:23 2023
+    Max Temp   X = 299    Y = 23    temp = 37.3759
+Sun Oct 29 18:45:24 2023
+    Max Temp   X = 289    Y = 33    temp = 37.3759
+Sun Oct 29 18:45:24 2023
+    Max Temp   X = 292    Y = 33    temp = 37.3759
+Sun Oct 29 18:45:24 2023
+    Max Temp   X = 294    Y = 28    temp = 37.3759
+Sun Oct 29 18:45:25 2023
+    Max Temp   X = 290    Y = 33    temp = 37.3759
+Sun Oct 29 18:45:25 2023
+    Max Temp   X = 288    Y = 35    temp = 37.3759
+Sun Oct 29 18:45:25 2023
+    Max Temp   X = 299    Y = 33    temp = 37.722
+Sun Oct 29 18:45:26 2023
+    Max Temp   X = 294    Y = 28    temp = 37.722
+Sun Oct 29 18:45:26 2023
+    Max Temp   X = 298    Y = 23    temp = 37.722
+Sun Oct 29 18:45:27 2023
+    Max Temp   X = 295    Y = 25    temp = 37.722
+Sun Oct 29 18:45:27 2023
+    Max Temp   X = 299    Y = 23    temp = 37.722
+Sun Oct 29 18:45:27 2023
+    Max Temp   X = 294    Y = 25    temp = 37.722
+Sun Oct 29 18:45:28 2023
+    Max Temp   X = 290    Y = 35    temp = 37.722
+Sun Oct 29 18:45:28 2023
+    Max Temp   X = 295    Y = 25    temp = 37.722
+Sun Oct 29 18:45:28 2023
+    Max Temp   X = 290    Y = 35    temp = 37.722
+Sun Oct 29 18:45:29 2023
+    Max Temp   X = 295    Y = 25    temp = 37.722
+Sun Oct 29 18:45:29 2023
+    Max Temp   X = 287    Y = 38    temp = 37.3759
+Sun Oct 29 18:45:29 2023
+    Max Temp   X = 288    Y = 34    temp = 37.3759
+Sun Oct 29 18:45:30 2023
+    Max Temp   X = 298    Y = 24    temp = 37.722
+Sun Oct 29 18:45:30 2023
+    Max Temp   X = 296    Y = 25    temp = 37.722
+Sun Oct 29 18:45:31 2023
+    Max Temp   X = 296    Y = 25    temp = 37.722
+Sun Oct 29 18:45:31 2023
+    Max Temp   X = 297    Y = 31    temp = 36.9146
+Sun Oct 29 18:45:31 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:32 2023
+    Max Temp   X = 295    Y = 31    temp = 36.4531
+Sun Oct 29 18:45:32 2023
+    Max Temp   X = 295    Y = 32    temp = 36.4531
+Sun Oct 29 18:45:32 2023
+    Max Temp   X = 294    Y = 32    temp = 36.4531
+Sun Oct 29 18:45:33 2023
+    Max Temp   X = 297    Y = 31    temp = 36.4531
+Sun Oct 29 18:45:33 2023
+    Max Temp   X = 373    Y = 118    temp = 36.4531
+Sun Oct 29 18:45:33 2023
+    Max Temp   X = 297    Y = 33    temp = 36.4531
+Sun Oct 29 18:45:34 2023
+    Max Temp   X = 294    Y = 32    temp = 36.4531
+Sun Oct 29 18:45:34 2023
+    Max Temp   X = 294    Y = 32    temp = 36.4531
+Sun Oct 29 18:45:34 2023
+    Max Temp   X = 293    Y = 32    temp = 36.4531
+Sun Oct 29 18:45:35 2023
+    Max Temp   X = 295    Y = 31    temp = 36.6838
+Sun Oct 29 18:45:35 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:36 2023
+    Max Temp   X = 295    Y = 31    temp = 36.6838
+Sun Oct 29 18:45:36 2023
+    Max Temp   X = 288    Y = 40    temp = 36.6838
+Sun Oct 29 18:45:36 2023
+    Max Temp   X = 294    Y = 35    temp = 36.6838
+Sun Oct 29 18:45:37 2023
+    Max Temp   X = 297    Y = 33    temp = 36.9146
+Sun Oct 29 18:45:37 2023
+    Max Temp   X = 294    Y = 33    temp = 36.6838
+Sun Oct 29 18:45:37 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:38 2023
+    Max Temp   X = 293    Y = 31    temp = 36.6838
+Sun Oct 29 18:45:38 2023
+    Max Temp   X = 294    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:39 2023
+    Max Temp   X = 293    Y = 30    temp = 36.6838
+Sun Oct 29 18:45:39 2023
+    Max Temp   X = 294    Y = 33    temp = 36.4531
+Sun Oct 29 18:45:39 2023
+    Max Temp   X = 295    Y = 32    temp = 36.4531
+Sun Oct 29 18:45:40 2023
+    Max Temp   X = 296    Y = 33    temp = 36.4531
+Sun Oct 29 18:45:40 2023
+    Max Temp   X = 371    Y = 117    temp = 36.6838
+Sun Oct 29 18:45:40 2023
+    Max Temp   X = 294    Y = 33    temp = 36.4531
+Sun Oct 29 18:45:41 2023
+    Max Temp   X = 296    Y = 33    temp = 36.4531
+Sun Oct 29 18:45:41 2023
+    Max Temp   X = 296    Y = 32    temp = 36.4531
+Sun Oct 29 18:45:41 2023
+    Max Temp   X = 294    Y = 32    temp = 36.4531
+Sun Oct 29 18:45:42 2023
+    Max Temp   X = 288    Y = 43    temp = 36.4531
+Sun Oct 29 18:45:42 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:42 2023
+    Max Temp   X = 370    Y = 114    temp = 36.6838
+Sun Oct 29 18:45:43 2023
+    Max Temp   X = 295    Y = 31    temp = 36.6838
+Sun Oct 29 18:45:43 2023
+    Max Temp   X = 290    Y = 44    temp = 36.4531
+Sun Oct 29 18:45:44 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:44 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:44 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:45 2023
+    Max Temp   X = 292    Y = 35    temp = 36.6838
+Sun Oct 29 18:45:45 2023
+    Max Temp   X = 294    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:45 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:46 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:46 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:46 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:47 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:47 2023
+    Max Temp   X = 295    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:48 2023
+    Max Temp   X = 298    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:48 2023
+    Max Temp   X = 296    Y = 30    temp = 36.9146
+Sun Oct 29 18:45:48 2023
+    Max Temp   X = 294    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:49 2023
+    Max Temp   X = 293    Y = 32    temp = 36.6838
+Sun Oct 29 18:45:49 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:49 2023
+    Max Temp   X = 295    Y = 31    temp = 36.9146
+Sun Oct 29 18:45:50 2023
+    Max Temp   X = 295    Y = 31    temp = 36.9146
+Sun Oct 29 18:45:50 2023
+    Max Temp   X = 292    Y = 35    temp = 36.6838
+Sun Oct 29 18:45:50 2023
+    Max Temp   X = 291    Y = 36    temp = 36.9146
+Sun Oct 29 18:45:51 2023
+    Max Temp   X = 298    Y = 26    temp = 36.9146
+Sun Oct 29 18:45:51 2023
+    Max Temp   X = 294    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:52 2023
+    Max Temp   X = 293    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:52 2023
+    Max Temp   X = 293    Y = 29    temp = 36.9146
+Sun Oct 29 18:45:52 2023
+    Max Temp   X = 293    Y = 30    temp = 36.9146
+Sun Oct 29 18:45:53 2023
+    Max Temp   X = 293    Y = 30    temp = 36.9146
+Sun Oct 29 18:45:53 2023
+    Max Temp   X = 294    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:53 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:54 2023
+    Max Temp   X = 292    Y = 35    temp = 36.9146
+Sun Oct 29 18:45:54 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:55 2023
+    Max Temp   X = 293    Y = 29    temp = 36.9146
+Sun Oct 29 18:45:55 2023
+    Max Temp   X = 295    Y = 31    temp = 36.9146
+Sun Oct 29 18:45:55 2023
+    Max Temp   X = 303    Y = 18    temp = 36.9146
+Sun Oct 29 18:45:56 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:56 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:56 2023
+    Max Temp   X = 294    Y = 29    temp = 36.9146
+Sun Oct 29 18:45:57 2023
+    Max Temp   X = 294    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:57 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:58 2023
+    Max Temp   X = 294    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:58 2023
+    Max Temp   X = 288    Y = 41    temp = 36.9146
+Sun Oct 29 18:45:58 2023
+    Max Temp   X = 293    Y = 30    temp = 36.9146
+Sun Oct 29 18:45:59 2023
+    Max Temp   X = 295    Y = 32    temp = 36.9146
+Sun Oct 29 18:45:59 2023
+    Max Temp   X = 366    Y = 120    temp = 37.1453
+Sun Oct 29 18:45:59 2023
+    Max Temp   X = 295    Y = 29    temp = 37.1453
+Sun Oct 29 18:46:00 2023
+    Max Temp   X = 293    Y = 32    temp = 37.1453
+Sun Oct 29 18:46:00 2023
+    Max Temp   X = 294    Y = 32    temp = 37.1453
+Sun Oct 29 18:46:00 2023
+    Max Temp   X = 294    Y = 32    temp = 37.1453
+Sun Oct 29 18:46:01 2023
+    Max Temp   X = 294    Y = 32    temp = 37.1453
+Sun Oct 29 18:46:01 2023
+    Max Temp   X = 299    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:02 2023
+    Max Temp   X = 294    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:02 2023
+    Max Temp   X = 296    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:02 2023
+    Max Temp   X = 287    Y = 36    temp = 36.4531
+Sun Oct 29 18:46:03 2023
+    Max Temp   X = 297    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:03 2023
+    Max Temp   X = 295    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:03 2023
+    Max Temp   X = 295    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:04 2023
+    Max Temp   X = 294    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:04 2023
+    Max Temp   X = 292    Y = 28    temp = 36.6838
+Sun Oct 29 18:46:04 2023
+    Max Temp   X = 296    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:05 2023
+    Max Temp   X = 292    Y = 34    temp = 36.6838
+Sun Oct 29 18:46:05 2023
+    Max Temp   X = 288    Y = 37    temp = 36.4531
+Sun Oct 29 18:46:06 2023
+    Max Temp   X = 296    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:06 2023
+    Max Temp   X = 292    Y = 28    temp = 36.6838
+Sun Oct 29 18:46:06 2023
+    Max Temp   X = 295    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:07 2023
+    Max Temp   X = 295    Y = 25    temp = 36.6838
+Sun Oct 29 18:46:07 2023
+    Max Temp   X = 290    Y = 28    temp = 36.6838
+Sun Oct 29 18:46:07 2023
+    Max Temp   X = 290    Y = 26    temp = 36.6838
+Sun Oct 29 18:46:08 2023
+    Max Temp   X = 294    Y = 23    temp = 36.9146
+Sun Oct 29 18:46:08 2023
+    Max Temp   X = 304    Y = 25    temp = 37.1453
+Sun Oct 29 18:46:08 2023
+    Max Temp   X = 333    Y = 21    temp = 37.1453
+Sun Oct 29 18:46:09 2023
+    Max Temp   X = 336    Y = 23    temp = 37.1453
+Sun Oct 29 18:46:09 2023
+    Max Temp   X = 332    Y = 31    temp = 37.1453
+Sun Oct 29 18:46:09 2023
+    Max Temp   X = 342    Y = 24    temp = 37.1453
+Sun Oct 29 18:46:10 2023
+    Max Temp   X = 313    Y = 37    temp = 36.9146
+Sun Oct 29 18:46:10 2023
+    Max Temp   X = 321    Y = 28    temp = 37.1453
+Sun Oct 29 18:46:11 2023
+    Max Temp   X = 312    Y = 26    temp = 36.9146
+Sun Oct 29 18:46:11 2023
+    Max Temp   X = 324    Y = 25    temp = 37.1453
+Sun Oct 29 18:46:11 2023
+    Max Temp   X = 307    Y = 35    temp = 36.9146
+Sun Oct 29 18:46:12 2023
+    Max Temp   X = 315    Y = 25    temp = 37.1453
+Sun Oct 29 18:46:12 2023
+    Max Temp   X = 321    Y = 28    temp = 37.1453
+Sun Oct 29 18:46:12 2023
+    Max Temp   X = 322    Y = 25    temp = 37.1453
+Sun Oct 29 18:46:13 2023
+    Max Temp   X = 306    Y = 43    temp = 36.9146
+Sun Oct 29 18:46:13 2023
+    Max Temp   X = 321    Y = 28    temp = 37.1453
+Sun Oct 29 18:46:13 2023
+    Max Temp   X = 325    Y = 26    temp = 37.1453
+Sun Oct 29 18:46:14 2023
+    Max Temp   X = 312    Y = 38    temp = 36.9146
+Sun Oct 29 18:46:14 2023
+    Max Temp   X = 313    Y = 37    temp = 36.9146
+Sun Oct 29 18:46:15 2023
+    Max Temp   X = 320    Y = 30    temp = 36.9146
+Sun Oct 29 18:46:15 2023
+    Max Temp   X = 327    Y = 24    temp = 37.1453
+Sun Oct 29 18:46:15 2023
+    Max Temp   X = 327    Y = 24    temp = 37.1453
+Sun Oct 29 18:46:16 2023
+    Max Temp   X = 318    Y = 28    temp = 37.1453
+Sun Oct 29 18:46:16 2023
+    Max Temp   X = 321    Y = 26    temp = 37.1453
+Sun Oct 29 18:46:16 2023
+    Max Temp   X = 321    Y = 26    temp = 37.1453
+Sun Oct 29 18:46:17 2023
+    Max Temp   X = 320    Y = 28    temp = 37.1453
+Sun Oct 29 18:46:17 2023
+    Max Temp   X = 341    Y = 9    temp = 37.1453
+Sun Oct 29 18:46:18 2023
+    Max Temp   X = 321    Y = 28    temp = 37.1453
+Sun Oct 29 18:46:18 2023
+    Max Temp   X = 307    Y = 35    temp = 36.9146
+Sun Oct 29 18:46:18 2023
+    Max Temp   X = 314    Y = 36    temp = 36.9146
+Sun Oct 29 18:46:19 2023
+    Max Temp   X = 331    Y = 24    temp = 36.9146
+Sun Oct 29 18:46:19 2023
+    Max Temp   X = 322    Y = 28    temp = 36.9146
+Sun Oct 29 18:46:19 2023
+    Max Temp   X = 324    Y = 27    temp = 37.1453
+Sun Oct 29 18:46:20 2023
+    Max Temp   X = 342    Y = 12    temp = 37.1453
+Sun Oct 29 18:46:20 2023
+    Max Temp   X = 333    Y = 21    temp = 37.1453
+Sun Oct 29 18:46:21 2023
+    Max Temp   X = 323    Y = 28    temp = 37.1453
+Sun Oct 29 18:46:21 2023
+    Max Temp   X = 312    Y = 41    temp = 37.1453
+Sun Oct 29 18:46:21 2023
+    Max Temp   X = 323    Y = 29    temp = 37.1453
+Sun Oct 29 18:46:22 2023
+    Max Temp   X = 332    Y = 26    temp = 37.1453
+Sun Oct 29 18:46:22 2023
+    Max Temp   X = 316    Y = 34    temp = 37.1453
+Sun Oct 29 18:46:23 2023
+    Max Temp   X = 317    Y = 33    temp = 37.1453
+Sun Oct 29 18:46:23 2023
+    Max Temp   X = 337    Y = 11    temp = 37.1453
+Sun Oct 29 18:46:23 2023
+    Max Temp   X = 323    Y = 25    temp = 37.1453
+Sun Oct 29 18:46:24 2023
+    Max Temp   X = 333    Y = 23    temp = 37.3759
+Sun Oct 29 18:46:24 2023
+    Max Temp   X = 333    Y = 21    temp = 37.3759
+Sun Oct 29 18:46:24 2023
+    Max Temp   X = 342    Y = 12    temp = 37.3759
+Sun Oct 29 18:46:25 2023
+    Max Temp   X = 321    Y = 28    temp = 37.3759
+Sun Oct 29 18:46:25 2023
+    Max Temp   X = 315    Y = 35    temp = 37.1453
+Sun Oct 29 18:46:25 2023
+    Max Temp   X = 321    Y = 31    temp = 37.1453
+Sun Oct 29 18:46:26 2023
+    Max Temp   X = 312    Y = 41    temp = 37.1453
+Sun Oct 29 18:46:26 2023
+    Max Temp   X = 314    Y = 35    temp = 37.1453
+Sun Oct 29 18:46:27 2023
+    Max Temp   X = 321    Y = 28    temp = 37.1453
+Sun Oct 29 18:46:27 2023
+    Max Temp   X = 321    Y = 28    temp = 37.1453

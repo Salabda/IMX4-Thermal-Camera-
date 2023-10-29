@@ -1,0 +1,16 @@
+[14:11:41 403]:   SDK version:1.0.0.121
+[14:11:41 407]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[14:11:41 407]:   Thread start. id=7212
+[14:11:41 407]:   GD_MTC_SDK_Login
+[14:11:41 407]:   Into msgToThisServiceCoreAndWaitForResult
+[14:11:41 407]:   msg to ServiceCore msgId=0, pMsg=0
+[14:11:41 407]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[14:11:41 408]:   ServiceCore::login
+[14:11:41 408]:   SDK version:1.0.0.121
+[14:11:41 408]:   nDeviceType=11
+[14:11:41 409]:   Create Device: NET384x288NOCLIPHS
+[14:11:41 409]:   nFpgaPort=4954, nY16Port=4955
+[14:11:41 409]:   Thread start. id=8964
+[14:11:41 414]:   Thread start. id=12196
+[14:11:41 414]:   Thread start. id=1568
+[14:11:41 414]:   Base64Name=YWRtaW46OTk5OQ==
