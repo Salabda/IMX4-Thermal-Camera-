@@ -1,142 +1,40 @@
 ﻿#include <iostream>
 #include "MeasureCoreNet.h"
-#include <chrono>
 #include <vector>
 #include <thread>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <fstream>
+#include <chrono>
 #include "Display.hpp"
 
 using namespace std;
 
 
+const char* strFilePath = "\Output";
+int* user = 0;
+//set up code ip adress
+string ip = "192.168.1.168";
+
+//Values to initialize camera output
 int32_t LoginID;
 int32_t StreamId;
 
-const char* strFilePath = "\Output";
-int* user = 0;
-string ip = "192.168.1.168";
+//Real world coordinates of camera covered FoV
+cv::Point2f lowerright(710, 1545);
+cv::Point2f upperright(1200, 150);
+cv::Point2f lowerleft(300, 1460);
+cv::Point2f upperleft(378, 0);
 
-
-//int CALLBACK rgbCallbackFunc(const GD_MTC_CALLBACK_RGBInfo* RGBInfo, void* pUser) {
-//	
-//	//int w = RGBInfo->ImgWidth;
-//	//int h = RGBInfo->ImgHeight;
-//	//if (h == 0 || w == 0) {
-//	//	//cout << " -----------------------rgbCallbackFunc EMPTY IMAGE	w=	" << RGBInfo->ImgWidth << endl;
-//	//	return 0; }
-//	//cv::Mat combinedImage(RGBInfo->ImgHeight, RGBInfo->ImgWidth, CV_8UC3, RGBInfo->RGBData);
-//	//if(combinedImage.empty())
-//	//{
-//	//	//cout << " -----------------------rgbCallbackFunc EMPTY IMAGE	w=	" << RGBInfo->ImgWidth << endl;
-//	//}
-//	//else {
-//	//	//cout << " --------------------------rgbCallbackFunc	w= " << RGBInfo->ImgWidth << endl;
-//	//	cv::imshow("Camera Feed", combinedImage);
-//	//	cv::waitKey(1);
-//	//}
-//	//combinedImage.release();
-//	return 1;
-//}
-
-//
-//int RGBvideofeed() {
-//	GD_MTC_CALLBACK_RGBInfo rgbInfo;
-//	memset(&rgbInfo, 0x00, sizeof(GD_MTC_CALLBACK_RGBInfo));
-//	while (true)
-//	{
-//		//cout << "WHILE LOOP	" << endl;
-//		int res = rgbCallbackFunc(&rgbInfo, &user);
-//		if (res == 0) {
-//			cout << "No ERROR." << res << endl;
-//			return 1; 
-//		}
-//		std::this_thread::sleep_for(std::chrono::milliseconds(100));
-//	}
-//	return 1;
-//}
-//
-//
-//int CALLBACK y16CallbackFunc(const GD_MTC_CALLBACK_Y16Info* pY16Info, void* pUser)
-//{
-//	//GD_MTC_TempPointInfo pTempPointMax;
-//
-//	//int w = pY16Info->ImgWidth;
-//	//int h = pY16Info->ImgHeight;
-//	//float* pTempMatrix = new float[w * h];
-//
-//	//if (h == 0 || w == 0) { 
-//	//	cout << " -----------------------y16CallbackFunc EMPTY Matrix	w=	" << pY16Info->ImgWidth << endl;
-//
-//	//	delete[] pTempMatrix; // Clean up dynamically allocated memory
-//	//	return 1; }
-//
-//
-//	//if (0 == GD_MTC_SDK_GetTempMatrix(pY16Info->pOpque, pTempMatrix)) { 
-//
-//	//	if (pTempMatrix) {
-//	//		//cout << " -----------------y16CallbackFunc TEMP MATRIX	pTempMatrix=[" << pTempMatrix[0] << "]" << endl;
-//	//	}
-//	//	else {
-//	//		//cout << " -----------------y16CallbackFunc EMPTY TEMP MATRIX	pTempMatrix=" << pTempMatrix << endl;
-//	//	}
-//	//}
-//	//else {
-//	//	cout << " -----------------y16CallbackFunc GD_MTC_SDK_GetTempMatrix Error	"  << endl;
-//	//}
-//
-//
-//	//if (0 == GD_MTC_SDK_GetHighTemp(pY16Info->pOpque, &pTempPointMax)){
-//
-//	//	if (pTempMatrix) {
-//	//		cout << " -----------------y16CallbackFunc TEMP MATRIX	 pTempPointMax->PointTemp " << pTempPointMax.PointTemp << endl;
-//	//		//logFloatsToMaxTempFile(pTempPointMax);
-//	//	}
-//	//	else {
-//	//		//cout << " -----------------y16CallbackFunc EMPTY TEMP MATRIX	pTempMatrix=" << pTempMatrix << endl;
-//	//	}
-//	//}
-//	//else {
-//	//	cout << " -----------------y16CallbackFunc GD_MTC_SDK_GetTempMatrix Error	" << endl;
-//	//}
-//
-//	//delete[] pTempMatrix;
-//	return 1;
-//}
-
-//
-//int Y16feed() {
-//
-//	while (true)
-//	{
-//		GD_MTC_CALLBACK_Y16Info Y16Info2;
-//		memset(&Y16Info2, 0x00, sizeof(GD_MTC_CALLBACK_Y16Info));
-//		y16CallbackFunc(&Y16Info2, 0);
-//		std::this_thread::sleep_for(std::chrono::milliseconds(800));
-//	}
-//	return 1;
-//}
-//
-//int videoandY16() {
-//	GD_MTC_CALLBACK_RGBInfo rgbInfo;
-//	memset(&rgbInfo, 0x00, sizeof(GD_MTC_CALLBACK_RGBInfo));
-//	GD_MTC_CALLBACK_Y16Info Y16Info2;
-//	memset(&Y16Info2, 0x00, sizeof(GD_MTC_CALLBACK_Y16Info));
-//
-//	return 1;
-//	
-//}
 
 int main() {
-
+	//Init pointers to start callback functions
 	GD_MTC_IRDeviceInfo deviceInfo;
 	GD_MTC_IRLinkInfo irLinkInfo;
 	GD_MTC_IRDeviceType deviceType;
 
 	memset(&irLinkInfo, 0, sizeof(irLinkInfo));
-
 	irLinkInfo.Y16CB = y16CallbackFunc;
 	irLinkInfo.RGBCB = rgbCallbackFunc;
 	//irLinkInfo.SnapCB = snapPicCallbackFunc;
@@ -147,11 +45,12 @@ int main() {
 		return 1;
 	}
 
+	//Set dev.type to the camera we  have
 	deviceInfo.DevType = NET384x288NOCLIPHS;
 	strcpy_s(deviceInfo.IpAddress, "192.168.1.168");
-	q
+
 	//Logging into device
-	LoginID = GD_MTC_SDK_Login(deviceInfo, user);
+	LoginID = GD_MTC_SDK_Login(deviceInfo, 0);
 	if (LoginID == ERROR_LOGIN_FAIL) {
 		cout << "Login failed." << endl;
 		GD_MTC_SDK_Release();
@@ -164,74 +63,109 @@ int main() {
 		GD_MTC_SDK_Release();
 		return 1;
 	}
+	//sleep to wait for the camera
 	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
 	cout << " --------------------------MAIN = 1" << endl;
 	//Opening Stream
 	irLinkInfo.nPullDataType = PULL_DATA_TYPE_H264_AND_Y16;
-	StreamId = GD_MTC_SDK_OpenStream(LoginID, &irLinkInfo, 2, 25, user);
+	StreamId = GD_MTC_SDK_OpenStream(LoginID, &irLinkInfo, 2, 25, 0);
 	if (StreamId == ERROR_OPENSTREAM_FAIL) {
 		cout << "Failed to Open Stream." << endl;
 		GD_MTC_SDK_CloseStream(StreamId);
 		GD_MTC_SDK_Release();
 		return 1;
 	}
-
+	//sleep to wait for the camera
 	std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-
-
-	while (true)
-	{
-
-
-		int w = globalContentRGB.ImgWidth;
-		int h = globalContentRGB.ImgHeight;
-		cout << " -----------------------while EMPTY IMAGE	h=	" << globalContentRGB.ImgHeight << endl;
-		cout << " -----------------------whilec EMPTY IMAGE	w=	" << globalContentRGB.ImgWidth << endl;		
-		std::this_thread::sleep_for(std::chrono::milliseconds(200));
-		cv::imshow("Camera Feed22", image_source);
-		cv::waitKey(1);
-
-
-	} 
-	return 1;
-	
-
 
 	cout << " --------------------------MAIN = 2" << endl;
 
-	//thread Y16ProcessingThread(Y16feed);
-	//thread videoProcessingThread(RGBvideofeed);
+	//Count frames
+	auto start = std::chrono::high_resolution_clock::now();
+	int frameCount = 0;
+
+	//Init variables for the loop
+	int h = globalContentRGB.ImgHeight;
+	int w = globalContentRGB.ImgWidth;
+	int l = globalContentRGB.DataLen;
+
+	while (true) {
+
+		//Init variables for the loop
+		int x = globalMaxInfo.PointX;
+		int y = globalMaxInfo.PointY;
+		float hotspot_temp = globalMaxInfo.PointTemp;
+		cv::Point2f thermal_cam_coor(x, y);
+		
+		
+		if (h == 0 || w == 0) {
+			cout << " -----------------------while EMPTY IMAGE w=	" << globalContentRGB.ImgWidth << endl;
+
+			continue;
+		}
+
+		//Initial rgb image
+		cv::Mat combinedImage3(h, w, CV_8UC3, globalContentRGB.RGBData);
+
+		//calculate transform matrix and apply it to the image and hotspot's coordinates
+		std::pair<cv::Mat, cv::Point2f> result = img_to_world_coor(combinedImage3, thermal_cam_coor);
+		// Retrieve the results from the returned pair
+		cv::Mat img_resized = result.first; //resized image after transform
+		cv::Point2f transformedPoint = result.second; //Point in world coor
+		//get processed temperature
+		float total_lengthtocamera = calc_dist_cam_to_hotspot(transformedPoint);
+		float estimated_temp = estimate_temperature(total_lengthtocamera, hotspot_temp);
+
+		cout << "Stimated Dist	" << estimated_temp << endl;
+
+		//Display processed image
+		if (!img_resized.empty()) {
+			cout << "img_resized is not empty." << std::endl;
+			cv::imshow("img_resized ", img_resized);
+			cv::waitKey(1);
+		}
 
 
-	//videoProcessingThread.join();
-	//Y16ProcessingThread.join();
+		// Calculate time taken for each iteration
+		auto end = std::chrono::high_resolution_clock::now();
+		std::chrono::duration<double> elapsed = end - start;
 
-	/*thread videoandY16ProcessingThread(videoandY16);*/
+		// Increment frame count
+		frameCount++;
+
+		// Calculate FPS every second
+		if (elapsed.count() >= 1.0) {
+			double fps = frameCount / elapsed.count();
+			std::cout << "FPS: " << fps << std::endl;
+			// Reset timer and frame count for the next second
+			start = std::chrono::high_resolution_clock::now();
+			frameCount = 0;
+		}
+
+
+
+		//int32_t autofocus = GD_MTC_SDK_FocusAuto(StreamId, user);
+		//int32_t supported = GD_MTC_SDK_SupportFunction(NET384x288NOCLIPHS, PULL_DATA_TYPE_H264_AND_Y16, 72);
+		//if (supported == 0) {
+		//	cout << "Not Supported." << endl;
+		//	return 1;
+		//}
+
+		//cout << " --------------------------MAIN = 3" << endl;
+		//////Take a Picture
+		//int32_t picture = GD_MTC_SDK_SnapPictureUniform(StreamId, strFilePath, false, true, true, 0, user);
+		//if (picture != NO_ERROR) {
+		//	cout << "Failed to Take a Picture." << endl;
+		//	GD_MTC_SDK_CloseStream(StreamId);
+		//	GD_MTC_SDK_Release();
+		//	return 1;
+		//}
+		//cout << " --------------------------MAIN = 4" << endl;
+
+	}
 
 	cout << "END = " << endl;
-
-	//int32_t autofocus = GD_MTC_SDK_FocusAuto(StreamId, user);
-
-	//int32_t supported = GD_MTC_SDK_SupportFunction(NET384x288NOCLIPHS, PULL_DATA_TYPE_H264_AND_Y16, 72);
-	//if (supported == 0) {
-	//	cout << "Not Supported." << endl;
-	//	return 1;
-	//}
-
-	//cout << " --------------------------MAIN = 3" << endl;
-	//////Take a Picture
-	//int32_t picture = GD_MTC_SDK_SnapPictureUniform(StreamId, strFilePath, false, true, true, 0, user);
-	//if (picture != NO_ERROR) {
-	//	cout << "Failed to Take a Picture." << endl;
-	//	GD_MTC_SDK_CloseStream(StreamId);
-	//	GD_MTC_SDK_Release();
-	//	return 1;
-	//}
-	//cout << " --------------------------MAIN = 4" << endl;
-
 	GD_MTC_SDK_CloseStream(StreamId);
 	GD_MTC_SDK_Release();
 	return 0;
-
 }
-

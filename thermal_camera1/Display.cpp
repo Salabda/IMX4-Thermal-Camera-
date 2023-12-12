@@ -7,88 +7,99 @@ using namespace std;
 float vertical_length_cm = 1460; //(3.22 * 4.2)
 float horizontal_length_cm = 1200;//(3.78 * 2) + 4
 
-GlobalRGB globalContentRGB;
-extern cv::Mat image_source;
-float map_value(float value, float old_min, float old_max, float new_min, float new_max) {
-    float old_range = (old_max - old_min);
-    float new_range = (new_max - new_min);
-    float new_value = ((value - old_min) * new_range / old_range);
-    return new_value;
+GlobalRGB  globalContentRGB;
+GlobalMaxPointInfo globalMaxInfo;
+
+size_t imgsize = static_cast<size_t>(288) * 384 * 3;
+
+unsigned int* globalRGBArray = new unsigned int[imgsize];
+
+
+float map_value_to_new_range(float value, float old_min, float old_max, float new_min, float new_max) {
+    // Check for division by zero in the old_range calculation
+    if (old_max - old_min == 0) {
+        return new_min; // Avoid division by zero
+    }
+
+    // Calculate the ratio between the old and new ranges
+    float scale = (new_max - new_min) / (old_max - old_min);
+
+    // Perform the mapping calculation using the ratio
+    return new_min + ((value - old_min) * scale);
 }
 
-double calc_dist_temp(cv::Point2f woorld_coortry) {
+
+float estimate_temperature(double camera2hotspot_length, double ThermalCamTemp) {
+    double distance = camera2hotspot_length;
+
+
+    float intercept = -1.2142039554619828;
+    float coeff_1 = 0.0;
+    float coeff_2 = 1.0452530978781331;
+    float coeff_3 = -0.31582564670360447;
+    float coeff_4 = -0.0011117833394660437;
+    float coeff_5 = 0.011652588266540559;
+    float coeff_6 = 0.001998731805561371;
+
+    // Compute terms involving ThermalCamera and Distance
+
+    float TC_coeff = coeff_2 * (ThermalCamTemp * ThermalCamTemp)+coeff_3 * ThermalCamTemp
+        + coeff_4 * (ThermalCamTemp * ThermalCamTemp);
+    float Dist_coeff = coeff_5 * distance + coeff_6 * (distance * distance);
+
+    // Calculate the stim_temp using the precomputed terms and constants
+    float stim_temp = intercept + coeff_1 * 1 + TC_coeff + Dist_coeff;
+
+    return stim_temp;
+}
+
+float calc_dist_cam_to_hotspot(const cv::Point2f world_coord) {
     // All in cm
-    double camera_height = 517;
-    std::vector<double> camera_x_y = { 275.3, 734.9 + 1610 };
+    float camera_height = 517;
+    cv::Point2f camera_x_y(275.3, 734.9 + 1610);
 
-    double camera2hotspot_flat_x = woorld_coortry.x - camera_x_y[0];
-    double camera2hotspot_flat_y = -1 * woorld_coortry.y + camera_x_y[1];
-
-    double camera2hotspot_flat_length = std::sqrt(
-        std::pow(camera2hotspot_flat_x, 2) + std::pow(camera2hotspot_flat_y, 2)
-    );
-
-    double camera2hotspot_3d_length = std::sqrt(
-        std::pow(camera2hotspot_flat_length, 2) + std::pow(camera_height, 2)
-    );
+    cv::Point2f camera2hotspot_flat = world_coord - camera_x_y;
+    float camera2hotspot_flat_length = cv::norm(camera2hotspot_flat);
+    float camera2hotspot_3d_length = std::sqrt(std::pow(camera2hotspot_flat_length, 2) + std::pow(camera_height, 2));
 
     return camera2hotspot_3d_length;
 }
 
-float fix_temp(double camera2hotspot_length, double temperature) {
-    double distance = camera2hotspot_length / 100;
-    double thermal_camera = temperature;
 
-    //ADD THE MODEL COEFFICIENTS
+std::pair<cv::Mat, cv::Point2f> img_to_world_coor(cv::Mat combinedImage3, cv::Point2i thermal_cam_point) {
+     //Remapping size from thermal to RGB
+    thermal_cam_point.x = map_value_to_new_range(thermal_cam_point.x, 0, 384, 0, combinedImage3.cols);
+    thermal_cam_point.y = map_value_to_new_range(thermal_cam_point.y, 0, 288, 0, combinedImage3.rows);
 
-    double predicted_temperature = 0.0; // Initializing predicted_temperature
+    cv::Matx31f pixel_coor_point(thermal_cam_point.x, thermal_cam_point.y, 1); // Extended to a 3D point
 
-    // Extract the value and convert it to a float
-    if (predicted_temperature == 0.0) {
-        std::cout << "The value is empty." << std::endl;
-        return 2000.0;
-    }
-    else {
-        //
+    cv::Point2f objects[4] = {
+    	cv::Point2f(0.0f, static_cast<float>(combinedImage3.rows)),
+    	cv::Point2f(0.0f, 0.0f),
+    	cv::Point2f(static_cast<float>(combinedImage3.cols), 0.0f),
+    	cv::Point2f(static_cast<float>(combinedImage3.cols), static_cast<float>(combinedImage3.rows))};
 
-
-    }
-}
-
-std::pair<cv::Mat, cv::Point2f> pers_selected_area(cv::Mat frame_copy, cv::Point2i thermal_cam_point) {
-    // Remapping size from thermal to RGB
-    thermal_cam_point.x = map_value(thermal_cam_point.x, 0, 384, 0, frame_copy.cols);
-    thermal_cam_point.y = map_value(thermal_cam_point.y, 0, 288, 0, frame_copy.rows);
-
-    cv::Matx31f point(thermal_cam_point.x, thermal_cam_point.y, 1); // Extended to a 3D point
-
-    float x1 = 0, y1 = frame_copy.rows;
-    float x2 = 0, y2 = 0;
-    float x3 = frame_copy.cols, y3 = 0;
-    float x4 = frame_copy.cols, y4 = frame_copy.rows;
-
-    // Define the coordinates as cv::Point2f
-    cv::Point2f objects[4] = { cv::Point2f(x1, y1), cv::Point2f(x2, y2), cv::Point2f(x3, y3), cv::Point2f(x4, y4) };
     cv::Point2f converted_points[4] = { cv::Point2f(300, 1460),
-                                       cv::Point2f(378, 0),
-                                       cv::Point2f(1200, 150),
-                                       cv::Point2f(710, 1545) };
+    								   cv::Point2f(378, 0),
+    								   cv::Point2f(1200, 150),
+    								   cv::Point2f(710, 1545) };
 
-    cv::Mat matrix = cv::getPerspectiveTransform(objects, converted_points);
-    // Transform the point using matrix multiplication
+    cv::Mat matrix;
+    cv::getPerspectiveTransform(objects, converted_points).convertTo(matrix, CV_32F);
+
     cv::Mat img_output;
-    cv::warpPerspective(frame_copy, img_output, matrix, cv::Size(horizontal_length_cm, vertical_length_cm + 100));
+    cv::warpPerspective(combinedImage3, img_output, matrix, cv::Size(horizontal_length_cm, vertical_length_cm + 100));
 
     // Transform the point using matrix multiplication
-    cv::Mat transformed_point = matrix * point;
-    transformed_point /= transformed_point.at<float>(2, 0);
-    transformed_point.convertTo(transformed_point, CV_32F);
+    cv::Mat world_coor_point = matrix * pixel_coor_point;
 
-    cv::Point2f point_duple(transformed_point.at<float>(0, 0), transformed_point.at<float>(1, 0));
+    world_coor_point /= world_coor_point.at<float>(2, 0);
+    world_coor_point.convertTo(world_coor_point, CV_32F);
+
+    cv::Point2f point_duple(world_coor_point.at<float>(0, 0), world_coor_point.at<float>(1, 0));
     cv::circle(img_output, point_duple, 8, cv::Scalar(255, 0, 0), -1);
     cv::Mat img_resized;
     cv::resize(img_output, img_resized, cv::Size(600, 750));
-
     return std::make_pair(img_resized, point_duple);
 
 }
@@ -110,15 +121,15 @@ cv::Mat WriteOnVideo(const GD_MTC_CALLBACK_Y16Info* pY16Info,GD_MTC_TempPointInf
 
     cv::Mat frame(288, 384, CV_8UC3, pY16Info->Y16Data);
 
-    std::pair<cv::Mat, cv::Point2f> result = pers_selected_area(frame, Max_Temp_px_coor);
+    std::pair<cv::Mat, cv::Point2f> result = img_to_world_coor(frame, Max_Temp_px_coor);
 
     cv::Mat img_output = result.first;
     cv::Point2f world_coor = result.second;
 
     // Enter the fixed and totallength
-    float total_lengthtocamera = calc_dist_temp(world_coor);
+    float total_lengthtocamera = calc_dist_cam_to_hotspot(world_coor);
 
-    float fixed_temp = fix_temp(total_lengthtocamera, Max_temp);
+    float fixed_temp = estimate_temperature(total_lengthtocamera, Max_temp);
 
     cv::Mat resized_frame;
   
@@ -154,82 +165,78 @@ cv::Mat WriteOnVideo(const GD_MTC_CALLBACK_Y16Info* pY16Info,GD_MTC_TempPointInf
 
 
 int CALLBACK rgbCallbackFunc(const GD_MTC_CALLBACK_RGBInfo* RGBInfo, void* pUser) {
-	
-	int w = RGBInfo->ImgWidth;
-	int h = RGBInfo->ImgHeight;
+
+    int w = RGBInfo->ImgWidth;
+    int h = RGBInfo->ImgHeight;
+
+    if (h == 0 || w == 0) {
+        cout << " -----------------------rgbCallbackFunc EMPTY Matrix	w=	" << RGBInfo->ImgWidth << endl;
+
+        return 1;
+    }
+
     globalContentRGB.ImgHeight = h;
     globalContentRGB.ImgWidth = w;
-    globalContentRGB.RGBData = RGBInfo->RGBData;
+    globalContentRGB.DataLen = RGBInfo->RGBDataLen;
+    globalContentRGB.RGBData = globalRGBArray;
+    memcpy(globalContentRGB.RGBData, RGBInfo->RGBData, imgsize);
 
-	if (h == 0 || w == 0) {
-		//cout << " -----------------------rgbCallbackFunc EMPTY IMAGE	w=	" << RGBInfo->ImgWidth << endl;
-		return 0; }
-	cv::Mat combinedImage(RGBInfo->ImgHeight, RGBInfo->ImgWidth, CV_8UC3, RGBInfo->RGBData);
-    image_source = combinedImage;
-	if(combinedImage.empty())
-	{
-		//cout << " -----------------------rgbCallbackFunc EMPTY IMAGE	w=	" << RGBInfo->ImgWidth << endl;
-	}
-	else {
-		//cout << " --------------------------rgbCallbackFunc	w= " << RGBInfo->ImgWidth << endl;
-		cv::imshow("Camera Feed", combinedImage);
-		cv::waitKey(1);
-	}
+    //cout << " -----------------------rgbCallbackFunc 	h=	" << globalContentRGB.ImgHeight << endl;
+    //cout << " -----------------------rgbCallbackFunc	w=	" << globalContentRGB.ImgWidth << endl;
+    //cout << " -----------------------rgbCallbackFunc	l=	" << globalContentRGB.DataLen << endl;
+    //cout << "size" <<imgsize<<endl;
 
-	return 1;
+    //cv::Mat combinedImage2(h, w, CV_8UC3, RGBInfo->RGBData);
+    //if (!combinedImage2.empty()) {
+    //    std::cout << "globalRGBArray is not empty." << std::endl;
+    //    cv::imshow("Camera Feed22", combinedImage2);
+    //    cv::waitKey(1);
+    //}
+
+
+	return 0;
 }
 
 
 int CALLBACK y16CallbackFunc(const GD_MTC_CALLBACK_Y16Info* pY16Info, void* pUser)
 {
- //   GD_MTC_TempPointInfo pTempPointMax;
+    GD_MTC_TempPointInfo pTempPointMax;
 
-	//int w = pY16Info->ImgWidth;
-	//int h = pY16Info->ImgHeight;
-	//float* pTempMatrix = new float[w * h];
+	int w = pY16Info->ImgWidth;
+	int h = pY16Info->ImgHeight;
+	float* pTempMatrix = new float[w * h];
 
-	//if (h == 0 || w == 0) { 
-	//	cout << " -----------------------y16CallbackFunc EMPTY Matrix	w=	" << pY16Info->ImgWidth << endl;
+	if (h == 0 || w == 0) { 
+		cout << " -----------------------y16CallbackFunc EMPTY Matrix	w=	" << pY16Info->ImgWidth << endl;
 
-	//	delete[] pTempMatrix; // Clean up dynamically allocated memory
-	//	return 1; }
-
-
-	//if (0 == GD_MTC_SDK_GetTempMatrix(pY16Info->pOpque, pTempMatrix)) { 
-
-	//	if (pTempMatrix) {
-	//		//cout << " -----------------y16CallbackFunc TEMP MATRIX	pTempMatrix=[" << pTempMatrix[0] << "]" << endl;
-	//	}
-	//	else {
-	//		//cout << " -----------------y16CallbackFunc EMPTY TEMP MATRIX	pTempMatrix=" << pTempMatrix << endl;
-	//	}
-	//}
-	//else {
-	//	cout << " -----------------y16CallbackFunc GD_MTC_SDK_GetTempMatrix Error	"  << endl;
-	//}
+		delete[] pTempMatrix; // Clean up dynamically allocated memory
+		return 1; }
 
 
-	//if (0 == GD_MTC_SDK_GetHighTemp(pY16Info->pOpque, &pTempPointMax)){
+	if (0 == GD_MTC_SDK_GetHighTemp(pY16Info->pOpque, &pTempPointMax)){
 
-	//	if (pTempMatrix) {
-	//		cout << " -----------------y16CallbackFunc TEMP MATRIX	 pTempPointMax->PointTemp " << pTempPointMax.PointTemp << endl;
-	//		//logFloatsToMaxTempFile(pTempPointMax);
-	//	}
-	//	else {
-	//		//cout << " -----------------y16CallbackFunc EMPTY TEMP MATRIX	pTempMatrix=" << pTempMatrix << endl;
-	//	}
-	//}
-	//else {
-	//	cout << " -----------------y16CallbackFunc GD_MTC_SDK_GetTempMatrix Error	" << endl;
-	//}
+		if (pTempMatrix) {
 
-	//delete[] pTempMatrix;
-	return 1;
+            cout << " -----------------y16CallbackFunc TEMP MATRIX	 pTempPointMax->PointTemp " << pTempPointMax.PointTemp << endl;
+		   //logFloatsToMaxTempFile(pTempPointMax);
+            globalMaxInfo.PointX = pTempPointMax.PointX;
+            globalMaxInfo.PointY = pTempPointMax.PointY;
+            globalMaxInfo.PointTemp = pTempPointMax.PointTemp;
+        
+		}
+		else {
+			//cout << " -----------------y16CallbackFunc EMPTY TEMP MATRIX	pTempMatrix=" << pTempMatrix << endl;
+		}
+	}
+	else {
+		cout << " -----------------y16CallbackFunc GD_MTC_SDK_GetTempMatrix Error	" << endl;
+	}
+
+	delete[] pTempMatrix;
+	return 0;
 }
 
-
-
-
+//Log temp.point values and SnapPicCallback
 
 //int CALLBACK snapPicCallbackFunc(int* iY8Data, int* iY8DataLength, int* iY16Data, int* iY16DataLength, void* pUser){
 //	

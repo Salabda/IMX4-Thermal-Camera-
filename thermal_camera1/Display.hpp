@@ -1,39 +1,38 @@
 #pragma once
-//#include <opencv2/opencv.hpp>
-//#include <iostream>
-//#include "MeasureCoreNet.h"
+#include <opencv2/opencv.hpp>
+#include <iostream>
+#include "MeasureCoreNet.h"
 
-struct GlobalY16
+struct GlobalMaxPointInfo
 {
-	int ImgWidth;		
-	int ImgHeight;		
-	void* pOpque;
+	int PointX;
+	int PointY;
+	float PointTemp;
 };
+
+
 struct GlobalRGB
 {
 	int ImgWidth;
 	int ImgHeight;
-	unsigned int RGBData;
+	unsigned int* RGBData;
 	void* pOpque;
 	int DataLen;
 };
 
-extern cv::Mat image_source;
 
 extern GlobalRGB globalContentRGB;
-extern GlobalY16 globalContentY16;
+extern GlobalMaxPointInfo globalMaxInfo;
 
+extern float vertical_length_cm;
+extern float horizontal_length_cm;
 
+float map_value_to_new_range(float value, float old_min, float old_max, float new_min, float new_max);
 
+float calc_dist_cam_to_hotspot(const cv::Point2f world_coord);
+float estimate_temperature(double camera2hotspot_length, double temperature);
 
-
-float map_value(float value, float old_min, float old_max, float new_min, float new_max);
-
-double calc_dist_temp(cv::Point2f woorld_coortry);
-
-float fix_temp(double camera2hotspot_length, double temperature);
-
-std::pair<cv::Mat, cv::Point2f> pers_selected_area(cv::Mat frame_copy, cv::Point2i thermal_cam_point);
+std::pair<cv::Mat, cv::Point2f> img_to_world_coor(cv::Mat frame_copy, cv::Point2i thermal_cam_point);
 
 cv::Mat WriteOnVideo(const GD_MTC_CALLBACK_Y16Info* pY16Info, GD_MTC_TempPointInfo pTempPointMax);
 
