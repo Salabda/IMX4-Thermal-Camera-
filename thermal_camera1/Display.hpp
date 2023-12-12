@@ -13,8 +13,9 @@ struct GlobalRGB
 {
 	int ImgWidth;
 	int ImgHeight;
-	unsigned int* RGBData;
+	unsigned int RGBData;
 	void* pOpque;
+	int DataLen;
 };
 
 extern cv::Mat image_source;
