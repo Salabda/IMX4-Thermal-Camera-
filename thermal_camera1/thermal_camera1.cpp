@@ -8,10 +8,10 @@
 #include <fstream>
 #include <chrono>
 #include "Display.hpp"
+#include "Socket.cpp"
 
 using namespace std;
-
-
+int ALARM_MAX_TEMP = 70;
 const char* strFilePath = "\Output";
 int* user = 0;
 //set up code ip adress
@@ -29,6 +29,12 @@ cv::Point2f upperleft(378, 0);
 
 
 int main() {
+	// run socket server
+	SocketServer server;
+	std::thread t([&server]() {
+		server.runServer(); // Assuming runServer is a member function of SocketServer
+		});
+
 	//Init pointers to start callback functions
 	GD_MTC_IRDeviceInfo deviceInfo;
 	GD_MTC_IRLinkInfo irLinkInfo;
@@ -96,10 +102,10 @@ int main() {
 		int y = globalMaxInfo.PointY;
 		float hotspot_temp = globalMaxInfo.PointTemp;
 		cv::Point2f thermal_cam_coor(x, y);
-		
-		
+
+
 		if (h == 0 || w == 0) {
-			cout << " -----------------------while EMPTY IMAGE w=	" << globalContentRGB.ImgWidth << endl;
+			//cout << " -----------------------while EMPTY IMAGE w=	" << globalContentRGB.ImgWidth << endl;
 
 			continue;
 		}
@@ -115,16 +121,19 @@ int main() {
 		//get processed temperature
 		float total_lengthtocamera = calc_dist_cam_to_hotspot(transformedPoint);
 		float estimated_temp = estimate_temperature(total_lengthtocamera, hotspot_temp);
+		std::vector<float> AlarmState = FireAlarm(transformedPoint, estimated_temp);
+		//for (auto value : AlarmState) {
+		//	std::cout << value << " ";
 
-		cout << "Stimated Dist	" << estimated_temp << endl;
+		//}
+		//std::cout << std::endl;
 
 		//Display processed image
 		if (!img_resized.empty()) {
-			cout << "img_resized is not empty." << std::endl;
+			//cout << "img_resized is not empty." << std::endl;
 			cv::imshow("img_resized ", img_resized);
 			cv::waitKey(1);
 		}
-
 
 		// Calculate time taken for each iteration
 		auto end = std::chrono::high_resolution_clock::now();
@@ -135,13 +144,13 @@ int main() {
 
 		// Calculate FPS every second
 		if (elapsed.count() >= 1.0) {
+			server.broadcast("fuck");
 			double fps = frameCount / elapsed.count();
 			std::cout << "FPS: " << fps << std::endl;
 			// Reset timer and frame count for the next second
 			start = std::chrono::high_resolution_clock::now();
 			frameCount = 0;
 		}
-
 
 
 		//int32_t autofocus = GD_MTC_SDK_FocusAuto(StreamId, user);

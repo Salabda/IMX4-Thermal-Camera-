@@ -10,6 +10,7 @@ float horizontal_length_cm = 1200;//(3.78 * 2) + 4
 GlobalRGB  globalContentRGB;
 GlobalMaxPointInfo globalMaxInfo;
 
+
 size_t imgsize = static_cast<size_t>(288) * 384 * 3;
 
 unsigned int* globalRGBArray = new unsigned int[imgsize];
@@ -28,6 +29,21 @@ float map_value_to_new_range(float value, float old_min, float old_max, float ne
     return new_min + ((value - old_min) * scale);
 }
 
+float calc_dist_cam_to_hotspot(const cv::Point2f world_coord) {
+    // All in cm
+    float camera_height = 517;
+    float camera_x_y[2] = { 275.3, 734.9 + 1610 };
+    float camera2hotspot_flat[2] = { world_coord.x - camera_x_y[0], -1 * world_coord.y + camera_x_y[1] };
+    float camera2hotspot_flat_length = sqrt(pow(camera2hotspot_flat[0], 2) + pow(camera2hotspot_flat[1], 2));
+    float camera2hotspot_3d_length = sqrt(pow(camera2hotspot_flat_length, 2) + pow(camera_height, 2));
+
+    // Uncomment the lines below to print intermediate results if needed
+    // printf("camera2hotspot_x = %.4f camera2hotspot_y = %.4f\n", camera2hotspot_flat[0], camera2hotspot_flat[1]);
+    // printf("camera2hotspot_flat_length = %.4f\n", camera2hotspot_flat_length);
+    // printf("camera2hotspot_3d_length = %.4f\n", camera2hotspot_3d_length);
+
+    return camera2hotspot_3d_length;
+}
 
 float estimate_temperature(double camera2hotspot_length, double ThermalCamTemp) {
     double distance = camera2hotspot_length;
@@ -53,18 +69,25 @@ float estimate_temperature(double camera2hotspot_length, double ThermalCamTemp) 
     return stim_temp;
 }
 
-float calc_dist_cam_to_hotspot(const cv::Point2f world_coord) {
-    // All in cm
-    float camera_height = 517;
-    cv::Point2f camera_x_y(275.3, 734.9 + 1610);
+std::vector<float> FireAlarm(cv::Point2f world_coord, float temp) {
 
-    cv::Point2f camera2hotspot_flat = world_coord - camera_x_y;
-    float camera2hotspot_flat_length = cv::norm(camera2hotspot_flat);
-    float camera2hotspot_3d_length = std::sqrt(std::pow(camera2hotspot_flat_length, 2) + std::pow(camera_height, 2));
-
-    return camera2hotspot_3d_length;
+    // Check if temperature exceeds the threshold
+    if (temp > ALARM_MAX_TEMP) {
+        //Alarm == 1 == yes fire
+        std::vector<float> x_y_temp_alarm = { world_coord.x, world_coord.y, temp, 1 };
+        return x_y_temp_alarm;
+    }
+    else if (temp < ALARM_MAX_TEMP) {
+        //Alarm == 0 == no fire
+        std::vector<float> x_y_temp_alarm = { world_coord.x, world_coord.y, temp, 0 };
+        return x_y_temp_alarm;
+    }
+    else {
+        // Empty
+        //Should not be empty here but idk
+        return {};
+    }
 }
-
 
 std::pair<cv::Mat, cv::Point2f> img_to_world_coor(cv::Mat combinedImage3, cv::Point2i thermal_cam_point) {
      //Remapping size from thermal to RGB
@@ -104,64 +127,64 @@ std::pair<cv::Mat, cv::Point2f> img_to_world_coor(cv::Mat combinedImage3, cv::Po
 
 }
 
-cv::Mat WriteOnVideo(const GD_MTC_CALLBACK_Y16Info* pY16Info,GD_MTC_TempPointInfo pTempPointMax) {
-
-    //// Get the dimensions of the video frames
-    //int frame_width = cropped_frame.rows;
-    //int frame_height = cropped_frame.cols;
-
-    int frame_width = pY16Info->ImgWidth;
-    int frame_height = pY16Info->ImgHeight;
-
-    int x = pTempPointMax.PointX;
-    int y = pTempPointMax.PointY;
-    cv::Point2i Max_Temp_px_coor (x, y);
-    float Max_temp = pTempPointMax.PointTemp;
-
-
-    cv::Mat frame(288, 384, CV_8UC3, pY16Info->Y16Data);
-
-    std::pair<cv::Mat, cv::Point2f> result = img_to_world_coor(frame, Max_Temp_px_coor);
-
-    cv::Mat img_output = result.first;
-    cv::Point2f world_coor = result.second;
-
-    // Enter the fixed and totallength
-    float total_lengthtocamera = calc_dist_cam_to_hotspot(world_coor);
-
-    float fixed_temp = estimate_temperature(total_lengthtocamera, Max_temp);
-
-    cv::Mat resized_frame;
-  
-    // Create a black canvas
-    cv::Mat black_canvas = cv::Mat::zeros(cv::Size(frame_width + 100, frame_height), CV_8UC3);
-    // Put the resized frame on the left side of the canvas
-
-    // Retrieve the elements from the returned pair
-
-
-    resized_frame.copyTo(black_canvas(cv::Rect(0, 0, resized_frame.cols, resized_frame.rows)));
-
-
-
-    // Create text information
-    std::string text3 = "Camera Temp = " + std::to_string(Max_temp);
-    std::string text6 = "Fixed Temp = " + std::to_string(fixed_temp);
-    std::string text9 = "Total Length = " + std::to_string(total_lengthtocamera);
-
-    // Put the text on the right side of the canvas
-    
-    cv::putText(black_canvas, text3, cv::Point(static_cast<int>(frame_width * 0.38), static_cast<int>(frame_height * 0.60)),
-        cv::FONT_HERSHEY_SIMPLEX, 2.5, cv::Scalar(255, 0, 0), 3);
-    cv::putText(black_canvas, text6, cv::Point(static_cast<int>(frame_width * 0.38), static_cast<int>(frame_height * 0.75)),
-        cv::FONT_HERSHEY_SIMPLEX, 2.5, cv::Scalar(0, 0, 255), 3);
-    cv::putText(black_canvas, text9, cv::Point(static_cast<int>(frame_width * 0.38), static_cast<int>(frame_height * 0.34)),
-        cv::FONT_HERSHEY_SIMPLEX, 2.5, cv::Scalar(255, 100, 50), 3);
-
-
-
-    return black_canvas;
-}
+//cv::Mat WriteOnVideo(const GD_MTC_CALLBACK_Y16Info* pY16Info,GD_MTC_TempPointInfo pTempPointMax) {
+//
+//    //// Get the dimensions of the video frames
+//    //int frame_width = cropped_frame.rows;
+//    //int frame_height = cropped_frame.cols;
+//
+//    int frame_width = pY16Info->ImgWidth;
+//    int frame_height = pY16Info->ImgHeight;
+//
+//    int x = pTempPointMax.PointX;
+//    int y = pTempPointMax.PointY;
+//    cv::Point2i Max_Temp_px_coor (x, y);
+//    float Max_temp = pTempPointMax.PointTemp;
+//
+//
+//    cv::Mat frame(288, 384, CV_8UC3, pY16Info->Y16Data);
+//
+//    std::pair<cv::Mat, cv::Point2f> result = img_to_world_coor(frame, Max_Temp_px_coor);
+//
+//    cv::Mat img_output = result.first;
+//    cv::Point2f world_coor = result.second;
+//
+//    // Enter the fixed and totallength
+//    float total_lengthtocamera = calc_dist_cam_to_hotspot(world_coor);
+//
+//    float fixed_temp = estimate_temperature(total_lengthtocamera, Max_temp);
+//
+//    cv::Mat resized_frame;
+//  
+//    // Create a black canvas
+//    cv::Mat black_canvas = cv::Mat::zeros(cv::Size(frame_width + 100, frame_height), CV_8UC3);
+//    // Put the resized frame on the left side of the canvas
+//
+//    // Retrieve the elements from the returned pair
+//
+//
+//    resized_frame.copyTo(black_canvas(cv::Rect(0, 0, resized_frame.cols, resized_frame.rows)));
+//
+//
+//
+//    // Create text information
+//    std::string text3 = "Camera Temp = " + std::to_string(Max_temp);
+//    std::string text6 = "Fixed Temp = " + std::to_string(fixed_temp);
+//    std::string text9 = "Total Length = " + std::to_string(total_lengthtocamera);
+//
+//    // Put the text on the right side of the canvas
+//    
+//    cv::putText(black_canvas, text3, cv::Point(static_cast<int>(frame_width * 0.38), static_cast<int>(frame_height * 0.60)),
+//        cv::FONT_HERSHEY_SIMPLEX, 2.5, cv::Scalar(255, 0, 0), 3);
+//    cv::putText(black_canvas, text6, cv::Point(static_cast<int>(frame_width * 0.38), static_cast<int>(frame_height * 0.75)),
+//        cv::FONT_HERSHEY_SIMPLEX, 2.5, cv::Scalar(0, 0, 255), 3);
+//    cv::putText(black_canvas, text9, cv::Point(static_cast<int>(frame_width * 0.38), static_cast<int>(frame_height * 0.34)),
+//        cv::FONT_HERSHEY_SIMPLEX, 2.5, cv::Scalar(255, 100, 50), 3);
+//
+//
+//
+//    return black_canvas;
+//}
 
 
 int CALLBACK rgbCallbackFunc(const GD_MTC_CALLBACK_RGBInfo* RGBInfo, void* pUser) {
@@ -217,7 +240,7 @@ int CALLBACK y16CallbackFunc(const GD_MTC_CALLBACK_Y16Info* pY16Info, void* pUse
 
 		if (pTempMatrix) {
 
-            cout << " -----------------y16CallbackFunc TEMP MATRIX	 pTempPointMax->PointTemp " << pTempPointMax.PointTemp << endl;
+            //cout << " -----------------y16CallbackFunc TEMP MATRIX	 pTempPointMax->PointTemp " << pTempPointMax.PointTemp << endl;
 		   //logFloatsToMaxTempFile(pTempPointMax);
             globalMaxInfo.PointX = pTempPointMax.PointX;
             globalMaxInfo.PointY = pTempPointMax.PointY;

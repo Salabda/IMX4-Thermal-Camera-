@@ -1,0 +1,327 @@
+[11:03:50 085]:   SDK version:1.0.0.121
+[11:03:50 086]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[11:03:50 087]:   Thread start. id=20792
+[11:03:50 087]:   GD_MTC_SDK_Login
+[11:03:50 087]:   Into msgToThisServiceCoreAndWaitForResult
+[11:03:50 087]:   msg to ServiceCore msgId=0, pMsg=0
+[11:03:50 087]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[11:03:50 096]:   ServiceCore::login
+[11:03:50 096]:   SDK version:1.0.0.121
+[11:03:50 096]:   nDeviceType=11
+[11:03:50 096]:   Create Device: NET384x288NOCLIPHS
+[11:03:50 096]:   nFpgaPort=4954, nY16Port=4955
+[11:03:50 097]:   Thread start. id=20840
+[11:03:50 119]:   Thread start. id=8676
+[11:03:50 119]:   Thread start. id=20272
+[11:03:50 119]:   Base64Name=YWRtaW46OTk5OQ==
+[11:03:50 283]:   Recv armversion is "HTTP/1.1 405 Method Not Allowed
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1363
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Fault xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsdd="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:xmime="http://tempuri.org/xmime.xsd" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tdn="http://www.onvif.org/ver10/network/wsdl" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl"><faultcode>SOAP-ENV:Client</faultcode><faultstring>HTTP GET method not implemented</faultstring></SOAP-ENV:Fault>"
+[11:03:50 283]:  ERROR! Has not find softwareversion when req arm version
+[11:03:50 345]:   Now try GetArmVersionHS
+[11:03:50 345]:   Base64Name=YWRtaW46OTk5OQ==
+[11:03:50 514]:   Recv armversion is "ZU02A V2.18"
+[11:03:50 577]:   cArmVersion=zu02a
+[11:03:53 580]:   GD_MTC_SDK_OpenStream
+[11:03:53 580]:   nPullDataType=2
+[11:03:53 580]:   Before DataCore::msgToDataCoreAndWaitForResult
+[11:03:53 610]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[11:03:53 610]:   Base64Name=YWRtaW46OTk5OQ==
+[11:03:53 626]:   armSendAndRecv send data get_curse_info
+[11:03:53 734]:   get_curse_info=[gear=1&measurerange=0&mintemp=-100&maxtemp=1600$gear=2&measurerange=0&mintemp=-200&maxtemp=1600$gear=3&measurerange=0&mintemp=-100&maxtemp=1800$gear=1&measurerange=1&mintemp=-100&maxtemp=3600$gear=2&measurerange=1&mintemp=-200&maxtemp=3600$gear=3&measurerange=1&mintemp=-100&maxtemp=3600$gear=1&measurerange=2&mintemp=-100&maxtemp=6600$gear=2&measurerange=2&mintemp=-200&maxtemp=6700$gear=3&measurerange=2&mintemp=-100&maxtemp=6600]
+[11:03:53 734]:   After remove same range info
+[11:03:53 734]:   v.nRangeIndex=0, v.fMinTemp=-10.000000, v.fMaxTemp=160.000000
+[11:03:53 734]:   v.nRangeIndex=1, v.fMinTemp=-10.000000, v.fMaxTemp=360.000000
+[11:03:53 734]:   v.nRangeIndex=2, v.fMinTemp=-10.000000, v.fMaxTemp=660.000000
+[11:03:53 734]:   H264Pull::openStream
+[11:03:53 734]:   avcodec_register_all
+[11:03:53 738]:   av_register_all
+[11:03:53 738]:   avformat_network_init
+[11:03:53 738]:   avformat_alloc_context
+[11:03:53 738]:   avformat_open_input
+[11:03:53 750]:   Update m_pDataCfg->strVskGearDesc, [old=-20¡æ~150¡æ&-20¡æ~350¡æ&100¡æ~650¡æ, new=-10¡æ~160¡æ&-10¡æ~360¡æ&-10¡æ~660¡æ]
+[11:03:53 813]:   avformat_find_stream_info
+[11:03:53 813]:   After open h264 stream
+[11:03:53 813]:   H264Pull::startRecvStream
+[11:03:53 813]:   H264Puller start recv data.
+[11:03:53 827]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_OPEN_STREAM
+[11:03:53 827]:   wait msg result in time. [nMsgType=1003]
+[11:03:53 827]:   After DataCore::msgToDataCoreAndWaitForResult
+[11:03:53 827]:   Before DataCore::msgToDataCoreAndWaitForResult
+[11:03:53 874]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[11:03:53 874]:   info->recvEmiss=98
+[11:03:53 874]:   info->recvDistance=250
+[11:03:53 937]:   Send change palette
+[11:03:53 951]:   wait msg result in time. [nMsgType=1021]
+[11:03:53 951]:   After DataCore::msgToDataCoreAndWaitForResult
+[11:03:53 951]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[11:03:53 951]:   Before DataCore::msgToDataCoreAndWaitForResult
+[11:03:53 999]:   pCurvesStruct->curve_count=9, pCurvesStruct->curve_length=32768
+[11:03:53 999]:   curve[index, range, gear, len]=[0, 0, 1, 0]
+[11:03:53 999]:   curve[index, range, gear, len]=[1, 0, 2, 0]
+[11:03:53 999]:   curve[index, range, gear, len]=[2, 0, 3, 0]
+[11:03:53 999]:   curve[index, range, gear, len]=[3, 1, 1, 0]
+[11:03:53 999]:   curve[index, range, gear, len]=[4, 1, 2, 0]
+[11:03:53 999]:   curve[index, range, gear, len]=[5, 1, 3, 0]
+[11:03:53 999]:   curve[index, range, gear, len]=[6, 2, 1, 0]
+[11:03:53 999]:   curve[index, range, gear, len]=[7, 2, 2, 0]
+[11:03:53 999]:   curve[index, range, gear, len]=[8, 2, 3, 0]
+[11:03:53 999]:  ERROR! Curve[5], element[5861] format error
+
+[11:03:53 999]:  ERROR! Curve[8], element[4814] format error
+
+[11:03:55 062]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_Y16_FRAME_RATE
+[11:03:55 062]:   wait msg result in time. [nMsgType=1026]
+[11:03:55 062]:   After DataCore::msgToDataCoreAndWaitForResult
+[11:03:55 108]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[11:03:55 108]:   info->recvEmiss=98
+[11:03:55 108]:   info->recvDistance=250
+[11:03:55 170]:   Use HsCurve[7], range=2, gear=2
+[11:03:55 231]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[11:03:55 231]:   info->recvEmiss=98
+[11:03:55 231]:   info->recvDistance=250
+[11:10:36 289]:   SDK version:1.0.0.121
+[11:10:36 289]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[11:10:36 289]:   Thread start. id=25812
+[11:10:36 290]:   GD_MTC_SDK_Login
+[11:10:36 290]:   Into msgToThisServiceCoreAndWaitForResult
+[11:10:36 290]:   msg to ServiceCore msgId=0, pMsg=0
+[11:10:36 290]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[11:10:36 301]:   ServiceCore::login
+[11:10:36 301]:   SDK version:1.0.0.121
+[11:10:36 301]:   nDeviceType=11
+[11:10:36 301]:   Create Device: NET384x288NOCLIPHS
+[11:10:36 301]:   nFpgaPort=4954, nY16Port=4955
+[11:10:36 301]:   Thread start. id=24468
+[11:10:36 302]:   Thread start. id=24436
+[11:10:36 302]:   Thread start. id=17684
+[11:10:36 302]:   Base64Name=YWRtaW46OTk5OQ==
+[11:10:36 457]:   Recv armversion is "HTTP/1.1 405 Method Not Allowed
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1363
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Fault xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsdd="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:xmime="http://tempuri.org/xmime.xsd" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tdn="http://www.onvif.org/ver10/network/wsdl" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl"><faultcode>SOAP-ENV:Client</faultcode><faultstring>HTTP GET method not implemented</faultstring></SOAP-ENV:Fault>"
+[11:10:36 457]:  ERROR! Has not find softwareversion when req arm version
+[11:10:36 519]:   Now try GetArmVersionHS
+[11:10:36 519]:   Base64Name=YWRtaW46OTk5OQ==
+[11:10:36 688]:   Recv armversion is "ZU02A V2.18"
+[11:10:36 751]:   cArmVersion=zu02a
+[11:10:39 758]:   GD_MTC_SDK_OpenStream
+[11:10:39 758]:   nPullDataType=2
+[11:10:39 758]:   Before DataCore::msgToDataCoreAndWaitForResult
+[11:10:39 789]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[11:10:39 789]:   Base64Name=YWRtaW46OTk5OQ==
+[11:10:39 804]:   armSendAndRecv send data get_curse_info
+[11:10:39 913]:   get_curse_info=[gear=1&measurerange=0&mintemp=-100&maxtemp=1600$gear=2&measurerange=0&mintemp=-200&maxtemp=1600$gear=3&measurerange=0&mintemp=-100&maxtemp=1800$gear=1&measurerange=1&mintemp=-100&maxtemp=3600$gear=2&measurerange=1&mintemp=-200&maxtemp=3600$gear=3&measurerange=1&mintemp=-100&maxtemp=3600$gear=1&measurerange=2&mintemp=-100&maxtemp=6600$gear=2&measurerange=2&mintemp=-200&maxtemp=6700$gear=3&measurerange=2&mintemp=-100&maxtemp=6600]
+[11:10:39 913]:   After remove same range info
+[11:10:39 913]:   v.nRangeIndex=0, v.fMinTemp=-10.000000, v.fMaxTemp=160.000000
+[11:10:39 913]:   v.nRangeIndex=1, v.fMinTemp=-10.000000, v.fMaxTemp=360.000000
+[11:10:39 913]:   v.nRangeIndex=2, v.fMinTemp=-10.000000, v.fMaxTemp=660.000000
+[11:10:39 913]:   H264Pull::openStream
+[11:10:39 913]:   avcodec_register_all
+[11:10:39 916]:   av_register_all
+[11:10:39 917]:   avformat_network_init
+[11:10:39 917]:   avformat_alloc_context
+[11:10:39 917]:   avformat_open_input
+[11:10:39 929]:   Update m_pDataCfg->strVskGearDesc, [old=-20¡æ~150¡æ&-20¡æ~350¡æ&100¡æ~650¡æ, new=-10¡æ~160¡æ&-10¡æ~360¡æ&-10¡æ~660¡æ]
+[11:10:39 991]:   avformat_find_stream_info
+[11:10:39 991]:   After open h264 stream
+[11:10:39 991]:   H264Pull::startRecvStream
+[11:10:39 992]:   H264Puller start recv data.
+[11:10:40 006]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_OPEN_STREAM
+[11:10:40 006]:   wait msg result in time. [nMsgType=1003]
+[11:10:40 006]:   After DataCore::msgToDataCoreAndWaitForResult
+[11:10:40 006]:   Before DataCore::msgToDataCoreAndWaitForResult
+[11:10:40 052]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[11:10:40 052]:   info->recvEmiss=98
+[11:10:40 052]:   info->recvDistance=250
+[11:10:40 114]:   Send change palette
+[11:10:40 128]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[11:10:40 129]:   wait msg result in time. [nMsgType=1021]
+[11:10:40 129]:   After DataCore::msgToDataCoreAndWaitForResult
+[11:10:40 129]:   Before DataCore::msgToDataCoreAndWaitForResult
+[11:10:40 175]:   pCurvesStruct->curve_count=9, pCurvesStruct->curve_length=32768
+[11:10:40 175]:   curve[index, range, gear, len]=[0, 0, 1, 0]
+[11:10:40 175]:   curve[index, range, gear, len]=[1, 0, 2, 0]
+[11:10:40 175]:   curve[index, range, gear, len]=[2, 0, 3, 0]
+[11:10:40 175]:   curve[index, range, gear, len]=[3, 1, 1, 0]
+[11:10:40 175]:   curve[index, range, gear, len]=[4, 1, 2, 0]
+[11:10:40 175]:   curve[index, range, gear, len]=[5, 1, 3, 0]
+[11:10:40 175]:   curve[index, range, gear, len]=[6, 2, 1, 0]
+[11:10:40 175]:   curve[index, range, gear, len]=[7, 2, 2, 0]
+[11:10:40 175]:   curve[index, range, gear, len]=[8, 2, 3, 0]
+[11:10:40 175]:  ERROR! Curve[5], element[5861] format error
+
+[11:10:40 176]:  ERROR! Curve[8], element[4814] format error
+
+[11:10:41 236]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_Y16_FRAME_RATE
+[11:10:41 236]:   wait msg result in time. [nMsgType=1026]
+[11:10:41 236]:   After DataCore::msgToDataCoreAndWaitForResult
+[11:10:41 282]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[11:10:41 282]:   info->recvEmiss=98
+[11:10:41 282]:   info->recvDistance=250
+[11:10:41 344]:   Use HsCurve[7], range=2, gear=2
+[11:10:41 405]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[11:10:41 405]:   info->recvEmiss=98
+[11:10:41 405]:   info->recvDistance=250
+[11:11:36 793]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:12:37 335]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:13:37 577]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:14:37 993]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:15:38 293]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:16:38 613]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:17:38 807]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:18:39 322]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:19:39 537]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:20:39 991]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:21:40 243]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:22:40 348]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:23:41 024]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:24:41 063]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:25:41 235]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:26:41 330]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:27:41 730]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:28:43 309]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:29:45 024]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:30:45 053]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:31:45 184]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:32:46 816]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:33:46 980]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:34:47 584]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:35:47 823]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:36:48 307]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:37:48 373]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:38:48 575]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:39:48 910]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:40:49 076]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:41:49 472]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:42:49 914]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:43:49 955]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:44:50 031]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:45:50 705]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:46:51 475]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:47:52 076]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:48:52 751]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:49:52 754]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:50:53 884]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:51:54 210]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:52:54 252]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:53:54 318]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:54:55 211]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:55:55 374]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:56:56 322]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:57:57 479]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:58:58 389]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[11:59:59 043]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:00:59 115]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:01:59 207]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:02:59 753]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:04:00 170]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:05:00 218]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:06:00 798]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:07:01 224]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:08:02 292]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:09:02 511]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:10:03 962]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:11:04 038]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:12:05 088]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:13:05 576]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:14:05 646]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:15:06 199]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:16:06 321]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:17:06 721]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:18:07 205]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:19:07 450]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:20:07 640]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:21:07 806]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:22:08 321]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:23:08 614]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:24:09 449]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:25:09 729]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:26:11 448]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:27:11 985]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:28:13 379]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:29:13 707]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:30:13 845]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:31:14 098]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:32:14 462]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:33:14 807]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:34:15 313]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:35:15 744]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:36:16 022]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:37:17 294]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:38:17 379]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:39:17 389]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:40:18 911]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:41:22 373]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:42:22 472]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:43:23 028]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:44:23 511]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:45:23 712]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:46:26 103]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:47:26 388]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:48:26 822]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:49:27 982]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:50:29 829]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:51:29 833]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:52:30 509]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:53:32 542]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:54:32 980]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:55:33 221]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:56:33 262]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:57:33 423]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:58:33 791]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[12:59:34 390]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:00:34 771]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:01:36 279]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:02:36 466]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:03:36 834]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:04:36 996]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:05:38 077]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:06:38 271]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:07:38 966]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:08:39 279]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:09:39 701]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:10:39 795]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:11:40 528]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:12:41 916]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:13:42 481]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:14:42 644]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:15:43 806]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:16:44 241]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:17:46 099]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:18:49 372]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:19:49 642]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:20:51 484]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:21:51 938]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:22:52 356]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:23:52 758]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:24:52 769]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:25:53 650]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:26:53 759]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:27:54 080]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:28:54 484]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:29:54 573]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:30:54 894]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:31:54 926]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:32:55 615]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:33:55 770]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:34:56 415]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:35:56 455]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:36:56 484]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:37:56 621]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:38:56 967]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:39:57 177]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:40:57 937]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:41:58 171]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:42:58 450]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:43:58 528]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[13:44:58 615]:  WARNING! Too many Y16 data in 2 ms, new data ignored
