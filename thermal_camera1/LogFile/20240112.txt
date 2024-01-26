@@ -1,0 +1,2 @@
+[11:39:44 755]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[11:39:46 786]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm

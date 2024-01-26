@@ -1,0 +1,22 @@
+[22:34:16 447]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:34:18 737]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:34:19 155]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:34:21 205]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:34:21 206]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:34:23 239]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:34:44 819]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:34:46 861]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:35:08 324]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:35:10 361]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:35:31 712]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:35:33 739]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:35:55 226]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:35:57 251]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:36:18 623]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:36:20 661]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:36:42 024]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:36:44 056]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:37:05 414]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:37:07 446]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm
+[22:37:28 913]:  WARNING! Connect to 192.168.1.168:4955 failed.
+[22:37:30 943]:  ERROR! Connect to 192.168.1.168 failed in CmdSenderHS::getAllCalcParm

@@ -4,8 +4,12 @@
 #include "Display.hpp"
 
 using namespace std;
-float vertical_length_cm = 1460; //(3.22 * 4.2)
-float horizontal_length_cm = 1200;//(3.78 * 2) + 4
+//float vertical_length_cm = 1460; //(3.22 * 4.2)
+//float horizontal_length_cm = 1200;//(3.78 * 2) + 4
+
+//january test
+float vertical_length_cm = 498; //(3.22 * 4.2)
+float horizontal_length_cm = 420;//(3.78 * 2) + 4
 
 GlobalRGB  globalContentRGB;
 GlobalMaxPointInfo globalMaxInfo;
@@ -31,42 +35,42 @@ float map_value_to_new_range(float value, float old_min, float old_max, float ne
 
 float calc_dist_cam_to_hotspot(const cv::Point2f world_coord) {
     // All in cm
-    float camera_height = 517;
-    float camera_x_y[2] = { 275.3, 734.9 + 1610 };
+    float camera_height = 357;
+    float camera_x_y[2] = { 635, 495 };
     float camera2hotspot_flat[2] = { world_coord.x - camera_x_y[0], -1 * world_coord.y + camera_x_y[1] };
     float camera2hotspot_flat_length = sqrt(pow(camera2hotspot_flat[0], 2) + pow(camera2hotspot_flat[1], 2));
     float camera2hotspot_3d_length = sqrt(pow(camera2hotspot_flat_length, 2) + pow(camera_height, 2));
-
+    float cameratotal = camera2hotspot_3d_length / 100;
     // Uncomment the lines below to print intermediate results if needed
     // printf("camera2hotspot_x = %.4f camera2hotspot_y = %.4f\n", camera2hotspot_flat[0], camera2hotspot_flat[1]);
     // printf("camera2hotspot_flat_length = %.4f\n", camera2hotspot_flat_length);
-    // printf("camera2hotspot_3d_length = %.4f\n", camera2hotspot_3d_length);
+    //printf("camera2hotspot_3d_length eb Display.cpp= %.4f\n", cameratotal);
 
-    return camera2hotspot_3d_length;
+    return cameratotal;
 }
 
-float estimate_temperature(double camera2hotspot_length, double ThermalCamTemp) {
+float estimate_temperature(double camera2hotspot_length, double camera_temp) {
     double distance = camera2hotspot_length;
+    cout << "                           distance" << distance<<endl;
+    // Given coefficients and input data
+    std::vector<double> coefficients = { -1.2142039554619828, 0.0, 1.0452530978781331,
+                                         -0.31582564670360447, -0.0011117833394660437,
+                                          0.011652588266540559, 0.001998731805561371 };
 
+    // Create expanded features
+    std::vector<double> expanded_features = { 1, 1, camera_temp, distance, camera_temp * camera_temp, distance * camera_temp, distance * distance };
 
-    float intercept = -1.2142039554619828;
-    float coeff_1 = 0.0;
-    float coeff_2 = 1.0452530978781331;
-    float coeff_3 = -0.31582564670360447;
-    float coeff_4 = -0.0011117833394660437;
-    float coeff_5 = 0.011652588266540559;
-    float coeff_6 = 0.001998731805561371;
+    // Initialize stim_temp_new with intercept
+    double stim_temp_new = 0;
 
-    // Compute terms involving ThermalCamera and Distance
+    // Calculate stim_temp_new using coefficients and expanded features
+    for (size_t i = 0; i < expanded_features.size(); ++i) {
+        stim_temp_new += coefficients[i] * expanded_features[i];
+        //std::cout << "stim_temp_new: " << stim_temp_new << std::endl;
+    }
+    //stim_temp_new = camera_temp;
 
-    float TC_coeff = coeff_2 * (ThermalCamTemp * ThermalCamTemp)+coeff_3 * ThermalCamTemp
-        + coeff_4 * (ThermalCamTemp * ThermalCamTemp);
-    float Dist_coeff = coeff_5 * distance + coeff_6 * (distance * distance);
-
-    // Calculate the stim_temp using the precomputed terms and constants
-    float stim_temp = intercept + coeff_1 * 1 + TC_coeff + Dist_coeff;
-
-    return stim_temp;
+    return stim_temp_new;
 }
 
 std::vector<float> FireAlarm(cv::Point2f world_coord, float temp) {
@@ -95,23 +99,33 @@ std::pair<cv::Mat, cv::Point2f> img_to_world_coor(cv::Mat combinedImage3, cv::Po
     thermal_cam_point.y = map_value_to_new_range(thermal_cam_point.y, 0, 288, 0, combinedImage3.rows);
 
     cv::Matx31f pixel_coor_point(thermal_cam_point.x, thermal_cam_point.y, 1); // Extended to a 3D point
-
+    //rows = 288 height
     cv::Point2f objects[4] = {
     	cv::Point2f(0.0f, static_cast<float>(combinedImage3.rows)),
     	cv::Point2f(0.0f, 0.0f),
-    	cv::Point2f(static_cast<float>(combinedImage3.cols), 0.0f),
+    	cv::Point2f(static_cast<float>(combinedImage3.cols), 0.0f), 
     	cv::Point2f(static_cast<float>(combinedImage3.cols), static_cast<float>(combinedImage3.rows))};
 
-    cv::Point2f converted_points[4] = { cv::Point2f(300, 1460),
-    								   cv::Point2f(378, 0),
-    								   cv::Point2f(1200, 150),
-    								   cv::Point2f(710, 1545) };
+
+    cv::Point2f converted_points[4] = { cv::Point2f(286+71, 492),
+    								   cv::Point2f(-71+71, 447),
+    								   cv::Point2f(20+71, 129),
+    								   cv::Point2f(342+71, 299) };
 
     cv::Mat matrix;
     cv::getPerspectiveTransform(objects, converted_points).convertTo(matrix, CV_32F);
+    //cout << matrix << endl;
 
+    //// Display the matrix
+    //std::cout << "Matrix:" << std::endl;
+    //std::cout << matrix << std::endl;
+
+    //cv::Mat_<float> matrix = (cv::Mat_<float>(3, 3) <<
+    //    2.0979974, 0.75893295, 378,
+    //    0.38529655, 10.080974, 0,
+    //    -3.5522939e-05, 0.0034325542, 1);
     cv::Mat img_output;
-    cv::warpPerspective(combinedImage3, img_output, matrix, cv::Size(horizontal_length_cm, vertical_length_cm + 100));
+    cv::warpPerspective(combinedImage3, img_output, matrix, cv::Size(horizontal_length_cm+150, vertical_length_cm +50 ));
 
     // Transform the point using matrix multiplication
     cv::Mat world_coor_point = matrix * pixel_coor_point;
@@ -121,9 +135,15 @@ std::pair<cv::Mat, cv::Point2f> img_to_world_coor(cv::Mat combinedImage3, cv::Po
 
     cv::Point2f point_duple(world_coor_point.at<float>(0, 0), world_coor_point.at<float>(1, 0));
     cv::circle(img_output, point_duple, 8, cv::Scalar(255, 0, 0), -1);
+    cv::Point2f point_duplee(world_coor_point.at<float>(0, 0)-71, world_coor_point.at<float>(1, 0));
+    //cout << point_duplee << endl;
     cv::Mat img_resized;
-    cv::resize(img_output, img_resized, cv::Size(600, 750));
-    return std::make_pair(img_resized, point_duple);
+    //cv::imshow("ouput", img_output);
+    //cv::waitKey(1);
+
+
+    cv::resize(img_output, img_resized, cv::Size(600, 780));
+    return std::make_pair(img_resized, point_duplee);
 
 }
 

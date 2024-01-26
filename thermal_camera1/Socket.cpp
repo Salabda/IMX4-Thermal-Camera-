@@ -11,7 +11,7 @@ public:
     const int PORT = 8888;
     std::vector<SOCKET> clientSockets;
     void broadcast(const std::string message) {
-        printf("fuccccck\n");
+        // printf("Helloooooooo\n");
         for (SOCKET clientSocket : clientSockets) {
             //printf("send message: %s\n", message);
             try {

@@ -1,0 +1,105 @@
+[00:00:28 199]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:01:28 555]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:02:28 737]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:03:28 917]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:04:29 567]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:05:30 752]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:06:33 799]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:07:55 029]:   SDK version:1.0.0.121
+[00:07:55 029]:  WARNING! call readCfg return failed. in GD_MTC_SDK_Init
+[00:07:55 030]:   Thread start. id=3332
+[00:07:55 030]:   GD_MTC_SDK_Login
+[00:07:55 030]:   Into msgToThisServiceCoreAndWaitForResult
+[00:07:55 031]:   msg to ServiceCore msgId=0, pMsg=0
+[00:07:55 031]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[00:07:55 031]:   ServiceCore::login
+[00:07:55 032]:   SDK version:1.0.0.121
+[00:07:55 032]:   nDeviceType=11
+[00:07:55 032]:   Create Device: NET384x288NOCLIPHS
+[00:07:55 032]:   nFpgaPort=4954, nY16Port=4955
+[00:07:55 032]:   Thread start. id=5632
+[00:07:55 034]:   Thread start. id=7104
+[00:07:55 034]:   Thread start. id=13516
+[00:07:55 034]:   Base64Name=YWRtaW46OTk5OQ==
+[00:07:55 172]:   Recv armversion is "HTTP/1.1 405 Method Not Allowed
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1363
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Fault xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsdd="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:xmime="http://tempuri.org/xmime.xsd" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tdn="http://www.onvif.org/ver10/network/wsdl" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl"><faultcode>SOAP-ENV:Client</faultcode><faultstring>HTTP GET method not implemented</faultstring></SOAP-ENV:Fault>"
+[00:07:55 172]:  ERROR! Has not find softwareversion when req arm version
+[00:07:55 234]:   Now try GetArmVersionHS
+[00:07:55 234]:   Base64Name=YWRtaW46OTk5OQ==
+[00:07:55 391]:   Recv armversion is "ZU02A V2.18"
+[00:07:55 453]:   cArmVersion=zu02a
+[00:07:58 454]:   GD_MTC_SDK_OpenStream
+[00:07:58 455]:   nPullDataType=2
+[00:07:58 455]:   Before DataCore::msgToDataCoreAndWaitForResult
+[00:07:58 485]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[00:07:58 485]:   Base64Name=YWRtaW46OTk5OQ==
+[00:07:58 501]:   armSendAndRecv send data get_curse_info
+[00:07:58 610]:   get_curse_info=[gear=1&measurerange=0&mintemp=-100&maxtemp=1600$gear=2&measurerange=0&mintemp=-200&maxtemp=1600$gear=3&measurerange=0&mintemp=-100&maxtemp=1800$gear=1&measurerange=1&mintemp=-100&maxtemp=3600$gear=2&measurerange=1&mintemp=-200&maxtemp=3600$gear=3&measurerange=1&mintemp=-100&maxtemp=3600$gear=1&measurerange=2&mintemp=-100&maxtemp=6600$gear=2&measurerange=2&mintemp=-200&maxtemp=6700$gear=3&measurerange=2&mintemp=-100&maxtemp=6600]
+[00:07:58 610]:   After remove same range info
+[00:07:58 611]:   v.nRangeIndex=0, v.fMinTemp=-10.000000, v.fMaxTemp=160.000000
+[00:07:58 611]:   v.nRangeIndex=1, v.fMinTemp=-10.000000, v.fMaxTemp=360.000000
+[00:07:58 611]:   v.nRangeIndex=2, v.fMinTemp=-10.000000, v.fMaxTemp=660.000000
+[00:07:58 611]:   H264Pull::openStream
+[00:07:58 611]:   avcodec_register_all
+[00:07:58 616]:   av_register_all
+[00:07:58 616]:   avformat_network_init
+[00:07:58 616]:   avformat_alloc_context
+[00:07:58 616]:   avformat_open_input
+[00:07:58 626]:   Update m_pDataCfg->strVskGearDesc, [old=-20¡æ~150¡æ&-20¡æ~350¡æ&100¡æ~650¡æ, new=-10¡æ~160¡æ&-10¡æ~360¡æ&-10¡æ~660¡æ]
+[00:07:58 694]:   avformat_find_stream_info
+[00:07:58 694]:   After open h264 stream
+[00:07:58 694]:   H264Pull::startRecvStream
+[00:07:58 695]:   H264Puller start recv data.
+[00:07:58 705]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_OPEN_STREAM
+[00:07:58 705]:   wait msg result in time. [nMsgType=1003]
+[00:07:58 705]:   After DataCore::msgToDataCoreAndWaitForResult
+[00:07:58 705]:   Before DataCore::msgToDataCoreAndWaitForResult
+[00:07:58 752]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[00:07:58 752]:   info->recvEmiss=98
+[00:07:58 752]:   info->recvDistance=250
+[00:07:58 817]:   Send change palette
+[00:07:58 830]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[00:07:58 830]:   wait msg result in time. [nMsgType=1021]
+[00:07:58 830]:   After DataCore::msgToDataCoreAndWaitForResult
+[00:07:58 830]:   Before DataCore::msgToDataCoreAndWaitForResult
+[00:07:58 877]:   pCurvesStruct->curve_count=9, pCurvesStruct->curve_length=32768
+[00:07:58 877]:   curve[index, range, gear, len]=[0, 0, 1, 0]
+[00:07:58 877]:   curve[index, range, gear, len]=[1, 0, 2, 0]
+[00:07:58 877]:   curve[index, range, gear, len]=[2, 0, 3, 0]
+[00:07:58 877]:   curve[index, range, gear, len]=[3, 1, 1, 0]
+[00:07:58 877]:   curve[index, range, gear, len]=[4, 1, 2, 0]
+[00:07:58 877]:   curve[index, range, gear, len]=[5, 1, 3, 0]
+[00:07:58 877]:   curve[index, range, gear, len]=[6, 2, 1, 0]
+[00:07:58 877]:   curve[index, range, gear, len]=[7, 2, 2, 0]
+[00:07:58 877]:   curve[index, range, gear, len]=[8, 2, 3, 0]
+[00:07:58 877]:  ERROR! Curve[5], element[5861] format error
+
+[00:07:58 877]:  ERROR! Curve[8], element[4814] format error
+
+[00:07:59 945]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_Y16_FRAME_RATE
+[00:07:59 947]:   wait msg result in time. [nMsgType=1026]
+[00:07:59 947]:   After DataCore::msgToDataCoreAndWaitForResult
+[00:07:59 992]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[00:07:59 992]:   info->recvEmiss=98
+[00:07:59 992]:   info->recvDistance=250
+[00:08:00 054]:   Use HsCurve[7], range=2, gear=2
+[00:08:00 148]:   Recv calc parm: [recvDistance=250&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-33814&recvDis_a1=3137&recvDis_b0=924&recvDis_b1=9729&recvDis_c0=-2482&recvDis_c1=777&recvKF=98&&recvB0=3&recvK1=0&recvK2=300&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=0&recvK6=-370&recvB3=2300]
+[00:08:00 149]:   info->recvEmiss=98
+[00:08:00 149]:   info->recvDistance=250
+[00:08:55 885]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:09:56 426]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:10:57 020]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:11:58 621]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:12:59 369]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:14:00 421]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:15:00 458]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:16:02 221]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:17:03 546]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:18:03 643]:  WARNING! Too many Y16 data in 2 ms, new data ignored
+[00:19:05 052]:  WARNING! Too many Y16 data in 2 ms, new data ignored

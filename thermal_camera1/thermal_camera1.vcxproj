@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Opencv92022\opencv\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Opencv92022\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Documents\C++\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Documents\C++\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -108,13 +108,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\AIR_LAB\MARIO\C++\thermal_camera1\sdk\include;C:\Opencv92022\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Salaabda\Desktop\thermal_camera1\sdk\include;D:\Documents\C++\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\AIR_LAB\MARIO\C++\thermal_camera1\sdk\lib;D:\AIR_LAB\MARIO\C++\New_Thermal_Camera_SDK\SDK\lib\win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MeasureCoreNet.lib;GFileAnalysis.lib;opencv_world455d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Salaabda\Desktop\thermal_camera1\sdk\lib;D:\Documents\C++\opencv\build\x64\vc15\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MeasureCoreNet.lib;GFileAnalysis.lib;opencv_world454d.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
